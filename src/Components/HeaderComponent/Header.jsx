@@ -10,7 +10,7 @@ const Header = () => {
     <div className="HeaderContainer">
           <img src={U5A} className="HeaderImage"/>
           <img src={PictorialLogo}  className="HeaderImage"/>
-          <img src={Email} className="HeaderImage"/>
+          <img src={Email} className="HeaderImage" />
     </div>
   );
 };
