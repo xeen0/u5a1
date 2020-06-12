@@ -14,7 +14,7 @@ import WorkForcePage from './Pages/WorkForcePage/WorkForce';
 function App() {
   return (
     <Router>
-      <Route exact path='/' component={Home}/>
+      <Route exact path='/u5a1' component={Home}/>
       <Route path='/workforce' component={WorkForcePage}/>
       <Route path='/contact' component={ContactPage}/>
       <Route path='/contact' component={ContactPage}/>
