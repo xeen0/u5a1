@@ -1,0 +1,11 @@
+.HomeContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin:  0px 22px 0px 22px; */
+    justify-content: space-evenly ;
+}
+.card:hover{
+    cursor: pointer;
+}
