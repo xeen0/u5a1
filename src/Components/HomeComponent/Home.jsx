@@ -1,6 +1,7 @@
 import React from "react";
 import CardColoumn from 'react-bootstrap/CardColumns'
 import {withRouter } from 'react-router-dom'
+import  {useMediaQuery} from 'react-responsive'
 // import Card from '../../Components/CardComponent/Card'
 import Card from "react-bootstrap/Card";
 import WorkForce from "../../Images/workforce.svg";
@@ -12,32 +13,69 @@ import Pay from '../../Images/pay.svg'
 import './Home.css'
 
 const Home = (props) => {
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 814px)' })
   return (
-    <div  >
-      <div className="HomeContainer">
-      <Card  style={{ width: "14rem", height:"15rem" }} onClick={()=>{props.history.push('/Contact')}} >
-        <Card.Img variant="top" src={WorkForce} />
+    <div className="container" >{
+   !isTabletOrMobile ? <>
+   <div className="HomeContainer">
+      <Card   onClick={()=>{props.history.push('/Contact')}} >
+        <Card.Img  src={WorkForce} />
       </Card>
-      <Card  style={{ width: "14rem", height:"15rem" }} >
-        <Card.Img variant="top" src={Traning} />
+      <Card     >
+        <Card.Img  src={Traning} />
       </Card>
-      <Card  style={{ width: "14rem", height:"15rem" }} >
-        <Card.Img variant="top" src={Infotainment} />
-      </Card>
-      </div>
-      <div className="HomeContainer">
-
-      <Card  style={{ width: "14rem", height:"15rem"}} >
-        <Card.Img variant="top" src={Feedback} />
-      </Card>
-      <Card  style={{ width: "14rem", height:"15rem" }} >
-        <Card.Img variant="top" src={Contact} />
-      </Card>
-      <Card  style={{ width: "14rem", height:"15rem" }} >
-        <Card.Img variant="top" src={Pay} />
+      <Card     >
+        <Card.Img  src={Infotainment} />
       </Card>
       </div>
 
+      <div className="HomeContainer">
+        
+      <Card     >
+        <Card.Img  src={Feedback} />
+      </Card>
+      <Card     >
+        <Card.Img  src={Contact} />
+      </Card>
+      <Card     >
+        <Card.Img  src={Pay} />
+      </Card>
+      </div>
+      </>
+      :
+      <>
+      <div className="HomeContainer">
+      <Card   onClick={()=>{props.history.push('/Contact')}} >
+        <Card.Img  src={WorkForce} />
+      </Card>
+      <Card     >
+        <Card.Img  src={Traning} />
+      </Card>
+      
+      </div>
+      <div className="HomeContainer">
+
+      <Card     >
+        <Card.Img  src={Infotainment} />
+      </Card>
+      <Card     >
+        <Card.Img  src={Feedback} />
+      </Card>
+      </div>
+
+      <div className="HomeContainer">
+        
+      
+      <Card     >
+        <Card.Img  src={Contact} />
+      </Card>
+      <Card     >
+        <Card.Img  src={Pay} />
+      </Card>
+      </div>
+      </>
+      
+}
     </div>
   );
 };
