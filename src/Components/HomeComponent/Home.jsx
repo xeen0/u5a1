@@ -1,6 +1,5 @@
 import React from "react";
-import CardColoumn from 'react-bootstrap/CardColumns'
-import {withRouter } from 'react-router-dom'
+import {withRouter, Link } from 'react-router-dom'
 import  {useMediaQuery} from 'react-responsive'
 // import Card from '../../Components/CardComponent/Card'
 import Card from "react-bootstrap/Card";
@@ -22,11 +21,15 @@ const Home = (props) => {
         <Card.Img  src={WorkForce} />
       </Card>
       <Card     >
-        <Card.Img  src={Traning} />
+        <Card.Img  onClick={()=>{props.history.push('/Training')}}   src={Traning} />
       </Card>
-      <Card     >
+      <Card 
+      onClick={(e) => {
+        e.preventDefault();
+        window.location.href='https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg';
+        }}>
         <Card.Img  src={Infotainment} />
-      </Card>
+        </Card>
       </div>
 
       <div className="HomeContainer">
@@ -35,7 +38,7 @@ const Home = (props) => {
         <Card.Img  src={Feedback} />
       </Card>
       <Card     >
-        <Card.Img  src={Contact} />
+        <Card.Img  onClick={()=>{props.history.push('/Contact')}} src={Contact} />
       </Card>
       <Card     >
         <Card.Img  src={Pay} />
@@ -45,17 +48,20 @@ const Home = (props) => {
       :
       <>
       <div className="HomeContainer">
-      <Card   onClick={()=>{props.history.push('/Contact')}} >
+      <Card   >
         <Card.Img  src={WorkForce} />
       </Card>
-      <Card     >
+      <Card onClick={()=>{props.history.push('/Training')}}     >
         <Card.Img  src={Traning} />
       </Card>
       
       </div>
       <div className="HomeContainer">
 
-      <Card     >
+      <Card  onClick={(e) => {
+        e.preventDefault();
+        window.location.href='https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg';
+        }}>
         <Card.Img  src={Infotainment} />
       </Card>
       <Card     >
@@ -66,7 +72,7 @@ const Home = (props) => {
       <div className="HomeContainer">
         
       
-      <Card     >
+      <Card   onClick={()=>{props.history.push('/Contact')}}   >
         <Card.Img  src={Contact} />
       </Card>
       <Card     >

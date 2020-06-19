@@ -1,0 +1,24 @@
+.HomeContainerT {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -9px;
+    height: auto;
+    width: auto;
+  }
+.cardT img{
+  width: auto;  
+}
+
+
+@media screen and (max-width:814px){
+  .cardT img{
+    width: 10rem;  
+  }
+}
+@media screen and (max-width:575px){
+  .cardT img{
+    width: 6rem;
+  }
+}

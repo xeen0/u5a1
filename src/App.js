@@ -10,6 +10,8 @@ import {
 } from "react-router-dom";  
 import ContactPage from './Pages/ContactPage/Contact';
 import WorkForcePage from './Pages/WorkForcePage/WorkForce';
+import Training from './Pages/TrainingPage/Training';
+import Timings from './Pages/TimingsPage/Timings';
 
 function App() {
   return (
@@ -17,10 +19,10 @@ function App() {
       <Route exact path='/u5a1' component={Home}/>
       <Route path='/workforce' component={WorkForcePage}/>
       <Route path='/contact' component={ContactPage}/>
-      <Route path='/contact' component={ContactPage}/>
-      <Route path='/contact' component={ContactPage}/>
-      <Route path='/contact' component={ContactPage}/>
-      <Route path='/contact' component={ContactPage}/>
+      <Route path='/Training' component={Training}/>
+      <Route path='/Timing' component={Timings}/>
+      {/* <Route path='/contact' component={ContactPage}/>
+      <Route path='/contact' component={ContactPage}/> */}
 
       {/* <Route path='/' component={Home}/> */}
 

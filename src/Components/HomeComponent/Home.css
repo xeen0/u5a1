@@ -9,8 +9,12 @@
     padding: 0 0 10px 35px ;
     /* height:15rem; */
     height: auto;
+    
 
   } 
+.card:hover{
+  cursor: pointer ;
+}
 
 @media screen and (max-width:513px){
   .card-img{
