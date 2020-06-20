@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b67d0137b1565b1ca75423769bd7012",
+    "revision": "753bad61f1079b5b71d5a7894cb194e4",
     "url": "/u5a1/index.html"
   },
   {
-    "revision": "b63e6bd2b15a355d0627",
-    "url": "/u5a1/static/css/2.70e35f80.chunk.css"
+    "revision": "d86cbeb5a86e3713c0e6",
+    "url": "/u5a1/static/css/2.9aaac70f.chunk.css"
   },
   {
-    "revision": "f7910ddfcabad80a7dc0",
-    "url": "/u5a1/static/css/main.0daabc40.chunk.css"
+    "revision": "fc2f3bb5ca365daa718c",
+    "url": "/u5a1/static/css/main.3d56f64e.chunk.css"
   },
   {
-    "revision": "b63e6bd2b15a355d0627",
-    "url": "/u5a1/static/js/2.24074060.chunk.js"
+    "revision": "d86cbeb5a86e3713c0e6",
+    "url": "/u5a1/static/js/2.f5f3c17b.chunk.js"
   },
   {
     "revision": "5ab1baa52e351a54fb487f180027ee45",
-    "url": "/u5a1/static/js/2.24074060.chunk.js.LICENSE.txt"
+    "url": "/u5a1/static/js/2.f5f3c17b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7910ddfcabad80a7dc0",
-    "url": "/u5a1/static/js/main.cda80a9f.chunk.js"
+    "revision": "fc2f3bb5ca365daa718c",
+    "url": "/u5a1/static/js/main.0675c4d6.chunk.js"
   },
   {
     "revision": "dbe43c5161c9a97c9a57",
@@ -120,12 +120,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL MOD 6.db021825.svg"
   },
   {
+    "revision": "9c77179dae45d56a73e92d812c6a2b59",
+    "url": "/u5a1/static/media/SL about us.9c77179d.svg"
+  },
+  {
+    "revision": "5c7f253b64513eb116b3ab2bb8386373",
+    "url": "/u5a1/static/media/SL gallery.5c7f253b.svg"
+  },
+  {
     "revision": "1765eed6e15f8c5e5bf894c7a34b36ae",
     "url": "/u5a1/static/media/SL timings.1765eed6.svg"
   },
   {
     "revision": "20bf6e02055a6939f1e48813cf41cd1d",
     "url": "/u5a1/static/media/contact.20bf6e02.svg"
+  },
+  {
+    "revision": "8c4346f7023857fabe98af786e244524",
+    "url": "/u5a1/static/media/download.8c4346f7.svg"
   },
   {
     "revision": "1c39ee0e8d91c79a28080cad3f0d997e",
