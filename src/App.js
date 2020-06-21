@@ -12,6 +12,7 @@ import ContactPage from './Pages/ContactPage/Contact';
 import WorkForcePage from './Pages/WorkForcePage/WorkForce';
 import Training from './Pages/TrainingPage/Training';
 import Timings from './Pages/TimingsPage/Timings';
+import Footer from './Components/FooterComponent/Footer'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <Route path='/contact' component={ContactPage}/> */}
 
       {/* <Route path='/' component={Home}/> */}
-
+      <Footer/>
       </Router>
     );
 }
