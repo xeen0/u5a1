@@ -18,10 +18,10 @@ function App() {
   return (
     <Router>
       <Route exact path='/u5a1' component={Home}/>
-      <Route path='/workforce' component={WorkForcePage}/>
-      <Route path='/contact' component={ContactPage}/>
-      <Route path='/Training' component={Training}/>
-      <Route path='/Timing' component={Timings}/>
+      <Route exact path='/u5a1/workforce' component={WorkForcePage}/>
+      <Route exact path='/u5a1/contact' component={ContactPage}/>
+      <Route exact path='/u5a1/Training' component={Training}/>
+      <Route exact path='/u5a1/Training/Timing' component={Timings}/>
       {/* <Route path='/contact' component={ContactPage}/>
       <Route path='/contact' component={ContactPage}/> */}
 

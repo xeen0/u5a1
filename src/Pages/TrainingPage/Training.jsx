@@ -69,7 +69,7 @@ const Training = (props) => {
         <Card   className="cardT"   >
           <Card.Img  src={artf} />
         </Card>
-        <Card onClick={()=>{props.history.push('/Timing')}} className="cardT"    >
+        <Card onClick={()=>{props.history.push('/u5a1/Training/Timing')}} className="cardT"    >
         <Card.Img  src={timings} />
 
         </Card>

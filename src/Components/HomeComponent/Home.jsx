@@ -23,7 +23,7 @@ const Home = (props) => {
           <div className="HomeContainer">
             <Card
               onClick={() => {
-                props.history.push("/Contact");
+                props.history.push("/u5a1/Contact");
               }}
             >
               <Card.Img src={WorkForce} />
@@ -31,7 +31,7 @@ const Home = (props) => {
             <Card>
               <Card.Img
                 onClick={() => {
-                  props.history.push("/Training");
+                  props.history.push("/u5a1/Training");
                 }}
                 src={Traning}
               />
@@ -48,7 +48,7 @@ const Home = (props) => {
             <Card>
               <Card.Img
                 onClick={() => {
-                  props.history.push("/Contact");
+                  props.history.push("/u5a1/Contact");
                 }}
                 src={Contact}
               />
@@ -90,7 +90,7 @@ const Home = (props) => {
               <Card>
                 <Card.Img
                   onClick={() => {
-                    props.history.push("/Training");
+                    props.history.push("/u5a1/Training");
                   }}
                   src={Traning}
                 />
