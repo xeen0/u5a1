@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/u5a1/static/css/main.3d56f64e.chunk.css",
-    "main.js": "/u5a1/static/js/main.af997624.chunk.js",
-    "main.js.map": "/u5a1/static/js/main.af997624.chunk.js.map",
+    "main.css": "/u5a1/static/css/main.a588fed2.chunk.css",
+    "main.js": "/u5a1/static/js/main.166b2dc0.chunk.js",
+    "main.js.map": "/u5a1/static/js/main.166b2dc0.chunk.js.map",
     "runtime-main.js": "/u5a1/static/js/runtime-main.c8715bc6.js",
     "runtime-main.js.map": "/u5a1/static/js/runtime-main.c8715bc6.js.map",
     "static/css/2.9aaac70f.chunk.css": "/u5a1/static/css/2.9aaac70f.chunk.css",
-    "static/js/2.eeb94ee5.chunk.js": "/u5a1/static/js/2.eeb94ee5.chunk.js",
-    "static/js/2.eeb94ee5.chunk.js.map": "/u5a1/static/js/2.eeb94ee5.chunk.js.map",
+    "static/js/2.f4f54056.chunk.js": "/u5a1/static/js/2.f4f54056.chunk.js",
+    "static/js/2.f4f54056.chunk.js.map": "/u5a1/static/js/2.f4f54056.chunk.js.map",
     "index.html": "/u5a1/index.html",
-    "precache-manifest.3e4f025549e8b33fb8cb77f934d2617c.js": "/u5a1/precache-manifest.3e4f025549e8b33fb8cb77f934d2617c.js",
+    "precache-manifest.eaf2c4fe9e3b684b7bf45bcbd2a80c2c.js": "/u5a1/precache-manifest.eaf2c4fe9e3b684b7bf45bcbd2a80c2c.js",
     "service-worker.js": "/u5a1/service-worker.js",
     "static/css/2.9aaac70f.chunk.css.map": "/u5a1/static/css/2.9aaac70f.chunk.css.map",
-    "static/css/main.3d56f64e.chunk.css.map": "/u5a1/static/css/main.3d56f64e.chunk.css.map",
-    "static/js/2.eeb94ee5.chunk.js.LICENSE.txt": "/u5a1/static/js/2.eeb94ee5.chunk.js.LICENSE.txt",
+    "static/css/main.a588fed2.chunk.css.map": "/u5a1/static/css/main.a588fed2.chunk.css.map",
+    "static/js/2.f4f54056.chunk.js.LICENSE.txt": "/u5a1/static/js/2.f4f54056.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/u5a1/static/media/1 SL call.c753105d.svg",
     "static/media/2 SL SMS.svg": "/u5a1/static/media/2 SL SMS.6e1aa8ff.svg",
     "static/media/3 SL whatsapp.svg": "/u5a1/static/media/3 SL whatsapp.0e77ab44.svg",
@@ -40,6 +40,7 @@
     "static/media/SL about us.svg": "/u5a1/static/media/SL about us.9c77179d.svg",
     "static/media/SL gallery.svg": "/u5a1/static/media/SL gallery.5c7f253b.svg",
     "static/media/SL timings.svg": "/u5a1/static/media/SL timings.1765eed6.svg",
+    "static/media/U5A.zip": "/u5a1/static/media/U5A.e507fc29.zip",
     "static/media/contact.svg": "/u5a1/static/media/contact.20bf6e02.svg",
     "static/media/download.svg": "/u5a1/static/media/download.8c4346f7.svg",
     "static/media/email.svg": "/u5a1/static/media/email.1c39ee0e.svg",
@@ -55,8 +56,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8715bc6.js",
     "static/css/2.9aaac70f.chunk.css",
-    "static/js/2.eeb94ee5.chunk.js",
-    "static/css/main.3d56f64e.chunk.css",
-    "static/js/main.af997624.chunk.js"
+    "static/js/2.f4f54056.chunk.js",
+    "static/css/main.a588fed2.chunk.css",
+    "static/js/main.166b2dc0.chunk.js"
   ]
 }
