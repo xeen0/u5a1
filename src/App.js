@@ -16,18 +16,24 @@ import Footer from './Components/FooterComponent/Footer'
 
 function App() {
   return (
+    <>
+    <div class="b">
     <Router>
       <Route exact path='/u5a1' component={Home}/>
-      <Route exact path='/u5a1/workforce' component={WorkForcePage}/>
-      <Route exact path='/u5a1/contact' component={ContactPage}/>
+      <Route exact path='/u5a1/Workforce' component={WorkForcePage}/>
+      <Route exact path='/u5a1/Contact' component={ContactPage}/>
       <Route exact path='/u5a1/Training' component={Training}/>
       <Route exact path='/u5a1/Training/Timing' component={Timings}/>
-      {/* <Route path='/contact' component={ContactPage}/>
-      <Route path='/contact' component={ContactPage}/> */}
+      {/* <Route path='/u5a1/Workforce' component={ContactPage}/> */}
+      {/* <Route path='/contact' component={ContactPage}/> */}
 
       {/* <Route path='/' component={Home}/> */}
-      <Footer/>
       </Router>
+      </div>
+      <div class="f">
+      <Footer/>
+      </div>
+      </>
     );
 }
 

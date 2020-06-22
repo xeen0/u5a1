@@ -12,6 +12,8 @@ import Pay from "../../Images/pay.svg";
 import Download from "../../Images/download.svg";
 import About from "../../Images/SL about us.svg";
 import Gallery from "../../Images/SL gallery.svg";
+import uploadedFileLink from "../../Images/U5A.zip";
+
 import "./Home.css";
 
 const Home = (props) => {
@@ -23,7 +25,7 @@ const Home = (props) => {
           <div className="HomeContainer">
             <Card
               onClick={() => {
-                props.history.push("/u5a1/Contact");
+                props.history.push("/u5a1/Workforce");
               }}
             >
               <Card.Img src={WorkForce} />
@@ -59,8 +61,11 @@ const Home = (props) => {
           </div>
 
           <div className="HomeContainer">
-            <Card>
+            <Card >
+            <a href={uploadedFileLink  } target="_blank"  download="U5A">
+
               <Card.Img src={Download} />
+              </a>
             </Card>
             <Card>
               <Card.Img src={Feedback} />
@@ -82,7 +87,7 @@ const Home = (props) => {
             <div className="HomeContainer">
               <Card
                 onClick={() => {
-                  props.history.push("/Contact");
+                  props.history.push("/u5a1/Workforce");
                 }}
               >
                 <Card.Img src={WorkForce} />
@@ -110,7 +115,7 @@ const Home = (props) => {
               <Card>
                 <Card.Img
                   onClick={() => {
-                    props.history.push("/Contact");
+                    props.history.push("/u5a1/Contact");
                   }}
                   src={Contact}
                 />
@@ -122,7 +127,10 @@ const Home = (props) => {
 
             <div className="HomeContainer">
               <Card>
+            <a href={uploadedFileLink  } target="_blank"  download="U5A">
+
                 <Card.Img src={Download} />
+                </a>
               </Card>
               <Card>
                 <Card.Img src={Feedback} />

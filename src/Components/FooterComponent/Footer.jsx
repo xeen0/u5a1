@@ -4,17 +4,16 @@ const Footer = () => {
   return (
     <div
       style={{
-        letterSpacing: "1px",
+        letterSpacing: "1.5px",
         fontOpticalSizing: "auto",
-        fontSize: "15px",
-        display: "flex",
-        justifyContent: "center",
-        flexWrap: "wrap",
+        fontSize: "14px",
+        textAlign:"center",
+        padding:"10px"
       }}
     >
-      <p>
+      <p >
         <a href="#">
-          <AiFillFacebook color="grey" />
+          <AiFillFacebook color="grey" size="20px" />
           {"   "}
         </a>
         © 2020 U5A. All Rights Reserved | Web Design @<a href="#">U5A Inc.</a> |
