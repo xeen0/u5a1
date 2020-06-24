@@ -29,3 +29,22 @@
 .carousel.carousel-slider .control-arrow:hover{
     background: rgba(0,0,0,0);
 }
+
+.carousel .control-arrow,
+ .carousel.carousel-slider .control-arrow {
+    margin: 0  200px;
+    padding-top: 0;
+}
+
+@media screen and (max-width:1024px){
+    .carousel .control-arrow,
+ .carousel.carousel-slider .control-arrow {
+    margin: 0  80px;
+}
+  }
+@media screen and (max-width:840px){
+    .carousel .control-arrow,
+ .carousel.carousel-slider .control-arrow {
+    padding: 0  50px;
+}
+  }

@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../HomeComponent/Home.css"
 import 'react-toastify/dist/ReactToastify.min.css';
 import "./cardS.css";
-const CardS = ({ frontImg, color,click }) => {
+const CardS = ({ frontImg, color,click , matter }) => {
 
   return (
     <div onClick={(e) => {
@@ -27,14 +27,15 @@ const CardS = ({ frontImg, color,click }) => {
       </FrontSide>
       <BackSide className="back" style={{color:color}} >
         {/* {phno } */}
-        +91 92463 52385
+        {/* +91 92463 52385 */}
+        {matter}
         <br/>
         <br/>
 
         <Button
           variant="dark"
           onClick={() => {
-            navigator.clipboard.writeText("9246352385").then(()=> {
+            navigator.clipboard.writeText(matter).then(()=> {
               alert('Copied!')
             }, (e) => {
               console.log(e)

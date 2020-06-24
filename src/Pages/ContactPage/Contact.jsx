@@ -11,11 +11,10 @@ import CardS from '../../Components/CardComponent/CardS'
 const ContactPage = () => {
     return (
        <div className="HomeContainerT">
-        <CardS frontImg={call} color={"black"} phno={"8341543176"} click="true"/>
-        <CardS frontImg={msg} color={"grey"} phno={"8341543176"} click="true"/>
-        <CardS frontImg={whstap} color={"green"} phno={"8341543176"} click="true"/>
+        <CardS frontImg={call} color={"black"} matter={"8341543176"} click="true"/>
+        <CardS frontImg={msg} color={"grey"} matter={"8341543176"} click="true"/>
+        <CardS frontImg={whstap} color={"green"} matter={"8341543176"} click="true"/>
         <CardS frontImg={map} click="https://goo.gl/maps/yUhjaBYxEjuX5Z1P8"/>
-
       </div>
      
 

@@ -4,10 +4,14 @@ import { Carousel } from "react-responsive-carousel";
 
 import FirstSlide from "../../Components/WorkForce/FirstSlide";
 import "./WorkForce.css";
+import SecondSlide from "../../Components/WorkForce/SecondSlide";
+import { useMediaQuery } from "react-responsive";
+
 const WorkForce = () => {
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
+
   return (
-    // <FirstSlide/>
-    <Carousel>
+    <Carousel showArrows={!isTabletOrMobile} showStatus={false} showThumbs={false}   >
       <div>
         <FirstSlide />
         <br />
@@ -15,7 +19,10 @@ const WorkForce = () => {
         <br />
       </div>
       <div>
-        <div>SecondSlide</div>
+        <SecondSlide/>
+        <br />
+        <br />
+        <br />
       </div>
       <div>
         <div>ThirdSlide</div>
