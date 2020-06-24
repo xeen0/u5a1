@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be2f12d1c3d7e9d1cdcd2dc5f064d2ee",
+    "revision": "ed9f9682f4af4947664656a18bde8d65",
     "url": "/u5a1/index.html"
   },
   {
-    "revision": "baa1dfa2ffa31cf7041d",
-    "url": "/u5a1/static/css/2.9aaac70f.chunk.css"
+    "revision": "88c20a50fcdcd2d3afee",
+    "url": "/u5a1/static/css/2.88e5f8a6.chunk.css"
   },
   {
-    "revision": "9709dea0ad84c558064e",
-    "url": "/u5a1/static/css/main.a588fed2.chunk.css"
+    "revision": "7e9cb9d130aa9b09f53b",
+    "url": "/u5a1/static/css/main.e37b7639.chunk.css"
   },
   {
-    "revision": "baa1dfa2ffa31cf7041d",
-    "url": "/u5a1/static/js/2.f4f54056.chunk.js"
+    "revision": "88c20a50fcdcd2d3afee",
+    "url": "/u5a1/static/js/2.ab680f2c.chunk.js"
   },
   {
     "revision": "5ab1baa52e351a54fb487f180027ee45",
-    "url": "/u5a1/static/js/2.f4f54056.chunk.js.LICENSE.txt"
+    "url": "/u5a1/static/js/2.ab680f2c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9709dea0ad84c558064e",
-    "url": "/u5a1/static/js/main.166b2dc0.chunk.js"
+    "revision": "7e9cb9d130aa9b09f53b",
+    "url": "/u5a1/static/js/main.5d993953.chunk.js"
   },
   {
     "revision": "dbe43c5161c9a97c9a57",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "64b22f9b7391db96543b2ba1c5f99019",
     "url": "/u5a1/static/media/SL 1 art.64b22f9b.svg"
+  },
+  {
+    "revision": "5f4f683dc34a8e2d3703bc3979ab8fa5",
+    "url": "/u5a1/static/media/SL 1 creative visualisation.5f4f683d.svg"
   },
   {
     "revision": "8b00f9a265ec87913d1222978a2bd0a3",
@@ -84,12 +88,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 2 piano.537c7828.svg"
   },
   {
+    "revision": "e9b1b1da2d22188fc8efae00caac021d",
+    "url": "/u5a1/static/media/SL 2 visual merchandise.e9b1b1da.svg"
+  },
+  {
+    "revision": "cfe6be83ac6aaecd2cb8bf26118b61b6",
+    "url": "/u5a1/static/media/SL 3 graphic design.cfe6be83.svg"
+  },
+  {
+    "revision": "e18cc8ff1ea48b714a28e020739300aa",
+    "url": "/u5a1/static/media/SL 4 web design.e18cc8ff.svg"
+  },
+  {
+    "revision": "bdc01d81c80ac282a7e0eea693a12c73",
+    "url": "/u5a1/static/media/SL 5 advertisements.bdc01d81.svg"
+  },
+  {
+    "revision": "90d99c22370b7e0be47f85d1db19dad1",
+    "url": "/u5a1/static/media/SL 6 photoshoot.90d99c22.svg"
+  },
+  {
+    "revision": "f45e2c36d22beca140fb98e15a3bb5e2",
+    "url": "/u5a1/static/media/SL 7 videoshoot.f45e2c36.svg"
+  },
+  {
     "revision": "381ab6d89537a6827926cab06b9b651b",
     "url": "/u5a1/static/media/SL 7.381ab6d8.svg"
   },
   {
+    "revision": "a84e7daf9077a380f6cd107ea5f8ea91",
+    "url": "/u5a1/static/media/SL 8 portfolio.a84e7daf.svg"
+  },
+  {
     "revision": "1f35cd9db03f3e93fde5f85d8f546cb9",
     "url": "/u5a1/static/media/SL 8.1f35cd9d.svg"
+  },
+  {
+    "revision": "c1c08fd07f76b9e62ad46a7315994a68",
+    "url": "/u5a1/static/media/SL 9 makeover.c1c08fd0.svg"
   },
   {
     "revision": "bee51674543bfb20c8f80826cf89bdaa",
