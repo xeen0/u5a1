@@ -14,7 +14,6 @@ import Header from "../../Components/HeaderComponent/Header";
 const Timings = () => {
   return (
     <>
-      <Header/>
       <div className="HomeContainerT">
         <Card className="cardT">
           <Card.Img src={T1} />

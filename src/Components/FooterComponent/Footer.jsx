@@ -12,12 +12,9 @@ const Footer = () => {
       }}
     >
       <p >
-        <a href="#">
-          <AiFillFacebook color="grey" size="20px" />
-          {"   "}
-        </a>
+       
         © 2020 U5A. All Rights Reserved | Web Design @<a href="#">U5A Inc.</a> |
-        Web Development @ <a href="#">CtrlN SS</a>
+        Web Development @ <a href="#">CtrlN Software Solutions</a>
       </p>
     </div>
   );

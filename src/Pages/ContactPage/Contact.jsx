@@ -10,8 +10,6 @@ import CardS from '../../Components/CardComponent/CardS'
 
 const ContactPage = () => {
     return (
-       <>
-       <Header/>
        <div className="HomeContainerT">
         <CardS frontImg={call} color={"black"} phno={"8341543176"} click="true"/>
         <CardS frontImg={msg} color={"grey"} phno={"8341543176"} click="true"/>
@@ -21,7 +19,6 @@ const ContactPage = () => {
       </div>
      
 
-       </>
     )
 }
 

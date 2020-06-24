@@ -17,8 +17,6 @@ import Header from '../../Components/HeaderComponent/Header';
 import { withRouter } from 'react-router-dom';
 const Training = (props) => {
     return (
-        <div>
-          <Header/>
            <>
       <div className="HomeContainerT">
       <Card className="cardT"  >
@@ -75,7 +73,6 @@ const Training = (props) => {
         </Card>
         </div>
       </>
-        </div>
     )
 }
 

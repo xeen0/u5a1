@@ -13,11 +13,13 @@ import WorkForcePage from './Pages/WorkForcePage/WorkForce';
 import Training from './Pages/TrainingPage/Training';
 import Timings from './Pages/TimingsPage/Timings';
 import Footer from './Components/FooterComponent/Footer'
+import Header from './Components/HeaderComponent/Header';
 
 function App() {
   return (
     <>
     <div class="b">
+    <Header/>
     <Router>
       <Route exact path='/u5a1' component={Home}/>
       <Route exact path='/u5a1/Workforce' component={WorkForcePage}/>
