@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/u5a1/static/css/main.0e18606f.chunk.css",
-    "main.js": "/u5a1/static/js/main.d23cd69c.chunk.js",
-    "main.js.map": "/u5a1/static/js/main.d23cd69c.chunk.js.map",
+    "main.css": "/u5a1/static/css/main.1ef3e9c3.chunk.css",
+    "main.js": "/u5a1/static/js/main.fe20a6d7.chunk.js",
+    "main.js.map": "/u5a1/static/js/main.fe20a6d7.chunk.js.map",
     "runtime-main.js": "/u5a1/static/js/runtime-main.c8715bc6.js",
     "runtime-main.js.map": "/u5a1/static/js/runtime-main.c8715bc6.js.map",
     "static/css/2.88e5f8a6.chunk.css": "/u5a1/static/css/2.88e5f8a6.chunk.css",
-    "static/js/2.e3bf1256.chunk.js": "/u5a1/static/js/2.e3bf1256.chunk.js",
-    "static/js/2.e3bf1256.chunk.js.map": "/u5a1/static/js/2.e3bf1256.chunk.js.map",
+    "static/js/2.d5005fb2.chunk.js": "/u5a1/static/js/2.d5005fb2.chunk.js",
+    "static/js/2.d5005fb2.chunk.js.map": "/u5a1/static/js/2.d5005fb2.chunk.js.map",
     "index.html": "/u5a1/index.html",
-    "precache-manifest.55f9cef51b0a0a25e4ac600c4a045492.js": "/u5a1/precache-manifest.55f9cef51b0a0a25e4ac600c4a045492.js",
+    "precache-manifest.abbbddf18314a7164abc8c834c65f299.js": "/u5a1/precache-manifest.abbbddf18314a7164abc8c834c65f299.js",
     "service-worker.js": "/u5a1/service-worker.js",
     "static/css/2.88e5f8a6.chunk.css.map": "/u5a1/static/css/2.88e5f8a6.chunk.css.map",
-    "static/css/main.0e18606f.chunk.css.map": "/u5a1/static/css/main.0e18606f.chunk.css.map",
-    "static/js/2.e3bf1256.chunk.js.LICENSE.txt": "/u5a1/static/js/2.e3bf1256.chunk.js.LICENSE.txt",
+    "static/css/main.1ef3e9c3.chunk.css.map": "/u5a1/static/css/main.1ef3e9c3.chunk.css.map",
+    "static/js/2.d5005fb2.chunk.js.LICENSE.txt": "/u5a1/static/js/2.d5005fb2.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/u5a1/static/media/1 SL call.c753105d.svg",
     "static/media/2 SL SMS.svg": "/u5a1/static/media/2 SL SMS.6e1aa8ff.svg",
     "static/media/3 SL whatsapp.svg": "/u5a1/static/media/3 SL whatsapp.0e77ab44.svg",
@@ -57,6 +57,13 @@
     "static/media/SL MOD 6.svg": "/u5a1/static/media/SL MOD 6.db021825.svg",
     "static/media/SL about us.svg": "/u5a1/static/media/SL about us.9c77179d.svg",
     "static/media/SL gallery.svg": "/u5a1/static/media/SL gallery.5c7f253b.svg",
+    "static/media/SL gpay code.svg": "/u5a1/static/media/SL gpay code.d5253644.svg",
+    "static/media/SL gpay.svg": "/u5a1/static/media/SL gpay.142e9279.svg",
+    "static/media/SL paytm code.svg": "/u5a1/static/media/SL paytm code.90f50fa7.svg",
+    "static/media/SL paytm.svg": "/u5a1/static/media/SL paytm.4e4d4130.svg",
+    "static/media/SL phonepe code.svg": "/u5a1/static/media/SL phonepe code.6c27b3da.svg",
+    "static/media/SL phonepe.svg": "/u5a1/static/media/SL phonepe.41b0054c.svg",
+    "static/media/SL sbi.svg": "/u5a1/static/media/SL sbi.339ba383.svg",
     "static/media/SL timings.svg": "/u5a1/static/media/SL timings.1765eed6.svg",
     "static/media/U5A.zip": "/u5a1/static/media/U5A.e507fc29.zip",
     "static/media/contact.svg": "/u5a1/static/media/contact.20bf6e02.svg",
@@ -74,8 +81,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8715bc6.js",
     "static/css/2.88e5f8a6.chunk.css",
-    "static/js/2.e3bf1256.chunk.js",
-    "static/css/main.0e18606f.chunk.css",
-    "static/js/main.d23cd69c.chunk.js"
+    "static/js/2.d5005fb2.chunk.js",
+    "static/css/main.1ef3e9c3.chunk.css",
+    "static/js/main.fe20a6d7.chunk.js"
   ]
 }

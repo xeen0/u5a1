@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2bb1214cf92b1dc00d58b4f1062b66d7",
+    "revision": "1be241936c9b9310ec9b9791739d5b74",
     "url": "/u5a1/index.html"
   },
   {
-    "revision": "6ab72c842b6577bda2e5",
+    "revision": "11b85d0d8c9a88539d3e",
     "url": "/u5a1/static/css/2.88e5f8a6.chunk.css"
   },
   {
-    "revision": "2d7938165d2cb91d42d8",
-    "url": "/u5a1/static/css/main.0e18606f.chunk.css"
+    "revision": "d0062f973b6a1f27df47",
+    "url": "/u5a1/static/css/main.1ef3e9c3.chunk.css"
   },
   {
-    "revision": "6ab72c842b6577bda2e5",
-    "url": "/u5a1/static/js/2.e3bf1256.chunk.js"
+    "revision": "11b85d0d8c9a88539d3e",
+    "url": "/u5a1/static/js/2.d5005fb2.chunk.js"
   },
   {
     "revision": "5ab1baa52e351a54fb487f180027ee45",
-    "url": "/u5a1/static/js/2.e3bf1256.chunk.js.LICENSE.txt"
+    "url": "/u5a1/static/js/2.d5005fb2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d7938165d2cb91d42d8",
-    "url": "/u5a1/static/js/main.d23cd69c.chunk.js"
+    "revision": "d0062f973b6a1f27df47",
+    "url": "/u5a1/static/js/main.fe20a6d7.chunk.js"
   },
   {
     "revision": "dbe43c5161c9a97c9a57",
@@ -198,6 +198,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5c7f253b64513eb116b3ab2bb8386373",
     "url": "/u5a1/static/media/SL gallery.5c7f253b.svg"
+  },
+  {
+    "revision": "d52536441329356f25bed3b53523f47e",
+    "url": "/u5a1/static/media/SL gpay code.d5253644.svg"
+  },
+  {
+    "revision": "142e92793887c70f850d6d5c0401a22e",
+    "url": "/u5a1/static/media/SL gpay.142e9279.svg"
+  },
+  {
+    "revision": "90f50fa77482c549297e8a119e986a6e",
+    "url": "/u5a1/static/media/SL paytm code.90f50fa7.svg"
+  },
+  {
+    "revision": "4e4d4130e4fd9fc80659491ad18691f8",
+    "url": "/u5a1/static/media/SL paytm.4e4d4130.svg"
+  },
+  {
+    "revision": "6c27b3da98c1eae5900b404e8f2e4a12",
+    "url": "/u5a1/static/media/SL phonepe code.6c27b3da.svg"
+  },
+  {
+    "revision": "41b0054c4486a21793cac56a0c33cef6",
+    "url": "/u5a1/static/media/SL phonepe.41b0054c.svg"
+  },
+  {
+    "revision": "339ba3833f49754618146e1a99dfe42c",
+    "url": "/u5a1/static/media/SL sbi.339ba383.svg"
   },
   {
     "revision": "1765eed6e15f8c5e5bf894c7a34b36ae",
