@@ -56,15 +56,19 @@ const Home = (props) => {
               />
             </Card>
             <Card>
-              <Card.Img src={Pay} />
+              <Card.Img
+                onClick={() => {
+                  props.history.push("/u5a1/Pay");
+                }}
+                src={Pay}
+              />
             </Card>
           </div>
 
           <div className="HomeContainer">
-            <Card >
-            <a href={uploadedFileLink  } target="_blank"  download="U5A">
-
-              <Card.Img src={Download} />
+            <Card>
+              <a href={uploadedFileLink} target="_blank" download="U5A">
+                <Card.Img src={Download} />
               </a>
             </Card>
             <Card>
@@ -121,15 +125,19 @@ const Home = (props) => {
                 />
               </Card>
               <Card>
-                <Card.Img src={Pay} />
+                <Card.Img
+                  onClick={() => {
+                    props.history.push("/u5a1/Pay");
+                  }}
+                  src={Pay}
+                />
               </Card>
             </div>
 
             <div className="HomeContainer">
               <Card>
-            <a href={uploadedFileLink  } target="_blank"  download="U5A">
-
-                <Card.Img src={Download} />
+                <a href={uploadedFileLink} target="_blank" download="U5A">
+                  <Card.Img src={Download} />
                 </a>
               </Card>
               <Card>

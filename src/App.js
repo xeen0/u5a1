@@ -14,6 +14,7 @@ import Training from './Pages/TrainingPage/Training';
 import Timings from './Pages/TimingsPage/Timings';
 import Footer from './Components/FooterComponent/Footer'
 import Header from './Components/HeaderComponent/Header';
+import PayPage from './Pages/PayPage/Pay';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
       <Route exact path='/u5a1/Contact' component={ContactPage}/>
       <Route exact path='/u5a1/Training' component={Training}/>
       <Route exact path='/u5a1/Training/Timing' component={Timings}/>
-      {/* <Route path='/u5a1/Workforce' component={ContactPage}/> */}
+      <Route path='/u5a1/Pay' component={PayPage}/>
       {/* <Route path='/contact' component={ContactPage}/> */}
 
       {/* <Route path='/' component={Home}/> */}
