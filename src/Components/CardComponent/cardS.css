@@ -5,7 +5,9 @@
     font-size: 1.4rem;
     padding-top: 4vw;
 }
-
+/* .flippy-front, .flippy-back:nth-child(1) {
+  box-shadow: none;
+} */
 
 @media screen and (max-width:513px){
   .back{

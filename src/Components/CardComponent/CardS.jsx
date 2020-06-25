@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../HomeComponent/Home.css"
 import 'react-toastify/dist/ReactToastify.min.css';
 import "./cardS.css";
-const CardS = ({ frontImg, color,click , matter }) => {
+const CardS = ({ frontImg, color,click , matter ,font,display }) => {
 
   return (
     <div onClick={(e) => {
@@ -19,17 +19,16 @@ const CardS = ({ frontImg, color,click , matter }) => {
     <Flippy
       flipOnClick={click=="true"?true:false} 
       flipDirection="horizontal"
-      style={{ padding:"10px" }}
+      style={{ padding:"10px",opacity:display }}
       
     >
       <FrontSide style={{ padding: "0px" }}>
         <img src={frontImg} />
       </FrontSide>
-      <BackSide className="back" style={{color:color}} >
-        {/* {phno } */}
-        {/* +91 92463 52385 */}
+      <BackSide className="back" style={{color:color }}  >
+        <div style={{fontSize:font}}>
         {matter}
-        <br/>
+        </div>
         <br/>
 
         <Button

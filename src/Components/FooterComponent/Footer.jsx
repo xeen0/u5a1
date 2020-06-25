@@ -13,8 +13,8 @@ const Footer = () => {
     >
       <p >
        
-        © 2020 u5a. All Rights Reserved | Web Design @<a href="#">U5A Inc.</a> |
-        Web Development @ <a href="#">CtrlN Software Solutions</a>
+        © 2020 u5a. All Rights Reserved | Web Design @<a href="http://u5a.in/">U5A Inc.</a> |
+        Web Development @ <a href="http://ctrlnss.com/">CtrlN Software Solutions</a>
       </p>
     </div>
   );
