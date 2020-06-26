@@ -20,8 +20,8 @@ function App() {
   return (
     <>
     <div class="b">
-    <Header/>
     <Router>
+    <Header/>
       <Route exact path='/u5a1' component={Home}/>
       <Route exact path='/u5a1/Workforce' component={WorkForcePage}/>
       <Route exact path='/u5a1/Contact' component={ContactPage}/>
