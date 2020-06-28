@@ -11,19 +11,20 @@ const Header = (props) => {
   return (
     <div className="HeaderContainer">
       <img
-        src={U5A}
-        onClick={() => {
-          props.history.push("/u5a1");
-        }}
-        className="HeaderImage"
-      />
-      <img
         src={PictorialLogo}
         onClick={() => {
           props.history.push("/u5a1");
         }}
         className="HeaderImage"
       />
+      <img
+        src={U5A}
+        onClick={() => {
+          props.history.push("/u5a1");
+        }}
+        className="HeaderImage"
+      />
+      
     </div>
   );
 };

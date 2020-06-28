@@ -15,7 +15,8 @@
     padding:0 1em 0 1em ;
 
     position: relative;
-    top:-20px
+    top:-20px;
+    cursor: pointer;
 
 }
 @media screen  and (max-width:814px){

@@ -7,7 +7,7 @@ import "../HomeComponent/Home.css";
 import "react-toastify/dist/ReactToastify.min.css";
 import { MdContentCopy } from "react-icons/md";
 import { MdWhatshot } from "react-icons/md";
-
+import {Tooltip } from "@material-ui/core"
 import "./cardS.css";
 
 const s = <div>sahith</div>;
@@ -31,14 +31,17 @@ const CardS = ({ frontImg, color, click, matter, display, icon, font}) => {
         </FrontSide>
         <BackSide
           className="back"
-          style={{ color: color,fontSize:font ,textAlign: "center"}}
+          style={{ color: "black",fontSize:font ,textAlign: "center" ,backgroundColor:"white"}}
         >
           <div>
             {matter}
             {"   "}
-            <MdContentCopy
-              style={{ cursor: "pointer" }}
-              onClick={() => {
+            
+          </div>
+          <br />
+          <div style={{display:"flex" ,justifyContent:"space-evenly"}}>
+          <Tooltip title="Copy" arrow >
+          <Button variant="dark" onClick={() => {
                 console.log(navigator.clipboard);
                 navigator.clipboard.writeText(matter).then(
                   () => {
@@ -46,11 +49,16 @@ const CardS = ({ frontImg, color, click, matter, display, icon, font}) => {
                   },
                   (e) => console.log(e)
                 );
-              }}
+              }}>
+          <MdContentCopy
+              style={{ cursor: "pointer" }}
+              
             />
-          </div>
-          <br />
-          <div style={{ textAlign: "center" }}>{icon}</div>
+            </Button>
+            </Tooltip>
+          <div style={{ textAlign: "center"  }}>{icon}</div>
+
+            </div>
         </BackSide>
       </Flippy>
     </div>
