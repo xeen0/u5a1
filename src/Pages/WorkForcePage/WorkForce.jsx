@@ -6,6 +6,7 @@ import FirstSlide from "../../Components/WorkForce/FirstSlide";
 import "./WorkForce.css";
 import SecondSlide from "../../Components/WorkForce/SecondSlide";
 import { useMediaQuery } from "react-responsive";
+import ThirdSlide from "../../Components/WorkForce/ThirdSlide";
 
 const WorkForce = () => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
@@ -25,7 +26,10 @@ const WorkForce = () => {
         <br />
       </div>
       <div>
-        <div>ThirdSlide</div>
+        <ThirdSlide/>
+        <br />
+        <br />
+        <br />
       </div>
       <div>
         <div>FourthSlide</div>
