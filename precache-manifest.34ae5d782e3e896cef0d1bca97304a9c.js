@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ab358c991005c992188edd2e8478171",
+    "revision": "f0d80d0ec56956bc9ecd3707290cf4cf",
     "url": "/u5a1/index.html"
   },
   {
-    "revision": "8e06a57adfdf44a21b0d",
+    "revision": "763ba698f0c079d37209",
     "url": "/u5a1/static/css/2.88e5f8a6.chunk.css"
   },
   {
-    "revision": "1370b29f6d20d626e247",
+    "revision": "2e18b5598106b2fde1c2",
     "url": "/u5a1/static/css/main.edfe80ff.chunk.css"
   },
   {
-    "revision": "8e06a57adfdf44a21b0d",
-    "url": "/u5a1/static/js/2.e133fe4f.chunk.js"
+    "revision": "763ba698f0c079d37209",
+    "url": "/u5a1/static/js/2.2353b115.chunk.js"
   },
   {
     "revision": "5ab1baa52e351a54fb487f180027ee45",
-    "url": "/u5a1/static/js/2.e133fe4f.chunk.js.LICENSE.txt"
+    "url": "/u5a1/static/js/2.2353b115.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1370b29f6d20d626e247",
-    "url": "/u5a1/static/js/main.39a8e64e.chunk.js"
+    "revision": "2e18b5598106b2fde1c2",
+    "url": "/u5a1/static/js/main.40758827.chunk.js"
   },
   {
     "revision": "dbe43c5161c9a97c9a57",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ded24fc28e469f0d7ce292e682cea66",
     "url": "/u5a1/static/media/SL 1 art.2ded24fc.svg"
+  },
+  {
+    "revision": "2ca025c66d833f95891a7a61a38844e4",
+    "url": "/u5a1/static/media/SL 1 content writing.2ca025c6.svg"
   },
   {
     "revision": "fab4bc114b58986973aac6eb366d1ca3",
@@ -92,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 2 piano.130beef3.svg"
   },
   {
+    "revision": "1e0c2722d299e7af773d7a1d6286524f",
+    "url": "/u5a1/static/media/SL 2 script writing.1e0c2722.svg"
+  },
+  {
     "revision": "21cedea76a3decba88f115e74f7a5823",
     "url": "/u5a1/static/media/SL 2 visual merchandise.21cedea7.svg"
   },
@@ -108,6 +116,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 3 presentation.464ec6fa.svg"
   },
   {
+    "revision": "a446c554cf617ec8db414c3cba843530",
+    "url": "/u5a1/static/media/SL 3 story boarding.a446c554.svg"
+  },
+  {
+    "revision": "207dbd06f5e444a4f338e17355dec821",
+    "url": "/u5a1/static/media/SL 4 animation 2d.207dbd06.svg"
+  },
+  {
     "revision": "a3bdbb1deb9d4c445d5f995a92478033",
     "url": "/u5a1/static/media/SL 4 music composition.a3bdbb1d.svg"
   },
@@ -118,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7782bb21fad96b8539c9b10318f0dafb",
     "url": "/u5a1/static/media/SL 5 advertisements.7782bb21.svg"
+  },
+  {
+    "revision": "333c7c9d47c432d45976fe2ab90ff425",
+    "url": "/u5a1/static/media/SL 5 animation 3d.333c7c9d.svg"
   },
   {
     "revision": "198bde4dd0af35bade7b16839c08d3b0",
@@ -136,8 +156,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 6 video editing.68b08040.svg"
   },
   {
+    "revision": "c040749ba7ea172187cb48f6004638ab",
+    "url": "/u5a1/static/media/SL 6 virtual reality.c040749b.svg"
+  },
+  {
     "revision": "158f2e6e9edaa5605377c28d6157836e",
     "url": "/u5a1/static/media/SL 7 graphics.158f2e6e.svg"
+  },
+  {
+    "revision": "14f3c830a890535ef2a212e3465cd6c8",
+    "url": "/u5a1/static/media/SL 7 motion capture.14f3c830.svg"
   },
   {
     "revision": "8b35777bdcc33116f95cceab3f0d5671",
@@ -146,6 +174,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2dc55cda546cb046b275e8fb24779e1e",
     "url": "/u5a1/static/media/SL 7.2dc55cda.svg"
+  },
+  {
+    "revision": "891527d74606e95eec4fbb8106e6f4c1",
+    "url": "/u5a1/static/media/SL 8 direction management.891527d7.svg"
   },
   {
     "revision": "865a92f1719c342b1d61c537974bf1d2",
@@ -162,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d6dd4dc1a05b0f082f2e5bc65c195bb1",
     "url": "/u5a1/static/media/SL 9 makeover.d6dd4dc1.svg"
+  },
+  {
+    "revision": "edbbf0db2f5b0d99cab9b8b06149b80b",
+    "url": "/u5a1/static/media/SL 9 production management.edbbf0db.svg"
   },
   {
     "revision": "3f8b60870e65d345bd0a1210e55eacb8",
