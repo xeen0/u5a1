@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ea9d2237f7ed91b1eba3fcff8f1caf8",
+    "revision": "634f0931421497434bb04b508854541d",
     "url": "/u5a1/index.html"
   },
   {
-    "revision": "9bb2533469460331ba53",
+    "revision": "77d1d0be43d9c88a706a",
     "url": "/u5a1/static/css/2.88e5f8a6.chunk.css"
   },
   {
-    "revision": "cc880a515d50252678f7",
-    "url": "/u5a1/static/css/main.d34cf57d.chunk.css"
+    "revision": "fca3c1381e735740aa36",
+    "url": "/u5a1/static/css/main.db9ae766.chunk.css"
   },
   {
-    "revision": "9bb2533469460331ba53",
-    "url": "/u5a1/static/js/2.08043205.chunk.js"
+    "revision": "77d1d0be43d9c88a706a",
+    "url": "/u5a1/static/js/2.06c22023.chunk.js"
   },
   {
     "revision": "3e2359b7d39f4084b1a7f8f4938682a2",
-    "url": "/u5a1/static/js/2.08043205.chunk.js.LICENSE.txt"
+    "url": "/u5a1/static/js/2.06c22023.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc880a515d50252678f7",
-    "url": "/u5a1/static/js/main.7f05f9e6.chunk.js"
+    "revision": "fca3c1381e735740aa36",
+    "url": "/u5a1/static/js/main.be189831.chunk.js"
   },
   {
     "revision": "dbe43c5161c9a97c9a57",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 1 creative visualisation.fab4bc11.svg"
   },
   {
+    "revision": "b0b69249bf527c2ad11cb94f5e0f6861",
+    "url": "/u5a1/static/media/SL 1 event management.b0b69249.svg"
+  },
+  {
     "revision": "b22183c79f186bfe686fbc5914fbf496",
     "url": "/u5a1/static/media/SL 1 guitar.b22183c7.svg"
   },
@@ -76,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 1 pre visualisation.ed503576.svg"
   },
   {
+    "revision": "5240021ef7ed8e96e4a12fb1b1e55a6c",
+    "url": "/u5a1/static/media/SL 1 shortfilm.5240021e.svg"
+  },
+  {
     "revision": "5e15cf9140a7fd1ec7cc7307eede317e",
     "url": "/u5a1/static/media/SL 10.5e15cf91.svg"
   },
@@ -86,6 +94,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "774ce3e3bc2363c178418dff1601e592",
     "url": "/u5a1/static/media/SL 2 guitar.774ce3e3.svg"
+  },
+  {
+    "revision": "1356a63807ba90c9c35fab85b8f7d580",
+    "url": "/u5a1/static/media/SL 2 hosting or anchoring.1356a638.svg"
+  },
+  {
+    "revision": "0e796ed0ada7246fd1f81ee5e6bd0b98",
+    "url": "/u5a1/static/media/SL 2 interview.0e796ed0.svg"
   },
   {
     "revision": "d0f8e6f25c5edd1acaf50395c8227141",
@@ -108,6 +124,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 2 walk through.9fb664c0.svg"
   },
   {
+    "revision": "abd0457b43a4a8846acaa828962b8766",
+    "url": "/u5a1/static/media/SL 3 choreography.abd0457b.svg"
+  },
+  {
+    "revision": "3a3dad9ddd029047e7e858c4121ddd04",
+    "url": "/u5a1/static/media/SL 3 documentary.3a3dad9d.svg"
+  },
+  {
     "revision": "f8c8621c6c9a56eb3748c9c8f871e47e",
     "url": "/u5a1/static/media/SL 3 graphic design.f8c8621c.svg"
   },
@@ -120,12 +144,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 3 story boarding.a446c554.svg"
   },
   {
+    "revision": "d17318f1f473418abcbeaa6ce1520301",
+    "url": "/u5a1/static/media/SL 4 LED projection screens.d17318f1.svg"
+  },
+  {
     "revision": "207dbd06f5e444a4f338e17355dec821",
     "url": "/u5a1/static/media/SL 4 animation 2d.207dbd06.svg"
   },
   {
     "revision": "a3bdbb1deb9d4c445d5f995a92478033",
     "url": "/u5a1/static/media/SL 4 music composition.a3bdbb1d.svg"
+  },
+  {
+    "revision": "0ba1ae24a5e93d96088c1ce3ae4085d2",
+    "url": "/u5a1/static/media/SL 4 video album.0ba1ae24.svg"
   },
   {
     "revision": "c612cbbb0d66abd88ba6927588951638",
@@ -148,8 +180,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 5 email.7eb10662.svg"
   },
   {
+    "revision": "213bd906d08a37f12cba78b882b415e2",
+    "url": "/u5a1/static/media/SL 5 feature film.213bd906.svg"
+  },
+  {
+    "revision": "2d125b920cbbd69bb269f4a0a186aa4b",
+    "url": "/u5a1/static/media/SL 5 singing or orchestra.2d125b92.svg"
+  },
+  {
+    "revision": "61e596264333161af9acd625ac2775a8",
+    "url": "/u5a1/static/media/SL 6 dj sound system.61e59626.svg"
+  },
+  {
     "revision": "19e39d201680dce3ed4c8e3347feb98b",
     "url": "/u5a1/static/media/SL 6 photoshoot.19e39d20.svg"
+  },
+  {
+    "revision": "9f530df3dd9262e79a75eaf1a494d258",
+    "url": "/u5a1/static/media/SL 6 press meet.9f530df3.svg"
   },
   {
     "revision": "68b080401b07fa1d45870f0c566ed07b",
@@ -162,6 +210,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "158f2e6e9edaa5605377c28d6157836e",
     "url": "/u5a1/static/media/SL 7 graphics.158f2e6e.svg"
+  },
+  {
+    "revision": "7009175211cc1e442311888d4b719254",
+    "url": "/u5a1/static/media/SL 7 interior design.70091752.svg"
+  },
+  {
+    "revision": "b71ca601287a24d53808c8f88c0e9bad",
+    "url": "/u5a1/static/media/SL 7 lighting systems.b71ca601.svg"
   },
   {
     "revision": "14f3c830a890535ef2a212e3465cd6c8",
@@ -180,8 +236,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 8 direction management.891527d7.svg"
   },
   {
+    "revision": "196576279658507f799d4a037b5b388e",
+    "url": "/u5a1/static/media/SL 8 makeup.19657627.svg"
+  },
+  {
     "revision": "865a92f1719c342b1d61c537974bf1d2",
     "url": "/u5a1/static/media/SL 8 portfolio.865a92f1.svg"
+  },
+  {
+    "revision": "e9d898f0785be7aabde88fc0e4e41383",
+    "url": "/u5a1/static/media/SL 8 set design.e9d898f0.svg"
   },
   {
     "revision": "b21672ef5b0f1d8fdae145521e9425d3",
@@ -190,6 +254,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9e25ec046942c70e24f3720cfef4e42d",
     "url": "/u5a1/static/media/SL 8.9e25ec04.svg"
+  },
+  {
+    "revision": "163e2cd21201084ac36bccd9b0c005eb",
+    "url": "/u5a1/static/media/SL 9 LIVE stream.163e2cd2.svg"
+  },
+  {
+    "revision": "2e2b91650328dd91454ab6b580bdd9ae",
+    "url": "/u5a1/static/media/SL 9 fashion design.2e2b9165.svg"
   },
   {
     "revision": "d6dd4dc1a05b0f082f2e5bc65c195bb1",
