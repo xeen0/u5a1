@@ -28,7 +28,7 @@
     "react-toastify": "^6.0.5"
   },
   "scripts": {
-    "start": " react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "reac`t-scripts eject",

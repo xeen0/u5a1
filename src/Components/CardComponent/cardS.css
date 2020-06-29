@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
 .back{
     background-color:#f5f5f7;
-    font-family: 'Signika', sans-serif;
+    /* font-family: 'Signika', sans-serif; */
     font-size: 1.4rem;
     padding-top: 3vw;
 }

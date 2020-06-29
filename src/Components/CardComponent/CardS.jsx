@@ -41,7 +41,7 @@ const CardS = ({ frontImg, color, click, matter, display, icon, font}) => {
           <br />
           <div style={{display:"flex" ,justifyContent:"space-evenly"}}>
           <Tooltip title="Copy" arrow >
-          <Button variant="dark" onClick={() => {
+          <Button variant="dark" size="1000px" onClick={() => {
                 console.log(navigator.clipboard);
                 navigator.clipboard.writeText(matter).then(
                   () => {
@@ -52,7 +52,6 @@ const CardS = ({ frontImg, color, click, matter, display, icon, font}) => {
               }}>
           <MdContentCopy
               style={{ cursor: "pointer" }}
-              
             />
             </Button>
             </Tooltip>

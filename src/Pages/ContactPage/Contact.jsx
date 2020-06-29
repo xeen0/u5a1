@@ -27,7 +27,7 @@ const ContactPage = () => {
               click="true"
               icon={
                 <a href="tel:92463 52385" style={{ color: "black" }}>
-                  <FiPhoneCall size={"2em"} />
+                  <FiPhoneCall  size={"2em"} />
                 </a>
               }
             />
@@ -69,7 +69,7 @@ const ContactPage = () => {
                 href="mailto:creations.u5a@gmail.com"
                   style={{ color: "#26A9DF" }}
                 >
-                  <MdEmail size={"2em"} />
+                  <MdEmail size={"2.8em"}/>
                   
                 </a>
               }
@@ -97,7 +97,7 @@ const ContactPage = () => {
             click="true"
             icon={
               <a href="tel:+91 92463 52385" style={{ color: "black" }}>
-                <FiPhoneCall size={"2em"} />
+                <FiPhoneCall size={"2.3em"} />
               </a>
             }
           />
@@ -107,9 +107,13 @@ const ContactPage = () => {
             matter={"92463 52385"}
             click="true"
             icon={
+              <div>
               <a href="sms:+91 92463 52385" style={{ color: "grey" }}>
-                <MdMessage size={"2em"} />
+                <MdMessage size={"2.3em"} />
               </a>
+               
+
+              </div>
             }
           />
           <CardS
@@ -122,7 +126,7 @@ const ContactPage = () => {
                 href="https://api.whatsapp.com/send?phone=+9192463 52385"
                 style={{ color: "green" }}
               >
-                <FaWhatsapp size={"2em"} />
+                <FaWhatsapp size={"2.3em"} />
               </a>
             }
           />
@@ -131,13 +135,13 @@ const ContactPage = () => {
             color={"#26A9DF"}
             matter={"creations.u5a@gmail.com"}
             click="true"
-            font="0.5em"
+            font=".6em"
             icon={
               <a
               href="mailto:creations.u5a@gmail.com"
                 style={{ color: "#26A9DF" }}
               >
-                <MdEmail size={"4em"} />
+                <MdEmail size={"3.6em"} />
               </a>
             }
           />
