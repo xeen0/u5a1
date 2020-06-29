@@ -109,7 +109,7 @@ const ContactPage = () => {
             icon={
               <div>
               <a href="sms:+91 92463 52385" style={{ color: "grey" }}>
-                <MdMessage size={"2.3em"} />
+                <MdMessage size={"2.9em"} />
               </a>
                
 
@@ -126,7 +126,7 @@ const ContactPage = () => {
                 href="https://api.whatsapp.com/send?phone=+9192463 52385"
                 style={{ color: "green" }}
               >
-                <FaWhatsapp size={"2.3em"} />
+                <FaWhatsapp size={"2.9em"} />
               </a>
             }
           />
@@ -135,13 +135,13 @@ const ContactPage = () => {
             color={"#26A9DF"}
             matter={"creations.u5a@gmail.com"}
             click="true"
-            font=".6em"
+            font="9px"
             icon={
               <a
               href="mailto:creations.u5a@gmail.com"
-                style={{ color: "#26A9DF" }}
+                style={{ color: "#26A9DF"  }}
               >
-                <MdEmail size={"3.6em"} />
+                <MdEmail size={"2.7em"}  />
               </a>
             }
           />

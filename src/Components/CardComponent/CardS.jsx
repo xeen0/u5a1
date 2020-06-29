@@ -31,9 +31,9 @@ const CardS = ({ frontImg, color, click, matter, display, icon, font}) => {
         </FrontSide>
         <BackSide
           className="back"
-          style={{ color: "black",fontSize:font ,textAlign: "center" ,backgroundColor:"white"}}
+          style={{ color: "black" ,textAlign: "center" ,backgroundColor:"white"}}
         >
-          <div>
+          <div style={{fontSize:font}}>
             {matter}
             {"   "}
             
