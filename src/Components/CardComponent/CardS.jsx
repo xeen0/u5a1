@@ -11,7 +11,7 @@ import {Tooltip } from "@material-ui/core"
 import "./cardS.css";
 
 const s = <div>sahith</div>;
-const CardS = ({ frontImg, color, click, matter, display, icon, font}) => {
+const CardS = ({ frontImg, paddingBottom, click, matter, display, icon, font}) => {
   return (
     <div
       onClick={(e) => {
@@ -33,7 +33,7 @@ const CardS = ({ frontImg, color, click, matter, display, icon, font}) => {
           className="back"
           style={{ color: "black" ,textAlign: "center" ,backgroundColor:"white"}}
         >
-          <div style={{fontSize:font}}>
+          <div style={{fontSize:font , paddingBottom}}>
             {matter}
             {"   "}
             

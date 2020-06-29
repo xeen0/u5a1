@@ -136,12 +136,13 @@ const ContactPage = () => {
             matter={"creations.u5a@gmail.com"}
             click="true"
             font="9px"
+            paddingBottom="7px"
             icon={
               <a
               href="mailto:creations.u5a@gmail.com"
                 style={{ color: "#26A9DF"  }}
               >
-                <MdEmail size={"2.7em"}  />
+                <MdEmail size={"2.9em"}  />
               </a>
             }
           />
@@ -151,7 +152,7 @@ const ContactPage = () => {
             color={"blue"}
             matter={"creations.u5a@gmail.com"}
             click="true"
-            font="15px"
+            font="18px"
             display={0}
           />
         </div>
