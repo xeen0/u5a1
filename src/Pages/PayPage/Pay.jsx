@@ -28,7 +28,7 @@ const PayPage = () => {
       <FrontSide style={{ padding: "0px" }}>
         <img src={sbi} />
       </FrontSide>
-      <BackSide className="back" style={{color:"black" ,padding: "20px 0px 20px 20px",lineHeight:"1.8" }} >
+      <BackSide className="back" style={{color:"black" ,padding: "15px 0px 20px 20px",lineHeight:"1.8" }} >
         <div className="payMatter">
         <div> Account Name: u5a inc  <MdContentCopy
               style={{ cursor: "pointer" }}
@@ -43,7 +43,7 @@ const PayPage = () => {
               }}
             />
             </div>
-        <div>Account Number: 36282433366    <MdContentCopy
+        <div>Account Number:   36282433366    <MdContentCopy
               style={{ cursor: "pointer" }}
               onClick={() => {
                 console.log(navigator.clipboard);
