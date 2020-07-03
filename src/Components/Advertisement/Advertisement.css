@@ -2,12 +2,17 @@
     padding:10px 40px;
 }
 .AdvContent  {
-    height: 120px;
+    height: 150px;
 }
 
 @media screen and (max-width:767px){
     .AdvContainer{
         padding:10px 30px;
+    }
+}
+@media screen and (max-width:425px){
+    .AdvContent  {
+        height: 120px;
     }
 }
 @media screen and (max-width:375px){
