@@ -16,22 +16,22 @@ export default class Advertisement extends Component {
       <div className="AdvContainer">
         <Slider {...settings}>
           <div>
-            <h3 style={{background:"red" ,height:"150px"}}>1 </h3>
+            <h3 className ="AdvContent"style={{background:"red" }}>1 </h3>
           </div>
           <div>
-            <h3 style={{background:"green" ,height:"150px"}}>2</h3>
+            <h3 className ="AdvContent"style={{background:"green" }}>2</h3>
           </div>
           <div>
-            <h3 style={{background:"blue" ,height:"150px"}}>3</h3>
+            <h3 className ="AdvContent"style={{background:"blue" }}>3</h3>
           </div>
           <div>
-            <h3 style={{background:"grey" ,height:"150px"}}>4</h3>
+            <h3 className ="AdvContent"style={{background:"grey" }}>4</h3>
           </div>
           <div>
-            <h3 style={{background:"yellow" ,height:"150px"}}>5</h3>
+            <h3 className ="AdvContent"style={{background:"yellow" }}>5</h3>
           </div>
           <div>
-            <h3 style={{background:"purple" ,height:"150px"}}>6</h3>
+            <h3 className ="AdvContent"style={{background:"purple" }}>6</h3>
           </div>
         </Slider>
       </div>

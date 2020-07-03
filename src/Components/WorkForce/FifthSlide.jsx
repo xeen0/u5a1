@@ -13,7 +13,7 @@ import Makeup from "../../Images/SL 8 makeup.svg";
 import LiveStream from "../../Images/SL 9 LIVE stream.svg";
 
 const FifthSlide = (props) => {
-    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
+    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 767px)" });
   // const isTabletOrMobile = true;
   return (
     <div className="container">

@@ -13,7 +13,7 @@ import Setdesign from "../../Images/SL 8 set design.svg";
 import FashionDesign from "../../Images/SL 9 fashion design.svg";
 
 const FourthSlide = (props) => {
-    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
+    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 767px)" });
   // const isTabletOrMobile = true;
   return (
     <div className="container">

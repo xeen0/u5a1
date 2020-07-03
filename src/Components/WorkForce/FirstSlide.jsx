@@ -13,7 +13,7 @@ import Portfolio from "../../Images/SL 8 portfolio.svg";
 import Makeovers from "../../Images/SL 9 makeover.svg";
 
 const FirstSlide = (props) => {
-    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
+    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 767px)" });
   // const isTabletOrMobile = true;
   return (
     <div className="container">

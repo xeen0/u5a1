@@ -1,8 +1,25 @@
 .AdvContainer{
-    padding: 10px 30px 0px 30px;
+    padding:10px 40px;
 }
-@media screen and (min-width:430px){
+.AdvContent  {
+    height: 120px;
+}
+
+@media screen and (max-width:767px){
     .AdvContainer{
-        padding: 10px 40px 0px 46px;
+        padding:10px 30px;
     }
 }
+@media screen and (max-width:375px){
+    .AdvContainer{
+        padding:10px 40px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .AdvContainer{
+        padding:10px 26px;
+    }
+}
+
+

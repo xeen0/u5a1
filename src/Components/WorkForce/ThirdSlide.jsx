@@ -13,7 +13,7 @@ import Direction from "../../Images/SL 8 direction management.svg";
 import Production from "../../Images/SL 9 production management.svg";
 
 const ThirdSlide = (props) => {
-    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
+    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 767px)" });
   // const isTabletOrMobile = true;
   return (
     // <div className="container">

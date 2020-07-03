@@ -18,7 +18,7 @@ import "./Home.css";
 import Advertisement from "../Advertisement/Advertisement";
 
 const Home = (props) => {
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 767px)" });
   return (
     <div className="container">
       {!isTabletOrMobile ? (

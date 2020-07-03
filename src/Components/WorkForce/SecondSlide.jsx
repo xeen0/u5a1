@@ -13,7 +13,7 @@ import VisualEffects from "../../Images/SL 8 visual effects.svg";
 import SpecialEffect from "../../Images/SL 9 special effects.svg";
 
 const SecondSlide = (props) => {
-    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
+    const isTabletOrMobile = useMediaQuery({ query: "(max-width: 767px)" });
   // const isTabletOrMobile = true;
   return (
     // <div className="container">
