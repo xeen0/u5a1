@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/u5a1/static/css/main.db9ae766.chunk.css",
-    "main.js": "/u5a1/static/js/main.3dc67b51.chunk.js",
-    "main.js.map": "/u5a1/static/js/main.3dc67b51.chunk.js.map",
+    "main.css": "/u5a1/static/css/main.8ccae916.chunk.css",
+    "main.js": "/u5a1/static/js/main.e866d552.chunk.js",
+    "main.js.map": "/u5a1/static/js/main.e866d552.chunk.js.map",
     "runtime-main.js": "/u5a1/static/js/runtime-main.c8715bc6.js",
     "runtime-main.js.map": "/u5a1/static/js/runtime-main.c8715bc6.js.map",
-    "static/css/2.88e5f8a6.chunk.css": "/u5a1/static/css/2.88e5f8a6.chunk.css",
-    "static/js/2.06c22023.chunk.js": "/u5a1/static/js/2.06c22023.chunk.js",
-    "static/js/2.06c22023.chunk.js.map": "/u5a1/static/js/2.06c22023.chunk.js.map",
+    "static/css/2.816e474a.chunk.css": "/u5a1/static/css/2.816e474a.chunk.css",
+    "static/js/2.0b550e71.chunk.js": "/u5a1/static/js/2.0b550e71.chunk.js",
+    "static/js/2.0b550e71.chunk.js.map": "/u5a1/static/js/2.0b550e71.chunk.js.map",
     "index.html": "/u5a1/index.html",
-    "precache-manifest.5a58d4b8c9eb25aad14b74e19c6c79bd.js": "/u5a1/precache-manifest.5a58d4b8c9eb25aad14b74e19c6c79bd.js",
+    "precache-manifest.64cf6f9491e2fe0c8b8d6eab0c058691.js": "/u5a1/precache-manifest.64cf6f9491e2fe0c8b8d6eab0c058691.js",
     "service-worker.js": "/u5a1/service-worker.js",
-    "static/css/2.88e5f8a6.chunk.css.map": "/u5a1/static/css/2.88e5f8a6.chunk.css.map",
-    "static/css/main.db9ae766.chunk.css.map": "/u5a1/static/css/main.db9ae766.chunk.css.map",
-    "static/js/2.06c22023.chunk.js.LICENSE.txt": "/u5a1/static/js/2.06c22023.chunk.js.LICENSE.txt",
+    "static/css/2.816e474a.chunk.css.map": "/u5a1/static/css/2.816e474a.chunk.css.map",
+    "static/css/main.8ccae916.chunk.css.map": "/u5a1/static/css/main.8ccae916.chunk.css.map",
+    "static/js/2.0b550e71.chunk.js.LICENSE.txt": "/u5a1/static/js/2.0b550e71.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/u5a1/static/media/1 SL call.f016dcb4.svg",
     "static/media/2 SL SMS.svg": "/u5a1/static/media/2 SL SMS.910a495e.svg",
     "static/media/3 SL whatsapp.svg": "/u5a1/static/media/3 SL whatsapp.014e5fae.svg",
@@ -99,16 +99,18 @@
     "static/media/feedback.svg": "/u5a1/static/media/feedback.cb7bb269.svg",
     "static/media/infotainment.svg": "/u5a1/static/media/infotainment.03a3beae.svg",
     "static/media/logo.svg": "/u5a1/static/media/logo.5d5d9eef.svg",
+    "static/media/mail.svg": "/u5a1/static/media/mail.cef8d2fe.svg",
     "static/media/pay.svg": "/u5a1/static/media/pay.611e7dcb.svg",
     "static/media/pictorial_logo.svg": "/u5a1/static/media/pictorial_logo.6f1c86ee.svg",
+    "static/media/slick-theme.css": "/u5a1/static/media/slick.f97e3bbf.svg",
     "static/media/training.svg": "/u5a1/static/media/training.830baac3.svg",
     "static/media/workforce.svg": "/u5a1/static/media/workforce.baebb253.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c8715bc6.js",
-    "static/css/2.88e5f8a6.chunk.css",
-    "static/js/2.06c22023.chunk.js",
-    "static/css/main.db9ae766.chunk.css",
-    "static/js/main.3dc67b51.chunk.js"
+    "static/css/2.816e474a.chunk.css",
+    "static/js/2.0b550e71.chunk.js",
+    "static/css/main.8ccae916.chunk.css",
+    "static/js/main.e866d552.chunk.js"
   ]
 }
