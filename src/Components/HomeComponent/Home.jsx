@@ -15,6 +15,7 @@ import Gallery from "../../Images/SL gallery.svg";
 import uploadedFileLink from "../../Images/U5A.zip";
 
 import "./Home.css";
+import Advertisement from "../Advertisement/Advertisement";
 
 const Home = (props) => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
@@ -161,6 +162,7 @@ const Home = (props) => {
           </>
         </>
       )}
+    <Advertisement/>
     </div>
   );
 };

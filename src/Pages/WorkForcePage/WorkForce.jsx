@@ -2,10 +2,10 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-import FirstSlide from "../../Components/WorkForce/FirstSlide";
 import "./WorkForce.css";
-import SecondSlide from "../../Components/WorkForce/SecondSlide";
 import { useMediaQuery } from "react-responsive";
+import FirstSlide from "../../Components/WorkForce/FirstSlide";
+import SecondSlide from "../../Components/WorkForce/SecondSlide";
 import ThirdSlide from "../../Components/WorkForce/ThirdSlide";
 import FourthSlide from "../../Components/WorkForce/FouthSlide";
 import FifthSlide from "../../Components/WorkForce/FifthSlide";

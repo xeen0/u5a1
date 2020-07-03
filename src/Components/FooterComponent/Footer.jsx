@@ -8,7 +8,7 @@ const Footer = () => {
         fontOpticalSizing: "auto",
         fontSize: "14px",
         textAlign:"center",
-        padding:"10px"
+        padding:"30px"
       }}
     >
       <p >

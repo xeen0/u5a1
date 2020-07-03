@@ -4,11 +4,14 @@ import msg from "../../Images/2 SL SMS.svg";
 import whstap from "../../Images/3 SL whatsapp.svg";
 import map from "../../Images/4 SL location.svg";
 import Femail from "../../Images/SL 5 email.svg";
-
+// import {GrMailOption} from "react-icons/gr"
+import Mail from "../../mail.svg"
 import { FiPhoneCall } from "react-icons/fi";
 import { MdMessage, MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { useMediaQuery } from "react-responsive";
+import {FaEnvelope} from "react-icons/fa"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import CardS from "../../Components/CardComponent/CardS";
 
@@ -17,6 +20,7 @@ const ContactPage = () => {
 
   return (
     <div>
+
       {!isTabletOrMobile ? (
         <>
           <div className="HomeContainerT">
@@ -63,14 +67,16 @@ const ContactPage = () => {
               color={"#26A9DF"}
               matter={"creations.u5a@gmail.com"}
               click="true"
-              font=".9em"
+              font=".7em"
               icon={
                 <a
                 href="mailto:creations.u5a@gmail.com"
                   style={{ color: "#26A9DF" }}
                 >
-                  <MdEmail size={"2.8em"}/>
-                  
+        {/* <img src={Mail} height={"40px"} width={"50"}/> */}
+
+                  <FaEnvelope  size={"1.95em"} viewBox={"0 38 512 512"}  />
+                  {/* <FontAwesomeIcon icon={faCoffee} /> */}
                 </a>
               }
             />
@@ -142,7 +148,9 @@ const ContactPage = () => {
               href="mailto:creations.u5a@gmail.com"
                 style={{ color: "#26A9DF"  }}
               >
-                <MdEmail size={"2.9em"}  />
+              {/* <img src={Mail} height={"10px"} width={"10px" }/> */}
+
+                <FaEnvelope size={"3.4em"} viewBox={"0 40 512 512"}   />
               </a>
             }
           />

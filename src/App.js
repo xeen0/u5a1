@@ -9,7 +9,7 @@ import {
   Link
 } from "react-router-dom";  
 import ContactPage from './Pages/ContactPage/Contact';
-import WorkForcePage from './Pages/WorkForcePage/WorkForce';
+import WorkForcePage from './Pages/WorkForcePage/WorkForce1';
 import Training from './Pages/TrainingPage/Training';
 import Timings from './Pages/TimingsPage/Timings';
 import Footer from './Components/FooterComponent/Footer'
@@ -28,9 +28,6 @@ function App() {
       <Route exact path='/u5a1/Training' component={Training}/>
       <Route exact path='/u5a1/Training/Timing' component={Timings}/>
       <Route path='/u5a1/Pay' component={PayPage}/>
-      {/* <Route path='/contact' component={ContactPage}/> */}
-
-      {/* <Route path='/' component={Home}/> */}
       </Router>
       </div>
       <div class="f">
