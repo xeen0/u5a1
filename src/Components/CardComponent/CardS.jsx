@@ -11,14 +11,18 @@ import {Tooltip } from "@material-ui/core"
 import "./cardS.css";
 
 const s = <div>sahith</div>;
-const CardS = ({ frontImg, paddingBottom, click, matter, display, icon, font}) => {
+const CardS = ({ frontImg, paddingBottom, click, matter, display, icon, font} ,props) => {
   return (
     <div
       onClick={(e) => {
-        if (click != "true") {
+        if (click == "false") {
           e.preventDefault();
           window.location.href = click;
         }
+        // if(click==undefined) {
+        //   e.preventDefault();
+        //   props.history.push("/u5a1/");
+        // }
       }}
     >
       <Flippy

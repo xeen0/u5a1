@@ -45,7 +45,11 @@ const Home = (props) => {
           </div>
 
           <div className="HomeContainer">
-            <Card>
+            <Card
+              onClick={() => {
+                props.history.push("/u5a1/About");
+              }}
+            >
               <Card.Img src={About} />
             </Card>
             <Card>
@@ -111,7 +115,11 @@ const Home = (props) => {
                 <Card.Img src={Gallery} />
               </Card>
 
-              <Card>
+              <Card
+                onClick={() => {
+                  props.history.push("/u5a1/About");
+                }}
+              >
                 <Card.Img src={About} />
               </Card>
             </div>
@@ -162,7 +170,7 @@ const Home = (props) => {
           </>
         </>
       )}
-    <Advertisement/>
+      <Advertisement />
     </div>
   );
 };
