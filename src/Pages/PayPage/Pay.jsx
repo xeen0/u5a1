@@ -57,7 +57,7 @@ const PayPage = () => {
                   style={{ cursor: "pointer" }}
                   onClick={() => {
                     console.log(navigator.clipboard);
-                    navigator.clipboard.writeText("36 28 24 333 66").then(
+                    navigator.clipboard.writeText("36282433366").then(
                       () => {
                         alert("Copied!");
                       },
@@ -75,7 +75,7 @@ const PayPage = () => {
                   style={{ cursor: "pointer" }}
                   onClick={() => {
                     console.log(navigator.clipboard);
-                    navigator.clipboard.writeText("SBI 000 4347").then(
+                    navigator.clipboard.writeText("SBI0004347").then(
                       () => {
                         alert("Copied!");
                       },
