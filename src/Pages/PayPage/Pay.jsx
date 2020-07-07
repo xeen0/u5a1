@@ -20,9 +20,9 @@ const PayPage = () => {
       <FlipCard FImg={Gpay} BImg={GpayCode} />
       <FlipCard FImg={PhonePay} BImg={PhonePayCode} />
       <FlipCard FImg={Paytm} BImg={PaytmCode} />
-      {/* <FlipCard FImg={sbi} BImg={SbiInfo} /> */}
+      <FlipCard FImg={sbi} BImg={SbiInfo} />
 
-      <Flippy flipDirection="horizontal" style={{ padding: " 10px 10px" }}>
+      {/* <Flippy flipDirection="horizontal" style={{ padding: " 10px 10px" }}>
         <FrontSide style={{ padding: "0px" }}>
           <img src={sbi} />
         </FrontSide>
@@ -90,7 +90,7 @@ const PayPage = () => {
             <br />
           </>
         </BackSide>
-      </Flippy>
+      </Flippy> */}
     </div>
   );
 };
