@@ -16,6 +16,8 @@ import edp from "../../Images/SL 1 edp.svg";
 import edpf from "../../Images/SL 2 edp.svg";
 import congodrum from "../../Images/SL 1 congo drums.svg";
 import congodrumf from "../../Images/SL 2 congo drums.svg";
+import musInst from '../../Images/SL 8.svg';
+import drwapnt from '../../Images/SL 9.svg';
 
 
 import "./Training.css";
@@ -33,19 +35,11 @@ const Training = (props) => {
       </div>
       <div className="HomeContainerT">
         <FlipCard FImg={piano} BImg={pianof} />
-        <CardS frontImg={newjng} click="falsea" />
+        <CardS frontImg={regclss} click="falsea" />
       </div>
 
       <div className="HomeContainerT">
         <FlipCard FImg={drums} BImg={drumsf} />
-        <CardS frontImg={regclss} click="falsea" />
-      </div>
-      <div className="HomeContainerT">
-        <FlipCard FImg={edp} BImg={edpf} />
-        <FlipCard FImg={congodrum} BImg={congodrumf} />
-      </div>
-      <div className="HomeContainerT">
-        <FlipCard FImg={art} BImg={artf} />
         <Flippy flipOnClick={false} style={{ padding: "10px" }}>
           <FrontSide style={{ padding: "0px" }}>
             <img
@@ -56,6 +50,22 @@ const Training = (props) => {
             />
           </FrontSide>
         </Flippy>
+        
+      </div>
+      <div className="HomeContainerT">
+        <FlipCard FImg={edp} BImg={edpf} />
+        <CardS frontImg={musInst} click="falsea"/>
+      </div>
+      <div className="HomeContainerT">
+        <FlipCard FImg={congodrum} BImg={congodrumf} />
+        <CardS frontImg={newjng} click="falsea" />
+
+
+      </div>
+      <div className="HomeContainerT">
+        <FlipCard FImg={art} BImg={artf} />
+        <CardS frontImg={drwapnt} click="falsea"/>
+       
       </div>
     </>
   );

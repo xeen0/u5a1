@@ -18,9 +18,7 @@ const Timings = () => {
         <Card className="cardT">
           <Card.Img src={T1} />
         </Card>
-        <Card className="cardT">
-          <Card.Img src={regClss} />
-        </Card>
+        
         <Card className="cardT">
           <Card.Img src={T2} />
         </Card>
@@ -29,9 +27,7 @@ const Timings = () => {
         <Card className="cardT">
           <Card.Img src={T3} />
         </Card>
-        <Card className="cardT">
-          <Card.Img src={musInst} />
-        </Card>
+        
         <Card className="cardT">
           <Card.Img src={T4} />
         </Card>
@@ -41,9 +37,7 @@ const Timings = () => {
         <Card className="cardT">
           <Card.Img src={T5} />
         </Card>
-        <Card className="cardT">
-          <Card.Img src={drwapnt} />
-        </Card>
+        
         <Card className="cardT">
           <Card.Img src={T6} />
         </Card>
