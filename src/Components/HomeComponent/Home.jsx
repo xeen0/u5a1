@@ -76,7 +76,11 @@ const Home = (props) => {
                 <Card.Img src={Download} />
               </a>
             </Card>
-            <Card>
+            <Card onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://docs.google.com/forms/d/e/1FAIpQLSdEPHzMmDqJkuZ1nZ5wjyyR12GVwo81hKkeDe59u8eXqqeLiA/viewform?usp=sf_link";
+              }}> 
               <Card.Img src={Feedback} />
             </Card>
             <Card
@@ -149,7 +153,12 @@ const Home = (props) => {
                   <Card.Img src={Download} />
                 </a>
               </Card>
-              <Card>
+              <Card 
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://docs.google.com/forms/d/e/1FAIpQLSdEPHzMmDqJkuZ1nZ5wjyyR12GVwo81hKkeDe59u8eXqqeLiA/viewform?usp=sf_link";
+              }}>
                 <Card.Img src={Feedback} />
               </Card>
             </div>
