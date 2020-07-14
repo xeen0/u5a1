@@ -1,28 +1,25 @@
 import React, { useState } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 import Button from "react-bootstrap/Button";
-import { ToastContainer, toast } from "react-toastify";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../HomeComponent/Home.css";
 import "react-toastify/dist/ReactToastify.min.css";
 import { MdContentCopy } from "react-icons/md";
-import { MdWhatshot } from "react-icons/md";
-import {Tooltip } from "@material-ui/core"
+import { Tooltip } from "@material-ui/core";
 import "./cardS.css";
 
 const s = <div>sahith</div>;
-const CardS = ({ frontImg, paddingBottom, click, matter, display, icon, font} ,props) => {
+const CardS = (
+  { frontImg, paddingBottom, click, matter, display, icon, font },
+  props
+) => {
   return (
     <div
       onClick={(e) => {
-        if (click == "false") {
+        if (click == "false" || click != "true") {
           e.preventDefault();
           window.location.href = click;
         }
-        // if(click==undefined) {
-        //   e.preventDefault();
-        //   props.history.push("/u5a1/");
-        // }
       }}
     >
       <Flippy
@@ -35,35 +32,38 @@ const CardS = ({ frontImg, paddingBottom, click, matter, display, icon, font} ,p
         </FrontSide>
         <BackSide
           className="back"
-          style={{ color: "black" ,textAlign: "center" ,backgroundColor:"white"}}
+          style={{
+            color: "black",
+            textAlign: "center",
+            backgroundColor: "white",
+          }}
         >
-          <div style={{fontSize:font , paddingBottom}}>
+          <div style={{ fontSize: font, paddingBottom }}>
             {matter}
             {"   "}
-            
           </div>
           <br />
-          <div style={{display:"flex" ,justifyContent:"space-evenly" }} >
-          <Tooltip title="Copy" arrow >
-          <div>
-          <Button variant="dark"  onClick={() => {
-                console.log(navigator.clipboard);
-                navigator.clipboard.writeText(matter).then(
-                  () => {
-                    alert("Copied!");
-                  },
-                  (e) => console.log(e)
-                );
-              }}>
-          <MdContentCopy
-              style={{ cursor: "pointer"  }}
-            />
-            </Button>
-            </div>
+          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <Tooltip title="Copy" arrow>
+              <div>
+                <Button
+                  variant="dark"
+                  onClick={() => {
+                    console.log(navigator.clipboard);
+                    navigator.clipboard.writeText(matter).then(
+                      () => {
+                        alert("Copied!");
+                      },
+                      (e) => console.log(e)
+                    );
+                  }}
+                >
+                  <MdContentCopy style={{ cursor: "pointer" }} />
+                </Button>
+              </div>
             </Tooltip>
-          {icon}
-            </div>
-
+            {icon}
+          </div>
         </BackSide>
       </Flippy>
     </div>

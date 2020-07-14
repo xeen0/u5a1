@@ -5,6 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import CreativeVisulization from "../../Images/SL 1 creative visualisation.svg";
 import VisualMerchandise from "../../Images/SL 2 visual merchandise.svg";
 import GraphicDesign from "../../Images/SL 3 graphic design.svg";
+import AppDesign from "../../Images/SL app design.svg"
 import webDesign from "../../Images/SL 4 web design.svg";
 import Advertisement from "../../Images/SL 5 advertisements.svg";
 import Photoshop from "../../Images/SL 6 photoshoot.svg";
@@ -36,22 +37,37 @@ const FirstSlide = (props) => {
               <Card.Img src={webDesign} />
             </Card>
             <Card>
-              <Card.Img src={Advertisement} />
+              <Card.Img src={AppDesign} />
             </Card>
             <Card>
-              <Card.Img src={Photoshop} />
+              <Card.Img src={Advertisement} />
             </Card>
+            
           </div>
 
           <div className="HomeContainer">
+          <Card>
+              <Card.Img src={Photoshop} />
+            </Card>
             <Card>
               <Card.Img src={videoShot} />
             </Card>
             <Card>
               <Card.Img src={Portfolio} />
             </Card>
+            
+          </div>
+          <div className="HomeContainer">
+           
             <Card>
               <Card.Img src={Makeovers} />
+            </Card>
+            <Card>
+              <Card.Img src={videoShot} style={{opacity:0}} />
+            </Card>
+            <Card>
+            <Card.Img src={videoShot} style={{opacity:0}} />
+
             </Card>
           </div>
         </>
@@ -77,29 +93,32 @@ const FirstSlide = (props) => {
             </div>
 
             <div className="HomeContainer">
+            <Card>
+                <Card.Img src={AppDesign} />
+              </Card>
               <Card>
                 <Card.Img src={Advertisement} />
               </Card>
-              <Card>
-                <Card.Img src={Photoshop} />
-              </Card>
+              
             </div>
 
             <div className="HomeContainer">
+            <Card>
+                <Card.Img src={Photoshop} />
+              </Card>
               <Card>
                 <Card.Img src={videoShot} />
               </Card>
-              <Card>
-                <Card.Img src={Portfolio} />
-              </Card>
+              
             </div>
             <div className="HomeContainer">
+            <Card>
+                <Card.Img src={Portfolio} />
+              </Card>
               <Card>
                 <Card.Img src={Makeovers} />
               </Card>
-              <Card>
-                <Card.Img style={{ backgroundColor: "white" }} />
-              </Card>
+              
             </div>
           </>
         </>

@@ -10,6 +10,7 @@ import SecondSlide from "../../Components/WorkForce/SecondSlide";
 import ThirdSlide from "../../Components/WorkForce/ThirdSlide";
 import FourthSlide from "../../Components/WorkForce/FouthSlide";
 import FifthSlide from "../../Components/WorkForce/FifthSlide"; 
+import SixthSlide from "../../Components/WorkForce/SixthSlide"; 
 
 function Gallery() {
   var settings = {
@@ -42,7 +43,7 @@ function Gallery() {
                 <FifthSlide/>
               </div>
               <div>
-                Sizth Slide
+                <SixthSlide/>
               </div>
             </Slider>
          </div>
