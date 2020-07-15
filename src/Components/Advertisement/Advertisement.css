@@ -10,20 +10,31 @@
         padding:10px 30px;
     }
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:510px){
     .AdvContent  {
         height: 120px;
+    }
+    .AdvContainer{
+        padding:0px 30px;
+    }
+    .ImgAdvContent{
+        height:100px !important;
+        width: 400px !important;
     }
 }
 @media screen and (max-width:375px){
     .AdvContainer{
-        padding:10px 40px;
+        padding:0px 40px;
+    }
+    .ImgAdvContent{
+        height:100px !important;
+        width: 300px !important;
     }
 }
 
 @media screen and (max-width:320px){
     .AdvContainer{
-        padding:10px 26px;
+        padding:0px 26px;
     }
 }
 

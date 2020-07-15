@@ -179,7 +179,8 @@ const Home = (props) => {
           </>
         </>
       )}
-      <Advertisement />
+        <Advertisement />
+
     </div>
   );
 };

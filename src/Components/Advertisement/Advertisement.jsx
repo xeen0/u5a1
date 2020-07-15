@@ -25,7 +25,7 @@ export default class Advertisement extends Component {
       infinite: true,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 2000,
       pauseOnHover: true,
       arrows:false
       
@@ -36,8 +36,8 @@ export default class Advertisement extends Component {
         <Slider {...settings}>
           { 
             img.map(val =>(
-              <div>
-                <img src={val}/>
+              <div className="AdvContent">
+                <img className="ImgAdvContent" src={val}/>
               </div>
             ))
           }
