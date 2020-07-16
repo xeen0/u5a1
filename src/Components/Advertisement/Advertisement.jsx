@@ -27,6 +27,7 @@ export default class Advertisement extends Component {
       autoplay: true,
       autoplaySpeed: 2000,
       pauseOnHover: true,
+      fade:true,
       arrows:false
       
     };
