@@ -20,6 +20,7 @@ import RegisteredPage from './Pages/RegisteredPage/RegisteredPage';
 import FineArts from './Components/FineArts/FineArts.jsx'
 import WorkShop from './Components/WorkShop/WorkShop';
 import IT from './Components/IT/IT';
+import GalleryPage from './Images/Gallery/GalleryPage';
 function App() {
   return (
     <>
@@ -28,6 +29,8 @@ function App() {
     <Header/>
       <Route exact path='/u5a1' component={Home}/>
       <Route exact path='/u5a1/Workforce' component={WorkForcePage}/>
+      <Route exact path='/u5a1/Gallery' component={GalleryPage}/>
+
       <Route exact path='/u5a1/Contact' component={ContactPage}/>
       <Route exact path='/u5a1/Training' component={Training}/>
       <Route exact path='/u5a1/Training/FineArts' component={FineArts}/>

@@ -13,7 +13,7 @@ import Download from "../../Images/download.svg";
 import About from "../../Images/SL about us.svg";
 import Gallery from "../../Images/SL gallery.svg";
 import uploadedFileLink from "../../Images/U5A.zip";
-
+import Testimonicals from "../../Images/SL testimonials.svg"
 import "./Home.css";
 import Advertisement from "../Advertisement/Advertisement";
 
@@ -39,7 +39,11 @@ const Home = (props) => {
                 src={Traning}
               />
             </Card>
-            <Card>
+            <Card 
+            onClick={() => {
+              props.history.push("/u5a1/Gallery");
+            }}
+            >
               <Card.Img src={Gallery} />
             </Card>
           </div>
@@ -84,6 +88,13 @@ const Home = (props) => {
               <Card.Img src={Feedback} />
             </Card>
             <Card
+             
+            >
+              <Card.Img src={Testimonicals} />
+            </Card>
+          </div>
+          <div className="HomeContainer">
+          <Card
               onClick={(e) => {
                 e.preventDefault();
                 window.location.href =
@@ -92,7 +103,16 @@ const Home = (props) => {
             >
               <Card.Img src={Infotainment} />
             </Card>
+            <Card>
+              <Card.Img style={{opacity:0}}src={Infotainment} />
+            </Card>
+            <Card>
+                <Card.Img style={{opacity:0}} src={Download} />
+            </Card>
+            
           </div>
+        <Advertisement />
+
         </>
       ) : (
         <>
@@ -115,7 +135,11 @@ const Home = (props) => {
               </Card>
             </div>
             <div className="HomeContainer">
-              <Card>
+              <Card 
+              onClick={() => {
+                props.history.push("/u5a1/Gallery");
+              }}
+              >
                 <Card.Img src={Gallery} />
               </Card>
 
@@ -163,6 +187,9 @@ const Home = (props) => {
               </Card>
             </div>
             <div className="HomeContainer">
+            <Card>
+                <Card.Img src={Testimonicals} />
+              </Card>
               <Card
                 onClick={(e) => {
                   e.preventDefault();
@@ -172,14 +199,11 @@ const Home = (props) => {
               >
                 <Card.Img src={Infotainment} />
               </Card>
-              <Card>
-                <Card.Img style={{ backgroundColor: "white" }} />
-              </Card>
+              
             </div>
           </>
         </>
       )}
-        <Advertisement />
 
     </div>
   );
