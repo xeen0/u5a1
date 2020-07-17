@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 // import Card from '../../Components/CardComponent/Card'
 import Card from "react-bootstrap/Card";
 import WorkForce from "../../Images/workforce.svg";
-import Traning from "../../Images/training.svg";
+import Traning from "../../Images/SL training.svg";
 import Infotainment from "../../Images/infotainment.svg";
 import Feedback from "../../Images/feedback.svg";
 import Contact from "../../Images/contact.svg";
