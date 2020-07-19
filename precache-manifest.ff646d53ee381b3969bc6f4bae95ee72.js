@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3268261609e905c6d9e15282ae4fdc3",
+    "revision": "75105ce27110ebea715a67bae62e926c",
     "url": "/u5a1/index.html"
   },
   {
-    "revision": "cca826ceceebd7ae7cf0",
+    "revision": "b2507b8253f9344752b9",
     "url": "/u5a1/static/css/2.816e474a.chunk.css"
   },
   {
-    "revision": "817c8f92ca717c805d76",
-    "url": "/u5a1/static/css/main.bf3f9955.chunk.css"
+    "revision": "4b37bbf69630808c6da2",
+    "url": "/u5a1/static/css/main.d0a6e1c8.chunk.css"
   },
   {
-    "revision": "cca826ceceebd7ae7cf0",
-    "url": "/u5a1/static/js/2.6de0c6c0.chunk.js"
+    "revision": "b2507b8253f9344752b9",
+    "url": "/u5a1/static/js/2.3b7c4d2c.chunk.js"
   },
   {
     "revision": "3e2359b7d39f4084b1a7f8f4938682a2",
-    "url": "/u5a1/static/js/2.6de0c6c0.chunk.js.LICENSE.txt"
+    "url": "/u5a1/static/js/2.3b7c4d2c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "817c8f92ca717c805d76",
-    "url": "/u5a1/static/js/main.60f47d6c.chunk.js"
+    "revision": "4b37bbf69630808c6da2",
+    "url": "/u5a1/static/js/main.fc37c6d0.chunk.js"
   },
   {
     "revision": "dbe43c5161c9a97c9a57",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 1 guitar.b22183c7.svg"
   },
   {
-    "revision": "120bebbbfcf01649adc0acba3080498e",
-    "url": "/u5a1/static/media/SL 1 images.120bebbb.svg"
+    "revision": "e7f09ab3b6a430b93a2ed396942c1769",
+    "url": "/u5a1/static/media/SL 1 images.e7f09ab3.svg"
   },
   {
     "revision": "f8fadee217949dfecdb26555590e66bf",
@@ -314,6 +314,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7391d2a38bb6fb5fe8a787e7286965c7",
     "url": "/u5a1/static/media/SL 4.7391d2a3.svg"
+  },
+  {
+    "revision": "acabf83dbd5e9ca66e439f947b4ca916",
+    "url": "/u5a1/static/media/SL 5 APFCC.acabf83d.svg"
   },
   {
     "revision": "7782bb21fad96b8539c9b10318f0dafb",
@@ -556,6 +560,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL MOD 6.4f9cf3ab.svg"
   },
   {
+    "revision": "d7226ba2265a00251778bb5c09a27a20",
+    "url": "/u5a1/static/media/SL a.d7226ba2.svg"
+  },
+  {
     "revision": "a009f7da2ba559cb00b6824805cdbfc5",
     "url": "/u5a1/static/media/SL about us.a009f7da.svg"
   },
@@ -564,8 +572,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL app design.da93c222.svg"
   },
   {
+    "revision": "b8e351cd9606b456370a6d9ae1136f8c",
+    "url": "/u5a1/static/media/SL b.b8e351cd.svg"
+  },
+  {
+    "revision": "880527d7c1d23e0a5c5e6714c49f262e",
+    "url": "/u5a1/static/media/SL c.880527d7.svg"
+  },
+  {
+    "revision": "bc2ef57952e2813121353eb0b36ba6e2",
+    "url": "/u5a1/static/media/SL d.bc2ef579.svg"
+  },
+  {
+    "revision": "c8d91ed5d07c7056a4fb07e64a4e49b0",
+    "url": "/u5a1/static/media/SL e.c8d91ed5.svg"
+  },
+  {
+    "revision": "cbd08ec3aa4fff7061506961aa9e90d1",
+    "url": "/u5a1/static/media/SL f.cbd08ec3.svg"
+  },
+  {
     "revision": "0de0d8e78ab1eccc0d41dfef4b72f17c",
     "url": "/u5a1/static/media/SL finearts.0de0d8e7.svg"
+  },
+  {
+    "revision": "8fde7a6500138108dd9985ebe6f8e2d6",
+    "url": "/u5a1/static/media/SL g.8fde7a65.svg"
   },
   {
     "revision": "aca33e996e72864e7b25f5c25d60d07a",
@@ -578,6 +610,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b0c747579b17880ee339718d64183a8",
     "url": "/u5a1/static/media/SL gpay.2b0c7475.svg"
+  },
+  {
+    "revision": "8fc5a0652ba56e8d9d4cf1905526e9a3",
+    "url": "/u5a1/static/media/SL h.8fc5a065.svg"
   },
   {
     "revision": "709f95cb5dfeb2d7a57a14191627bae8",
@@ -604,8 +640,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL sbi.15125a04.svg"
   },
   {
-    "revision": "7729cdaa792e55f0cd07f52ceb22690b",
-    "url": "/u5a1/static/media/SL testimonials.7729cdaa.svg"
+    "revision": "2c84700faacbf407c3fbc9844ef163e1",
+    "url": "/u5a1/static/media/SL testimonials.2c84700f.svg"
   },
   {
     "revision": "97958ba5489d1f39bcad4410e264d66f",
