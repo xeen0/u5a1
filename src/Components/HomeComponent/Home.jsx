@@ -201,6 +201,8 @@ const Home = (props) => {
               </Card>
               
             </div>
+            <Advertisement/>
+
           </>
         </>
       )}

@@ -42,7 +42,9 @@ export default class Advertisement extends Component {
       infinite: true,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4000,
+      // autoplaySpeed: 4000,
+      autoplaySpeed: 1000,
+      
       pauseOnHover: true,
       fade: true,
       speed: 10,
@@ -87,7 +89,7 @@ export default class Advertisement extends Component {
         <Slider {...settings}>
           {img.map((val) => (
             <div className="AdvContent">
-              <img className="ImgAdvContent" src={val} />
+              <img className="ImgAdvContentV" src={val} />
             </div>
           ))}
         </Slider>

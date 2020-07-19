@@ -20,7 +20,8 @@ import RegisteredPage from './Pages/RegisteredPage/RegisteredPage';
 import FineArts from './Components/FineArts/FineArts.jsx'
 import WorkShop from './Components/WorkShop/WorkShop';
 import IT from './Components/IT/IT';
-import GalleryPage from './Images/Gallery/GalleryPage';
+import GalleryPage from './Pages/Gallery/GalleryPage';
+import PhotosPage from './Components/Photos/PhotosPage';
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
       <Route exact path='/u5a1' component={Home}/>
       <Route exact path='/u5a1/Workforce' component={WorkForcePage}/>
       <Route exact path='/u5a1/Gallery' component={GalleryPage}/>
+      <Route exact path='/u5a1/Gallery/Photos' component={PhotosPage}/>
 
       <Route exact path='/u5a1/Contact' component={ContactPage}/>
       <Route exact path='/u5a1/Training' component={Training}/>
