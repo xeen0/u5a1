@@ -17,18 +17,19 @@ const RegisteredPage = () => {
           <>
          <div className="HomeContainerT">
          <Card style={{ width: "auto" }}>
+           <Card.Img src={estb} />
+         </Card>
+         <Card style={{ width: "auto" }}>
            <Card.Img src={CIN} />
          </Card>
          <Card style={{ width: "auto" }}>
            <Card.Img src={PAN} />
          </Card>
-         <Card style={{ width: "auto" }} t>
-           <Card.Img src={TAN} />
-         </Card>
+         
        </div>
        <div className="HomeContainerT">
-         <Card style={{ width: "auto" }}>
-           <Card.Img src={estb} />
+       <Card style={{ width: "auto" }} t>
+           <Card.Img src={TAN} />
          </Card>
          <Card style={{ width: "auto" }}>
            <Card.Img src={Reg} />
@@ -41,12 +42,13 @@ const RegisteredPage = () => {
         ) : (
           <>
           <div className="HomeContainerT">
+          <Card style={{ width: "auto", opacity: 0 }}>
+           <Card.Img src={estb} />
+         </Card>
          <Card style={{ width: "auto" }}>
            <Card.Img src={CIN} />
          </Card>
-         <Card style={{ width: "auto" }}>
-           <Card.Img src={PAN} />
-         </Card>
+        
        </div>
        <div className="HomeContainerT">
 
@@ -58,13 +60,13 @@ const RegisteredPage = () => {
          </Card>
          </div>
        <div className="HomeContainerT">
-
+       <Card style={{ width: "auto" }}>
+           <Card.Img src={PAN} />
+         </Card>
          <Card style={{ width: "auto" }}>
            <Card.Img src={Reg} />
          </Card>
-         <Card style={{ width: "auto", opacity: 0 }}>
-           <Card.Img src={estb} />
-         </Card>
+         
          </div>
          </>
         )}
