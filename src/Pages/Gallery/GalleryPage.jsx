@@ -27,6 +27,9 @@ function GalleryPage(props) {
             >
               <Card.Img  src={Infotainment} />
             </Card>
+            <Card style={{opacity:0}}>
+                <Card.Img src={videos} />
+              </Card>
             </div>
         </div>
     );
