@@ -3,6 +3,8 @@ import CardS from "../../Components/CardComponent/CardS";
 import Registered from "../../Images/SL 1.svg";
 import WE from "../../Images/SL 2.png"
 import Card from "react-bootstrap/Card";
+import Testimonicals from "../../Images/SL testimonials.svg"
+
 const AboutPage = (props) => {
   return (
     <div>
@@ -17,6 +19,11 @@ const AboutPage = (props) => {
               }}>
           <Card.Img src={WE} />
         </Card>
+        <Card
+             
+            >
+              <Card.Img src={Testimonicals} />
+            </Card>
       </div>
     </div>
   );

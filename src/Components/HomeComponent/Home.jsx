@@ -5,15 +5,13 @@ import { useMediaQuery } from "react-responsive";
 import Card from "react-bootstrap/Card";
 import WorkForce from "../../Images/workforce.svg";
 import Traning from "../../Images/SL training.svg";
-import Infotainment from "../../Images/infotainment.svg";
 import Feedback from "../../Images/feedback.svg";
 import Contact from "../../Images/contact.svg";
 import Pay from "../../Images/pay.svg";
 import Download from "../../Images/download.svg";
 import About from "../../Images/SL about us.svg";
 import Gallery from "../../Images/SL gallery.svg";
-import uploadedFileLink from "../../Images/U5A.zip";
-import Testimonicals from "../../Images/SL testimonials.svg"
+import uploadedFileLink from "../../Images/U5A.7z";
 import "./Home.css";
 import Advertisement from "../Advertisement/Advertisement";
 
@@ -88,29 +86,12 @@ const Home = (props) => {
               <Card.Img src={Feedback} />
             </Card>
             <Card
-             
+             style={{opacity:0}}
             >
-              <Card.Img src={Testimonicals} />
+              <Card.Img src={Feedback} />
             </Card>
           </div>
-          <div className="HomeContainer">
-          <Card
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href =
-                  "https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg";
-              }}
-            >
-              <Card.Img src={Infotainment} />
-            </Card>
-            <Card>
-              <Card.Img style={{opacity:0}}src={Infotainment} />
-            </Card>
-            <Card>
-                <Card.Img style={{opacity:0}} src={Download} />
-            </Card>
-            
-          </div>
+         
         <Advertisement />
 
         </>
@@ -186,21 +167,7 @@ const Home = (props) => {
                 <Card.Img src={Feedback} />
               </Card>
             </div>
-            <div className="HomeContainer">
-            <Card>
-                <Card.Img src={Testimonicals} />
-              </Card>
-              <Card
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href =
-                    "https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg";
-                }}
-              >
-                <Card.Img src={Infotainment} />
-              </Card>
-              
-            </div>
+           
             <Advertisement/>
 
           </>

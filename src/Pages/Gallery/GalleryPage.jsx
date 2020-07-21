@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 
 import videos from '../../Images/SL 2 videos.svg'
 import Images from '../../Images/SL 1 images.svg'
+import Infotainment from "../../Images/infotainment.svg";
 
 function GalleryPage(props) {
     return (
@@ -17,6 +18,15 @@ function GalleryPage(props) {
               <Card>
                 <Card.Img src={videos} />
               </Card>
+              <Card
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg";
+              }}
+            >
+              <Card.Img  src={Infotainment} />
+            </Card>
             </div>
         </div>
     );

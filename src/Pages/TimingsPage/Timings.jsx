@@ -1,15 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import T1 from "../../Images/SL MOD 1.svg";
-import T2 from "../../Images/SL MOD 2.svg";
-import T3 from "../../Images/SL MOD 3.svg";
-import T4 from "../../Images/SL MOD 4.svg";
-import T5 from "../../Images/SL MOD 5.svg";
-import T6 from "../../Images/SL MOD 6.svg";
-import regClss from '../../Images/SL 7.svg';
-import musInst from '../../Images/SL 8.svg';
-import drwapnt from '../../Images/SL 9.svg';
-import Header from "../../Components/HeaderComponent/Header";
+import T1 from "../../Images/Timmings/Running timming/SL MOD 1.svg";
+import T2 from "../../Images/Timmings/Running timming/SL MOD 2.svg";
+import T3 from "../../Images/Timmings/Running timming/SL MOD 3.svg";
+import T4 from "../../Images/Timmings/Running timming/SL MOD 4.svg";
+import T5 from "../../Images/Timmings/Running timming/SL MOD 5.svg";
+// import T6 from "../../Images/Timmings/Running timming/SL MOD 6.svg";
+
 
 const Timings = () => {
   return (
@@ -38,8 +35,8 @@ const Timings = () => {
           <Card.Img src={T5} />
         </Card>
         
-        <Card className="cardT">
-          <Card.Img src={T6} />
+        <Card className="cardT" style={{opacity:0}}>
+          <Card.Img src={T5} />
         </Card>
       </div>
  
