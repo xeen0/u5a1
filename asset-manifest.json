@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/u5a1/static/css/main.d0a6e1c8.chunk.css",
-    "main.js": "/u5a1/static/js/main.e452a428.chunk.js",
-    "main.js.map": "/u5a1/static/js/main.e452a428.chunk.js.map",
+    "main.js": "/u5a1/static/js/main.f7977a4c.chunk.js",
+    "main.js.map": "/u5a1/static/js/main.f7977a4c.chunk.js.map",
     "runtime-main.js": "/u5a1/static/js/runtime-main.c8715bc6.js",
     "runtime-main.js.map": "/u5a1/static/js/runtime-main.c8715bc6.js.map",
     "static/css/2.816e474a.chunk.css": "/u5a1/static/css/2.816e474a.chunk.css",
-    "static/js/2.0b551386.chunk.js": "/u5a1/static/js/2.0b551386.chunk.js",
-    "static/js/2.0b551386.chunk.js.map": "/u5a1/static/js/2.0b551386.chunk.js.map",
+    "static/js/2.95719709.chunk.js": "/u5a1/static/js/2.95719709.chunk.js",
+    "static/js/2.95719709.chunk.js.map": "/u5a1/static/js/2.95719709.chunk.js.map",
     "index.html": "/u5a1/index.html",
-    "precache-manifest.d686f6dcfefc0822fb9f5bd482fb8b3c.js": "/u5a1/precache-manifest.d686f6dcfefc0822fb9f5bd482fb8b3c.js",
+    "precache-manifest.7dd74085e2a12ed75ef5f5f47c2d84f7.js": "/u5a1/precache-manifest.7dd74085e2a12ed75ef5f5f47c2d84f7.js",
     "service-worker.js": "/u5a1/service-worker.js",
     "static/css/2.816e474a.chunk.css.map": "/u5a1/static/css/2.816e474a.chunk.css.map",
     "static/css/main.d0a6e1c8.chunk.css.map": "/u5a1/static/css/main.d0a6e1c8.chunk.css.map",
-    "static/js/2.0b551386.chunk.js.LICENSE.txt": "/u5a1/static/js/2.0b551386.chunk.js.LICENSE.txt",
+    "static/js/2.95719709.chunk.js.LICENSE.txt": "/u5a1/static/js/2.95719709.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/u5a1/static/media/1 SL call.f016dcb4.svg",
     "static/media/2 SL SMS.svg": "/u5a1/static/media/2 SL SMS.910a495e.svg",
     "static/media/3 SL whatsapp.svg": "/u5a1/static/media/3 SL whatsapp.014e5fae.svg",
@@ -59,6 +59,7 @@
     "static/media/SL 3 choreography.svg": "/u5a1/static/media/SL 3 choreography.abd0457b.svg",
     "static/media/SL 3 communication skills.svg": "/u5a1/static/media/SL 3 communication skills.2d207d10.svg",
     "static/media/SL 3 documentary.svg": "/u5a1/static/media/SL 3 documentary.3a3dad9d.svg",
+    "static/media/SL 3 facebook.svg": "/u5a1/static/media/SL 3 facebook.5ff89d73.svg",
     "static/media/SL 3 graphic design.svg": "/u5a1/static/media/SL 3 graphic design.f8c8621c.svg",
     "static/media/SL 3 presentation.svg": "/u5a1/static/media/SL 3 presentation.464ec6fa.svg",
     "static/media/SL 3 qa and qc.svg": "/u5a1/static/media/SL 3 qa and qc.b53a2f3a.svg",
@@ -165,8 +166,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8715bc6.js",
     "static/css/2.816e474a.chunk.css",
-    "static/js/2.0b551386.chunk.js",
+    "static/js/2.95719709.chunk.js",
     "static/css/main.d0a6e1c8.chunk.css",
-    "static/js/main.e452a428.chunk.js"
+    "static/js/main.f7977a4c.chunk.js"
   ]
 }
