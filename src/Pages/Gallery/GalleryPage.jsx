@@ -1,12 +1,16 @@
 import React from 'react';
 
 import Card from 'react-bootstrap/Card'
+import { useMediaQuery } from "react-responsive";
+
 
 import videos from '../../Images/SL 2 videos.svg'
 import Images from '../../Images/SL 1 images.svg'
 import Infotainment from "../../Images/infotainment.svg";
-
+import Achivements from "../../Images/SL 5 achievements.svg"
 function GalleryPage(props) {
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 605px)" });
+
     return (
         <div>
             <div className="HomeContainer">
@@ -18,7 +22,11 @@ function GalleryPage(props) {
               <Card>
                 <Card.Img src={videos} />
               </Card>
-              <Card
+              <Card >
+                <Card.Img src={Achivements} />
+              </Card>
+
+              { isTabletOrMobile?<Card
               onClick={(e) => {
                 e.preventDefault();
                 window.location.href =
@@ -26,8 +34,25 @@ function GalleryPage(props) {
               }}
             >
               <Card.Img  src={Infotainment} />
-            </Card>
+            </Card>:<></>}
+            
+            </div>
+            <div className="HomeContainer">
+              
+              
+              { !isTabletOrMobile?<Card
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg";
+              }}
+            >
+              <Card.Img  src={Infotainment} />
+            </Card>:<></>}
             <Card style={{opacity:0}}>
+                <Card.Img src={Images} />
+              </Card>
+              <Card style={{opacity:0}}>
                 <Card.Img src={videos} />
               </Card>
             </div>
