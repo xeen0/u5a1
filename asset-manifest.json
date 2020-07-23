@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/u5a1/static/css/main.d0a6e1c8.chunk.css",
-    "main.js": "/u5a1/static/js/main.f7977a4c.chunk.js",
-    "main.js.map": "/u5a1/static/js/main.f7977a4c.chunk.js.map",
+    "main.js": "/u5a1/static/js/main.2c52f8da.chunk.js",
+    "main.js.map": "/u5a1/static/js/main.2c52f8da.chunk.js.map",
     "runtime-main.js": "/u5a1/static/js/runtime-main.c8715bc6.js",
     "runtime-main.js.map": "/u5a1/static/js/runtime-main.c8715bc6.js.map",
     "static/css/2.816e474a.chunk.css": "/u5a1/static/css/2.816e474a.chunk.css",
-    "static/js/2.95719709.chunk.js": "/u5a1/static/js/2.95719709.chunk.js",
-    "static/js/2.95719709.chunk.js.map": "/u5a1/static/js/2.95719709.chunk.js.map",
+    "static/js/2.d2113cc0.chunk.js": "/u5a1/static/js/2.d2113cc0.chunk.js",
+    "static/js/2.d2113cc0.chunk.js.map": "/u5a1/static/js/2.d2113cc0.chunk.js.map",
     "index.html": "/u5a1/index.html",
-    "precache-manifest.7dd74085e2a12ed75ef5f5f47c2d84f7.js": "/u5a1/precache-manifest.7dd74085e2a12ed75ef5f5f47c2d84f7.js",
+    "precache-manifest.cb30bda47c9a7f3c871f309e58662e0d.js": "/u5a1/precache-manifest.cb30bda47c9a7f3c871f309e58662e0d.js",
     "service-worker.js": "/u5a1/service-worker.js",
     "static/css/2.816e474a.chunk.css.map": "/u5a1/static/css/2.816e474a.chunk.css.map",
     "static/css/main.d0a6e1c8.chunk.css.map": "/u5a1/static/css/main.d0a6e1c8.chunk.css.map",
-    "static/js/2.95719709.chunk.js.LICENSE.txt": "/u5a1/static/js/2.95719709.chunk.js.LICENSE.txt",
+    "static/js/2.d2113cc0.chunk.js.LICENSE.txt": "/u5a1/static/js/2.d2113cc0.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/u5a1/static/media/1 SL call.f016dcb4.svg",
     "static/media/2 SL SMS.svg": "/u5a1/static/media/2 SL SMS.910a495e.svg",
     "static/media/3 SL whatsapp.svg": "/u5a1/static/media/3 SL whatsapp.014e5fae.svg",
@@ -73,8 +73,10 @@
     "static/media/SL 4 video album.svg": "/u5a1/static/media/SL 4 video album.0ba1ae24.svg",
     "static/media/SL 4 web design.svg": "/u5a1/static/media/SL 4 web design.c612cbbb.svg",
     "static/media/SL 4 web development.svg": "/u5a1/static/media/SL 4 web development.365ffdd5.svg",
+    "static/media/SL 4 works.svg": "/u5a1/static/media/SL 4 works.1dabfd38.svg",
     "static/media/SL 4.svg": "/u5a1/static/media/SL 4.7391d2a3.svg",
     "static/media/SL 5 APFCC.svg": "/u5a1/static/media/SL 5 APFCC.acabf83d.svg",
+    "static/media/SL 5 achievements.svg": "/u5a1/static/media/SL 5 achievements.0bbc5238.svg",
     "static/media/SL 5 advertisements.svg": "/u5a1/static/media/SL 5 advertisements.7782bb21.svg",
     "static/media/SL 5 animation 3d.svg": "/u5a1/static/media/SL 5 animation 3d.333c7c9d.svg",
     "static/media/SL 5 app development.svg": "/u5a1/static/media/SL 5 app development.4939ad4a.svg",
@@ -85,6 +87,7 @@
     "static/media/SL 5 feature film.svg": "/u5a1/static/media/SL 5 feature film.213bd906.svg",
     "static/media/SL 5 singing or orchestra.svg": "/u5a1/static/media/SL 5 singing or orchestra.2d125b92.svg",
     "static/media/SL 5.svg": "/u5a1/static/media/SL 5.e2fdcb04.svg",
+    "static/media/SL 6 clients.svg": "/u5a1/static/media/SL 6 clients.c31bc85a.svg",
     "static/media/SL 6 digital marketing.svg": "/u5a1/static/media/SL 6 digital marketing.8be2035b.svg",
     "static/media/SL 6 dj sound system.svg": "/u5a1/static/media/SL 6 dj sound system.61e59626.svg",
     "static/media/SL 6 film making.svg": "/u5a1/static/media/SL 6 film making.81f67a40.svg",
@@ -93,6 +96,7 @@
     "static/media/SL 6 video editing.svg": "/u5a1/static/media/SL 6 video editing.68b08040.svg",
     "static/media/SL 6 virtual reality.svg": "/u5a1/static/media/SL 6 virtual reality.c040749b.svg",
     "static/media/SL 6.svg": "/u5a1/static/media/SL 6.db8dd6f5.svg",
+    "static/media/SL 7 collaborations.svg": "/u5a1/static/media/SL 7 collaborations.2842214e.svg",
     "static/media/SL 7 graphics.svg": "/u5a1/static/media/SL 7 graphics.158f2e6e.svg",
     "static/media/SL 7 interior design.svg": "/u5a1/static/media/SL 7 interior design.70091752.svg",
     "static/media/SL 7 lighting systems.svg": "/u5a1/static/media/SL 7 lighting systems.b71ca601.svg",
@@ -166,8 +170,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8715bc6.js",
     "static/css/2.816e474a.chunk.css",
-    "static/js/2.95719709.chunk.js",
+    "static/js/2.d2113cc0.chunk.js",
     "static/css/main.d0a6e1c8.chunk.css",
-    "static/js/main.f7977a4c.chunk.js"
+    "static/js/main.2c52f8da.chunk.js"
   ]
 }

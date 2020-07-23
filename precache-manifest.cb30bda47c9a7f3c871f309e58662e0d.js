@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75d6271de70ae74af956dabc1cf3dae7",
+    "revision": "95b62864799bb93229e458645dd37302",
     "url": "/u5a1/index.html"
   },
   {
-    "revision": "e07f46e8b37cb2fe8acf",
+    "revision": "dcded8d0943e68d45937",
     "url": "/u5a1/static/css/2.816e474a.chunk.css"
   },
   {
-    "revision": "fc628960b457ba1d910f",
+    "revision": "bd3756fb9272b89cdd4d",
     "url": "/u5a1/static/css/main.d0a6e1c8.chunk.css"
   },
   {
-    "revision": "e07f46e8b37cb2fe8acf",
-    "url": "/u5a1/static/js/2.95719709.chunk.js"
+    "revision": "dcded8d0943e68d45937",
+    "url": "/u5a1/static/js/2.d2113cc0.chunk.js"
   },
   {
     "revision": "3e2359b7d39f4084b1a7f8f4938682a2",
-    "url": "/u5a1/static/js/2.95719709.chunk.js.LICENSE.txt"
+    "url": "/u5a1/static/js/2.d2113cc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc628960b457ba1d910f",
-    "url": "/u5a1/static/js/main.f7977a4c.chunk.js"
+    "revision": "bd3756fb9272b89cdd4d",
+    "url": "/u5a1/static/js/main.2c52f8da.chunk.js"
   },
   {
     "revision": "dbe43c5161c9a97c9a57",
@@ -312,6 +312,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 4 web development.365ffdd5.svg"
   },
   {
+    "revision": "1dabfd38fe4c79bd363ed8b49e5a59b0",
+    "url": "/u5a1/static/media/SL 4 works.1dabfd38.svg"
+  },
+  {
     "revision": "24688e1003e2cbaadeab7ad0cf16ab6a",
     "url": "/u5a1/static/media/SL 4.24688e10.svg"
   },
@@ -322,6 +326,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "acabf83dbd5e9ca66e439f947b4ca916",
     "url": "/u5a1/static/media/SL 5 APFCC.acabf83d.svg"
+  },
+  {
+    "revision": "0bbc523814e70535378a32941f460949",
+    "url": "/u5a1/static/media/SL 5 achievements.0bbc5238.svg"
   },
   {
     "revision": "7782bb21fad96b8539c9b10318f0dafb",
@@ -368,6 +376,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL 5.e2fdcb04.svg"
   },
   {
+    "revision": "c31bc85aa6ea1521e4386bb712697545",
+    "url": "/u5a1/static/media/SL 6 clients.c31bc85a.svg"
+  },
+  {
     "revision": "8be2035bcafa57f4fda45745ff80ab24",
     "url": "/u5a1/static/media/SL 6 digital marketing.8be2035b.svg"
   },
@@ -402,6 +414,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "db8dd6f553182fbf57e072c9832b28dc",
     "url": "/u5a1/static/media/SL 6.db8dd6f5.svg"
+  },
+  {
+    "revision": "2842214e8cbbf5cf9f928d6ac33410a0",
+    "url": "/u5a1/static/media/SL 7 collaborations.2842214e.svg"
   },
   {
     "revision": "158f2e6e9edaa5605377c28d6157836e",
