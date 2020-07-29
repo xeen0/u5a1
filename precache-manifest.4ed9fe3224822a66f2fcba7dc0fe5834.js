@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4c353ed7bb283f278642f48db792159",
+    "revision": "cf230411f3b0df03225b49c472909c9f",
     "url": "/u5a1/index.html"
   },
   {
-    "revision": "3e78c0a9a745621be8b3",
+    "revision": "27b7c3ea698410e1fe09",
     "url": "/u5a1/static/css/2.816e474a.chunk.css"
   },
   {
-    "revision": "6eea74f6a0d9e52c0664",
-    "url": "/u5a1/static/css/main.d0a6e1c8.chunk.css"
+    "revision": "25a2d985ac8d364f358e",
+    "url": "/u5a1/static/css/main.047dbaa9.chunk.css"
   },
   {
-    "revision": "3e78c0a9a745621be8b3",
-    "url": "/u5a1/static/js/2.13548ae7.chunk.js"
+    "revision": "27b7c3ea698410e1fe09",
+    "url": "/u5a1/static/js/2.01dbfec8.chunk.js"
   },
   {
     "revision": "3e2359b7d39f4084b1a7f8f4938682a2",
-    "url": "/u5a1/static/js/2.13548ae7.chunk.js.LICENSE.txt"
+    "url": "/u5a1/static/js/2.01dbfec8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6eea74f6a0d9e52c0664",
-    "url": "/u5a1/static/js/main.4a1e5978.chunk.js"
+    "revision": "25a2d985ac8d364f358e",
+    "url": "/u5a1/static/js/main.a9c1fe9f.chunk.js"
   },
   {
     "revision": "dbe43c5161c9a97c9a57",
@@ -628,6 +628,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/u5a1/static/media/SL gpay.2b0c7475.svg"
   },
   {
+    "revision": "df8d1a06b63831ed623f9d5c323b377b",
+    "url": "/u5a1/static/media/SL graphic design.df8d1a06.svg"
+  },
+  {
     "revision": "8fc5a0652ba56e8d9d4cf1905526e9a3",
     "url": "/u5a1/static/media/SL h.8fc5a065.svg"
   },
@@ -646,6 +650,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e66501013f5606c52f90601d899b717f",
     "url": "/u5a1/static/media/SL phonepe.e6650101.svg"
+  },
+  {
+    "revision": "15d7ab33a84f3d5d63ea45a923a43ef1",
+    "url": "/u5a1/static/media/SL photography.15d7ab33.jpg"
   },
   {
     "revision": "2c6d75e0dfe6112262961f54338faa13",
@@ -674,10 +682,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a7ef7f66bf37702f70e1c83bde53886e",
     "url": "/u5a1/static/media/SL workshops.a7ef7f66.svg"
-  },
-  {
-    "revision": "dadb24eca0e0ffe1ebfcd08a485339ca",
-    "url": "/u5a1/static/media/SL-1.dadb24ec.png"
   },
   {
     "revision": "baa358e9bb8d3d26d15af76a574b857c",
