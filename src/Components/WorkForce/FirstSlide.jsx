@@ -5,7 +5,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import "./modal.css";
 import gdp from "../../Images/PopUps/SL graphic design.svg";
-import GD from "../../Images/PopUps/SL photography.jpg";
+import GD from "../../Images/PopUps/SL graphic design.png";
 import CreativeVisulization from "../../Images/SL 1 creative visualisation.svg";
 import VisualMerchandise from "../../Images/SL 2 visual merchandise.svg";
 import GraphicDesign from "../../Images/SL 3 graphic design.svg";
