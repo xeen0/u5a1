@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/u5a1/static/css/main.047dbaa9.chunk.css",
-    "main.js": "/u5a1/static/js/main.bdbb78b5.chunk.js",
-    "main.js.map": "/u5a1/static/js/main.bdbb78b5.chunk.js.map",
+    "main.js": "/u5a1/static/js/main.2765527d.chunk.js",
+    "main.js.map": "/u5a1/static/js/main.2765527d.chunk.js.map",
     "runtime-main.js": "/u5a1/static/js/runtime-main.c8715bc6.js",
     "runtime-main.js.map": "/u5a1/static/js/runtime-main.c8715bc6.js.map",
     "static/css/2.816e474a.chunk.css": "/u5a1/static/css/2.816e474a.chunk.css",
-    "static/js/2.8eb904b2.chunk.js": "/u5a1/static/js/2.8eb904b2.chunk.js",
-    "static/js/2.8eb904b2.chunk.js.map": "/u5a1/static/js/2.8eb904b2.chunk.js.map",
+    "static/js/2.f2659094.chunk.js": "/u5a1/static/js/2.f2659094.chunk.js",
+    "static/js/2.f2659094.chunk.js.map": "/u5a1/static/js/2.f2659094.chunk.js.map",
     "index.html": "/u5a1/index.html",
-    "precache-manifest.57c6f6d3fb1fb27751dba1e2974512b4.js": "/u5a1/precache-manifest.57c6f6d3fb1fb27751dba1e2974512b4.js",
+    "precache-manifest.a754f300fc161767022377513c1bfaa1.js": "/u5a1/precache-manifest.a754f300fc161767022377513c1bfaa1.js",
     "service-worker.js": "/u5a1/service-worker.js",
     "static/css/2.816e474a.chunk.css.map": "/u5a1/static/css/2.816e474a.chunk.css.map",
     "static/css/main.047dbaa9.chunk.css.map": "/u5a1/static/css/main.047dbaa9.chunk.css.map",
-    "static/js/2.8eb904b2.chunk.js.LICENSE.txt": "/u5a1/static/js/2.8eb904b2.chunk.js.LICENSE.txt",
+    "static/js/2.f2659094.chunk.js.LICENSE.txt": "/u5a1/static/js/2.f2659094.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/u5a1/static/media/1 SL call.f016dcb4.svg",
     "static/media/2 SL SMS.svg": "/u5a1/static/media/2 SL SMS.910a495e.svg",
     "static/media/3 SL whatsapp.svg": "/u5a1/static/media/3 SL whatsapp.014e5fae.svg",
@@ -162,7 +162,6 @@
     "static/media/download.svg": "/u5a1/static/media/download.024a1091.svg",
     "static/media/feedback.svg": "/u5a1/static/media/feedback.cb7bb269.svg",
     "static/media/infotainment.svg": "/u5a1/static/media/infotainment.03a3beae.svg",
-    "static/media/logo.svg": "/u5a1/static/media/logo.5d5d9eef.svg",
     "static/media/mail.svg": "/u5a1/static/media/mail.cef8d2fe.svg",
     "static/media/pay.svg": "/u5a1/static/media/pay.611e7dcb.svg",
     "static/media/pictorial_logo.svg": "/u5a1/static/media/pictorial_logo.6f1c86ee.svg",
@@ -172,8 +171,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8715bc6.js",
     "static/css/2.816e474a.chunk.css",
-    "static/js/2.8eb904b2.chunk.js",
+    "static/js/2.f2659094.chunk.js",
     "static/css/main.047dbaa9.chunk.css",
-    "static/js/main.bdbb78b5.chunk.js"
+    "static/js/main.2765527d.chunk.js"
   ]
 }
