@@ -42,7 +42,7 @@ export default class Advertisement extends Component {
       infinite: true,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 2000,
       // autoplaySpeed: 1000,
       
       pauseOnHover: true,

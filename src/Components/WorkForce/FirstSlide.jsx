@@ -4,8 +4,9 @@ import { useMediaQuery } from "react-responsive";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import "./modal.css";
-import gdp from "../../Images/PopUps/SL graphic design.svg";
-import GD from "../../Images/PopUps/SL graphic design.png";
+// import gdp from "../../Images/PopUps/SL graphic design.svg";
+import GD from "../../Images/PopUps/SL graphic design.svg";
+import PG from "../../Images/PopUps/SL photography.svg"
 import CreativeVisulization from "../../Images/SL 1 creative visualisation.svg";
 import VisualMerchandise from "../../Images/SL 2 visual merchandise.svg";
 import GraphicDesign from "../../Images/SL 3 graphic design.svg";
@@ -51,7 +52,7 @@ const FirstSlide = (props) => {
             </Card>
             <Card
               onClick={async () => {
-               await setHeadTitle("GraphicDesign");
+               await setHeadTitle("Graphic Design");
                await setImg(GD);
                await setModalShow(true);
               }}
@@ -73,7 +74,12 @@ const FirstSlide = (props) => {
           </div>
 
           <div className="HomeContainer">
-            <Card>
+            <Card onClick={async () => {
+               await setHeadTitle("Photography");
+               await setImg(PG);
+               await setModalShow(true);
+              }}
+            >
               <Card.Img src={Photoshop} />
             </Card>
             <Card>
@@ -108,7 +114,7 @@ const FirstSlide = (props) => {
             </div>
             <div className="HomeContainer">
               <Card onClick={async () => {
-               await setHeadTitle("GraphicDesign");
+               await setHeadTitle("Graphic Design");
                await setImg(GD);
                await setModalShow(true);
               }}>
@@ -130,7 +136,13 @@ const FirstSlide = (props) => {
             </div>
 
             <div className="HomeContainer">
-              <Card>
+              <Card 
+              onClick={async () => {
+                await setHeadTitle("Photography");
+                await setImg(PG);
+                await setModalShow(true);
+               }}
+              >
                 <Card.Img src={Photoshop} />
               </Card>
               <Card>

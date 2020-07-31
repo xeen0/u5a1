@@ -42,7 +42,7 @@ const RegisteredPage = () => {
         ) : (
           <>
           <div className="HomeContainerT">
-          <Card style={{ width: "auto", opacity: 0 }}>
+          <Card style={{ width: "auto" }}>
            <Card.Img src={estb} />
          </Card>
          <Card style={{ width: "auto" }}>
@@ -53,17 +53,17 @@ const RegisteredPage = () => {
        <div className="HomeContainerT">
 
          <Card style={{ width: "auto" }} t>
-           <Card.Img src={TAN} />
+           <Card.Img src={PAN} />
          </Card>
          <Card style={{ width: "auto" }}>
-           <Card.Img src={estb} />
+           <Card.Img src={TAN} />
          </Card>
          </div>
        <div className="HomeContainerT">
        <Card style={{ width: "auto" }}>
-           <Card.Img src={PAN} />
+           <Card.Img src={Reg} />
          </Card>
-         <Card style={{ width: "auto" }}>
+         <Card style={{ width: "auto",opacity:0 }}>
            <Card.Img src={Reg} />
          </Card>
          

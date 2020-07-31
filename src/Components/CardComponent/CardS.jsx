@@ -16,7 +16,7 @@ const CardS = (
   return (
     <div
       onClick={(e) => {
-        if (click == "false" || click != "true") {
+        if (  click != "falsea" && click!="true") {
           e.preventDefault();
           window.location.href = click;
         }
