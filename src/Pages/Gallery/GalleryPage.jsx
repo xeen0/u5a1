@@ -31,8 +31,7 @@ function GalleryPage(props) {
               { isTabletOrMobile?<Card
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href =
-                  "https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg";
+                window.open("https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg", "_blank")
               }}
             >
               <Card.Img  src={Infotainment} />
@@ -45,8 +44,8 @@ function GalleryPage(props) {
               { !isTabletOrMobile?<Card
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href =
-                  "https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg";
+                window.open("https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg", "_blank")
+
               }}
             >
               <Card.Img  src={Infotainment} />

@@ -18,7 +18,8 @@ const CardS = (
       onClick={(e) => {
         if (  click != "falsea" && click!="true") {
           e.preventDefault();
-          window.location.href = click;
+          window.open(click, "_blank")
+
         }
       }}
     >
