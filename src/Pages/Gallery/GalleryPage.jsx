@@ -17,7 +17,7 @@ function GalleryPage(props) {
         <div>
             <div className="HomeContainer">
               <Card onClick={() => {
-                  props.history.push("/u5a1/Gallery/Photos");
+                  props.history.push("/Gallery/Photos");
                 }}>
                 <Card.Img src={Images} />
               </Card>

@@ -23,13 +23,17 @@ const AboutPage = (props) => {
       <div className="HomeContainerT">
         <Card
           onClick={() => {
-            props.history.push("/u5a1/About/Registered");
+            // props.history.push("/About/Registered");
+            props.history.push("/About/Registered");
+          
           }}
         >
           <Card.Img src={Registered} />
         </Card>
         <Card  onClick={() => {
-          props.history.push("/u5a1/About/WE");
+          // props.history.push("//About/WE");
+          props.history.push("/About/WE");
+
         }}>
           <Card.Img src={WE} />
         </Card>
@@ -54,7 +58,7 @@ const AboutPage = (props) => {
         </Card>
         <Card 
          onClick={() => {
-          props.history.push("/u5a1/About/Expertise");
+          props.history.push("/About/Expertise");
         }}
          >
           <Card.Img src={Expert} />
@@ -68,14 +72,14 @@ const AboutPage = (props) => {
     <div className="HomeContainerT">
         <Card
           onClick={() => {
-            props.history.push("/u5a1/About/Registered");
+            props.history.push("/About/Registered");
           }}
         >
           <Card.Img src={Registered} />
         </Card>
         <Card
         onClick={() => {
-          props.history.push("/u5a1/About/WE");
+          props.history.push("/About/WE");
         }}
         >
           <Card.Img src={WE} />
@@ -104,7 +108,7 @@ const AboutPage = (props) => {
         </Card>
         <Card 
         onClick={() => {
-          props.history.push("/u5a1/About/Expertise");
+          props.history.push("/About/Expertise");
         }}
         >
           <Card.Img src={Expert} />

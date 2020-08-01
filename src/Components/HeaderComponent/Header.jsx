@@ -13,14 +13,14 @@ const Header = (props) => {
       <img
         src={PictorialLogo}
         onClick={() => {
-          props.history.push("/u5a1");
+          props.history.push("/");
         }}
         className="HeaderImage"
       />
       <img
         src={U5A}
         onClick={() => {
-          props.history.push("/u5a1");
+          props.history.push("/");
         }}
         className="HeaderImage"
       />

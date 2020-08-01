@@ -16,17 +16,17 @@ function Training(props) {
     <div className='HomeContainerT' >
       <Card>
         <Card.Img src={FineArts} onClick={() => {
-          props.history.push("/u5a1/Training/FineArts");
+          props.history.push("/Training/FineArts");
         }} />
       </Card>
       <Card>
         <Card.Img src={WorkShop} onClick={() => {
-          props.history.push("/u5a1/Training/Workshop");
+          props.history.push("/Training/Workshop");
         }} />
       </Card>
       <Card>
         <Card.Img src={IT} onClick={() => {
-          props.history.push("/u5a1/Training/IT");
+          props.history.push("/Training/IT");
         }} />
       </Card>
       {

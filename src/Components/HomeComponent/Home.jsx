@@ -24,7 +24,7 @@ const Home = (props) => {
           <div className="HomeContainer">
             <Card
               onClick={() => {
-                props.history.push("/u5a1/Workforce");
+                props.history.push("/Workforce");
               }}
             >
               <Card.Img src={WorkForce} />
@@ -32,14 +32,14 @@ const Home = (props) => {
             <Card>
               <Card.Img
                 onClick={() => {
-                  props.history.push("/u5a1/Training");
+                  props.history.push("/Training");
                 }}
                 src={Traning}
               />
             </Card>
             <Card 
             onClick={() => {
-              props.history.push("/u5a1/Gallery");
+              props.history.push("/Gallery");
             }}
             >
               <Card.Img src={Gallery} />
@@ -49,7 +49,7 @@ const Home = (props) => {
           <div className="HomeContainer">
             <Card
               onClick={() => {
-                props.history.push("/u5a1/About");
+                props.history.push("/About");
               }}
             >
               <Card.Img src={About} />
@@ -57,7 +57,7 @@ const Home = (props) => {
             <Card>
               <Card.Img
                 onClick={() => {
-                  props.history.push("/u5a1/Contact");
+                  props.history.push("/Contact");
                 }}
                 src={Contact}
               />
@@ -65,7 +65,7 @@ const Home = (props) => {
             <Card>
               <Card.Img
                 onClick={() => {
-                  props.history.push("/u5a1/Pay");
+                  props.history.push("/Pay");
                 }}
                 src={Pay}
               />
@@ -101,7 +101,7 @@ const Home = (props) => {
             <div className="HomeContainer">
               <Card
                 onClick={() => {
-                  props.history.push("/u5a1/Workforce");
+                  props.history.push("/Workforce");
                 }}
               >
                 <Card.Img src={WorkForce} />
@@ -109,7 +109,7 @@ const Home = (props) => {
               <Card>
                 <Card.Img
                   onClick={() => {
-                    props.history.push("/u5a1/Training");
+                    props.history.push("/Training");
                   }}
                   src={Traning}
                 />
@@ -118,7 +118,7 @@ const Home = (props) => {
             <div className="HomeContainer">
               <Card 
               onClick={() => {
-                props.history.push("/u5a1/Gallery");
+                props.history.push("/Gallery");
               }}
               >
                 <Card.Img src={Gallery} />
@@ -126,7 +126,7 @@ const Home = (props) => {
 
               <Card
                 onClick={() => {
-                  props.history.push("/u5a1/About");
+                  props.history.push("/About");
                 }}
               >
                 <Card.Img src={About} />
@@ -137,7 +137,7 @@ const Home = (props) => {
               <Card>
                 <Card.Img
                   onClick={() => {
-                    props.history.push("/u5a1/Contact");
+                    props.history.push("/Contact");
                   }}
                   src={Contact}
                 />
@@ -145,7 +145,7 @@ const Home = (props) => {
               <Card>
                 <Card.Img
                   onClick={() => {
-                    props.history.push("/u5a1/Pay");
+                    props.history.push("/Pay");
                   }}
                   src={Pay}
                 />
