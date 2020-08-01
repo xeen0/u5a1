@@ -9,6 +9,8 @@ import Facebook from "../../Images/SL 3 facebook.svg";
 import Work from "../../Images/SL 4 works.svg";
 import clients from "../../Images/SL 6 clients.svg";
 import Collabaration from "../../Images/SL 7 collaborations.svg";
+import Expert from '../../Images/SL expertise.svg'
+import Care from  '../../Images/SL care.svg'
 import { useMediaQuery } from "react-responsive";
 
 
@@ -26,7 +28,9 @@ const AboutPage = (props) => {
         >
           <Card.Img src={Registered} />
         </Card>
-        <Card>
+        <Card  onClick={() => {
+          props.history.push("/u5a1/About/WE");
+        }}>
           <Card.Img src={WE} />
         </Card>
         <Card>
@@ -48,11 +52,15 @@ const AboutPage = (props) => {
         <Card>
           <Card.Img src={Testimonicals} />
         </Card>
-        <Card style={{opacity:0}}>
-          <Card.Img src={clients} />
+        <Card 
+         onClick={() => {
+          props.history.push("/u5a1/About/Expertise");
+        }}
+         >
+          <Card.Img src={Expert} />
         </Card>
-        <Card style={{opacity:0}}>
-          <Card.Img src={Collabaration} />
+        <Card >
+          <Card.Img src={Care} />
         </Card>
       </div>
     </> :
@@ -65,7 +73,11 @@ const AboutPage = (props) => {
         >
           <Card.Img src={Registered} />
         </Card>
-        <Card>
+        <Card
+        onClick={() => {
+          props.history.push("/u5a1/About/WE");
+        }}
+        >
           <Card.Img src={WE} />
         </Card>
       </div>
@@ -90,8 +102,22 @@ const AboutPage = (props) => {
         
           <Card.Img src={Testimonicals} />
         </Card>
+        <Card 
+        onClick={() => {
+          props.history.push("/u5a1/About/Expertise");
+        }}
+        >
+          <Card.Img src={Expert} />
+        </Card>
+        
+      </div>
+      <div className="HomeContainer">
+        <Card>
+        
+          <Card.Img src={Care} />
+        </Card>
         <Card style={{opacity:0}}>
-          <Card.Img src={clients} />
+          <Card.Img src={Expert} />
         </Card>
         
       </div>

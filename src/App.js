@@ -21,6 +21,9 @@ import WorkShop from './Components/WorkShop/WorkShop';
 import IT from './Components/IT/IT';
 import GalleryPage from './Pages/Gallery/GalleryPage';
 import PhotosPage from './Components/Photos/PhotosPage';
+import ExpertisePage from './Pages/ExpertPage/Expertise'
+import WEPage from './Pages/WEPage/WEPage';
+
 function App() {
   return (
     <>
@@ -41,6 +44,10 @@ function App() {
       <Route exact path='/u5a1/Training/Timing' component={Timings}/>
       <Route exact path='/u5a1/About' component={AboutPage} />
       <Route exact path='/u5a1/About/Registered' component={RegisteredPage} />
+      <Route exact path='/u5a1/About/Expertise' component={ExpertisePage} />
+      <Route exact path='/u5a1/About/WE' component={WEPage} />
+
+
 
       <Route path='/u5a1/Pay' component={PayPage}/>
       </Router>
