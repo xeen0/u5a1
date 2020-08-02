@@ -37,7 +37,10 @@ const AboutPage = (props) => {
         }}>
           <Card.Img src={WE} />
         </Card>
-        <Card>
+        <Card onClick={()=>{
+          window.open("https://www.facebook.com/ch.s.srinivas" , "_blank")
+        }}
+        >
           <Card.Img src={Facebook} />
         </Card>
       </div>
@@ -86,7 +89,9 @@ const AboutPage = (props) => {
         </Card>
       </div>
       <div className="HomeContainerT">
-        <Card>
+        <Card onClick={()=>{
+          window.open("https://www.facebook.com/ch.s.srinivas" , "_blank")
+        }}>
           <Card.Img src={Facebook} />
         </Card>
         <Card>
