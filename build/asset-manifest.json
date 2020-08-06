@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.047dbaa9.chunk.css",
-    "main.js": "/static/js/main.dded426c.chunk.js",
-    "main.js.map": "/static/js/main.dded426c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8295295f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8295295f.js.map",
+    "main.css": "/static/css/main.bee95f87.chunk.css",
+    "main.js": "/static/js/main.a29345f3.chunk.js",
+    "main.js.map": "/static/js/main.a29345f3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.117ffdd8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.117ffdd8.js.map",
     "static/css/2.fe48f953.chunk.css": "/static/css/2.fe48f953.chunk.css",
-    "static/js/2.78b0e6d9.chunk.js": "/static/js/2.78b0e6d9.chunk.js",
-    "static/js/2.78b0e6d9.chunk.js.map": "/static/js/2.78b0e6d9.chunk.js.map",
+    "static/js/2.4cedbcc9.chunk.js": "/static/js/2.4cedbcc9.chunk.js",
+    "static/js/2.4cedbcc9.chunk.js.map": "/static/js/2.4cedbcc9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.025cefd1b8422bdc9becb4e61545722e.js": "/precache-manifest.025cefd1b8422bdc9becb4e61545722e.js",
+    "precache-manifest.fc5b6729473b032efcd158ea3cd748b5.js": "/precache-manifest.fc5b6729473b032efcd158ea3cd748b5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fe48f953.chunk.css.map": "/static/css/2.fe48f953.chunk.css.map",
-    "static/css/main.047dbaa9.chunk.css.map": "/static/css/main.047dbaa9.chunk.css.map",
-    "static/js/2.78b0e6d9.chunk.js.LICENSE.txt": "/static/js/2.78b0e6d9.chunk.js.LICENSE.txt",
+    "static/css/main.bee95f87.chunk.css.map": "/static/css/main.bee95f87.chunk.css.map",
+    "static/js/2.4cedbcc9.chunk.js.LICENSE.txt": "/static/js/2.4cedbcc9.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/static/media/1 SL call.f016dcb4.svg",
     "static/media/2 SL SMS.svg": "/static/media/2 SL SMS.910a495e.svg",
     "static/media/3 SL whatsapp.svg": "/static/media/3 SL whatsapp.014e5fae.svg",
@@ -148,6 +148,7 @@
     "static/media/SL MOD 5.svg": "/static/media/SL MOD 5.b031386f.svg",
     "static/media/SL a.svg": "/static/media/SL a.d7226ba2.svg",
     "static/media/SL about us.svg": "/static/media/SL about us.a009f7da.svg",
+    "static/media/SL alumni.svg": "/static/media/SL alumni.ae24450b.svg",
     "static/media/SL app design.svg": "/static/media/SL app design.da93c222.svg",
     "static/media/SL b.svg": "/static/media/SL b.b8e351cd.svg",
     "static/media/SL c.svg": "/static/media/SL c.880527d7.svg",
@@ -163,6 +164,8 @@
     "static/media/SL gpay.svg": "/static/media/SL gpay.2b0c7475.svg",
     "static/media/SL graphic design.svg": "/static/media/SL graphic design.320bfd9c.svg",
     "static/media/SL h.svg": "/static/media/SL h.8fc5a065.svg",
+    "static/media/SL home tuition.svg": "/static/media/SL home tuition.ff11a1c7.svg",
+    "static/media/SL online classes.svg": "/static/media/SL online classes.17f8bb7a.svg",
     "static/media/SL paytm code.svg": "/static/media/SL paytm code.709f95cb.svg",
     "static/media/SL paytm.svg": "/static/media/SL paytm.5af95e3a.svg",
     "static/media/SL phonepe code.svg": "/static/media/SL phonepe code.50f9a9b3.svg",
@@ -188,10 +191,10 @@
     "static/media/workforce.svg": "/static/media/workforce.baebb253.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8295295f.js",
+    "static/js/runtime-main.117ffdd8.js",
     "static/css/2.fe48f953.chunk.css",
-    "static/js/2.78b0e6d9.chunk.js",
-    "static/css/main.047dbaa9.chunk.css",
-    "static/js/main.dded426c.chunk.js"
+    "static/js/2.4cedbcc9.chunk.js",
+    "static/css/main.bee95f87.chunk.css",
+    "static/js/main.a29345f3.chunk.js"
   ]
 }

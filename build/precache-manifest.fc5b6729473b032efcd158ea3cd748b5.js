@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d6ad4354a05489befffcaae6c843037",
+    "revision": "b4b766eb12487b97e3f929321d8d3271",
     "url": "/index.html"
   },
   {
-    "revision": "737fa34340cee84634d1",
+    "revision": "e69c00a22aababae7ea7",
     "url": "/static/css/2.fe48f953.chunk.css"
   },
   {
-    "revision": "afa27f0c605f31c4aa11",
-    "url": "/static/css/main.047dbaa9.chunk.css"
+    "revision": "7f9f55c79c9f12587cbc",
+    "url": "/static/css/main.bee95f87.chunk.css"
   },
   {
-    "revision": "737fa34340cee84634d1",
-    "url": "/static/js/2.78b0e6d9.chunk.js"
+    "revision": "e69c00a22aababae7ea7",
+    "url": "/static/js/2.4cedbcc9.chunk.js"
   },
   {
     "revision": "3e2359b7d39f4084b1a7f8f4938682a2",
-    "url": "/static/js/2.78b0e6d9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4cedbcc9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "afa27f0c605f31c4aa11",
-    "url": "/static/js/main.dded426c.chunk.js"
+    "revision": "7f9f55c79c9f12587cbc",
+    "url": "/static/js/main.a29345f3.chunk.js"
   },
   {
-    "revision": "92389f5ee770ccdbf0aa",
-    "url": "/static/js/runtime-main.8295295f.js"
+    "revision": "04361e694e83de953e68",
+    "url": "/static/js/runtime-main.117ffdd8.js"
   },
   {
     "revision": "f016dcb474d1a8d147791faf0f322839",
@@ -648,6 +648,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SL about us.a009f7da.svg"
   },
   {
+    "revision": "ae24450b0ef7a58ba74f613a93b46f66",
+    "url": "/static/media/SL alumni.ae24450b.svg"
+  },
+  {
     "revision": "da93c2221981d88ca590541a9bc29eb5",
     "url": "/static/media/SL app design.da93c222.svg"
   },
@@ -706,6 +710,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8fc5a0652ba56e8d9d4cf1905526e9a3",
     "url": "/static/media/SL h.8fc5a065.svg"
+  },
+  {
+    "revision": "ff11a1c7e84ed0b102c36a79d1327d42",
+    "url": "/static/media/SL home tuition.ff11a1c7.svg"
+  },
+  {
+    "revision": "17f8bb7a7d5fd59080165baf6158f381",
+    "url": "/static/media/SL online classes.17f8bb7a.svg"
   },
   {
     "revision": "709f95cb5dfeb2d7a57a14191627bae8",
