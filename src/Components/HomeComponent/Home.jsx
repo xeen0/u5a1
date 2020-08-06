@@ -74,7 +74,7 @@ const Home = (props) => {
 
           <div className="HomeContainer">
             <Card>
-              <a href={uploadedFileLink} target="_blank" download="U5A">
+              <a href={uploadedFileLink} target="_blank" download="u5a">
                 <Card.Img src={Download} />
               </a>
             </Card>
@@ -154,7 +154,7 @@ const Home = (props) => {
 
             <div className="HomeContainer">
               <Card>
-                <a href={uploadedFileLink} target="_blank" download="U5A">
+                <a href={uploadedFileLink} target="_blank" download="u5a">
                   <Card.Img src={Download} />
                 </a>
               </Card>
