@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd0c5e68dedd9232d6643a7dd84ffce7",
+    "revision": "5bc4d39976785c1addc838d673be18e4",
     "url": "/index.html"
   },
   {
-    "revision": "78c7e940d6bd09620cb8",
+    "revision": "737fa34340cee84634d1",
     "url": "/static/css/2.fe48f953.chunk.css"
   },
   {
-    "revision": "a538f64779eb4f75c309",
+    "revision": "69ea2581ec6ee9e86c4f",
     "url": "/static/css/main.047dbaa9.chunk.css"
   },
   {
-    "revision": "78c7e940d6bd09620cb8",
-    "url": "/static/js/2.6033f2cc.chunk.js"
+    "revision": "737fa34340cee84634d1",
+    "url": "/static/js/2.78b0e6d9.chunk.js"
   },
   {
     "revision": "3e2359b7d39f4084b1a7f8f4938682a2",
-    "url": "/static/js/2.6033f2cc.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.78b0e6d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a538f64779eb4f75c309",
-    "url": "/static/js/main.89bdb9b2.chunk.js"
+    "revision": "69ea2581ec6ee9e86c4f",
+    "url": "/static/js/main.77fad02b.chunk.js"
   },
   {
     "revision": "92389f5ee770ccdbf0aa",
@@ -736,6 +736,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SL sbi.15125a04.svg"
   },
   {
+    "revision": "d0287cd9699ba09fff4fa3025d4110a3",
+    "url": "/static/media/SL team.d0287cd9.svg"
+  },
+  {
     "revision": "9ff5c7da8977c676dcea19b18c57fdbd",
     "url": "/static/media/SL testimonials.9ff5c7da.svg"
   },
@@ -754,10 +758,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a7ef7f66bf37702f70e1c83bde53886e",
     "url": "/static/media/SL workshops.a7ef7f66.svg"
-  },
-  {
-    "revision": "f53c5dec610b8bdaf4f22e476de0f456",
-    "url": "/static/media/U5A.f53c5dec.zip"
   },
   {
     "revision": "74ecb62c2a7b164e28c201cb656ec71b",
@@ -802,6 +802,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "86540552c27e8d103cb0897fed4c5af0",
+    "url": "/static/media/u5a.86540552.zip"
   },
   {
     "revision": "baebb253ae5e71d75fa6a42e41ddc1de",

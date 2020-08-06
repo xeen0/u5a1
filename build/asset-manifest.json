@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.047dbaa9.chunk.css",
-    "main.js": "/static/js/main.89bdb9b2.chunk.js",
-    "main.js.map": "/static/js/main.89bdb9b2.chunk.js.map",
+    "main.js": "/static/js/main.77fad02b.chunk.js",
+    "main.js.map": "/static/js/main.77fad02b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8295295f.js",
     "runtime-main.js.map": "/static/js/runtime-main.8295295f.js.map",
     "static/css/2.fe48f953.chunk.css": "/static/css/2.fe48f953.chunk.css",
-    "static/js/2.6033f2cc.chunk.js": "/static/js/2.6033f2cc.chunk.js",
-    "static/js/2.6033f2cc.chunk.js.map": "/static/js/2.6033f2cc.chunk.js.map",
+    "static/js/2.78b0e6d9.chunk.js": "/static/js/2.78b0e6d9.chunk.js",
+    "static/js/2.78b0e6d9.chunk.js.map": "/static/js/2.78b0e6d9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ef0f7980348f1ccb69f0c79951a42436.js": "/precache-manifest.ef0f7980348f1ccb69f0c79951a42436.js",
+    "precache-manifest.24a245a801ca482a037b20a36702d1ff.js": "/precache-manifest.24a245a801ca482a037b20a36702d1ff.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fe48f953.chunk.css.map": "/static/css/2.fe48f953.chunk.css.map",
     "static/css/main.047dbaa9.chunk.css.map": "/static/css/main.047dbaa9.chunk.css.map",
-    "static/js/2.6033f2cc.chunk.js.LICENSE.txt": "/static/js/2.6033f2cc.chunk.js.LICENSE.txt",
+    "static/js/2.78b0e6d9.chunk.js.LICENSE.txt": "/static/js/2.78b0e6d9.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/static/media/1 SL call.f016dcb4.svg",
     "static/media/2 SL SMS.svg": "/static/media/2 SL SMS.910a495e.svg",
     "static/media/3 SL whatsapp.svg": "/static/media/3 SL whatsapp.014e5fae.svg",
@@ -170,12 +170,12 @@
     "static/media/SL photography.svg": "/static/media/SL photography.47992650.svg",
     "static/media/SL sbi details.svg": "/static/media/SL sbi details.2c6d75e0.svg",
     "static/media/SL sbi.svg": "/static/media/SL sbi.15125a04.svg",
+    "static/media/SL team.svg": "/static/media/SL team.d0287cd9.svg",
     "static/media/SL testimonials.svg": "/static/media/SL testimonials.9ff5c7da.svg",
     "static/media/SL testing.svg": "/static/media/SL testing.97958ba5.svg",
     "static/media/SL timings.svg": "/static/media/SL timings.0528f1ad.svg",
     "static/media/SL training.svg": "/static/media/SL training.999a5091.svg",
     "static/media/SL workshops.svg": "/static/media/SL workshops.a7ef7f66.svg",
-    "static/media/U5A.zip": "/static/media/U5A.f53c5dec.zip",
     "static/media/contact.svg": "/static/media/contact.74ecb62c.svg",
     "static/media/download.svg": "/static/media/download.024a1091.svg",
     "static/media/feedback.svg": "/static/media/feedback.cb7bb269.svg",
@@ -184,13 +184,14 @@
     "static/media/pay.svg": "/static/media/pay.611e7dcb.svg",
     "static/media/pictorial_logo.svg": "/static/media/pictorial_logo.6f1c86ee.svg",
     "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/u5a.zip": "/static/media/u5a.86540552.zip",
     "static/media/workforce.svg": "/static/media/workforce.baebb253.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8295295f.js",
     "static/css/2.fe48f953.chunk.css",
-    "static/js/2.6033f2cc.chunk.js",
+    "static/js/2.78b0e6d9.chunk.js",
     "static/css/main.047dbaa9.chunk.css",
-    "static/js/main.89bdb9b2.chunk.js"
+    "static/js/main.77fad02b.chunk.js"
   ]
 }
