@@ -50,25 +50,27 @@ function App() {
 
 
       <Route path='/u5a1/Pay' component={PayPage}/> */}
-      <Route exact path='/' component={Home}/>
-      <Route exact path='/Workforce' component={WorkForcePage}/>
-      <Route exact path='/Gallery' component={GalleryPage}/>
-      <Route exact path='/Gallery/Photos' component={PhotosPage}/>
+      <Switch>
+      <Route exact path='u5a1/' component={Home}/>
+      <Route exact path='u5a1/Workforce' component={WorkForcePage}/>
+      <Route exact path='u5a1/Gallery' component={GalleryPage}/>
+      <Route exact path='u5a1/Gallery/Photos' component={PhotosPage}/>
 
-      <Route exact path='/Contact' component={ContactPage}/>
-      <Route exact path='/Training' component={Training}/>
-      <Route exact path='/Training/FineArts' component={FineArts}/>
-      <Route exact path='/Training/Workshop' component={WorkShop}/>
-      <Route exact path='/Training/IT' component={IT}/>
+      <Route exact path='u5a1/Contact' component={ContactPage}/>
+      <Route exact path='u5a1/Training' component={Training}/>
+      <Route exact path='u5a1/Training/FineArts' component={FineArts}/>
+      <Route exact path='u5a1/Training/Workshop' component={WorkShop}/>
+      <Route exact path='u5a1/Training/IT' component={IT}/>
 
-      <Route exact path='/Training/Timing' component={Timings}/>
-      <Route exact path='/About' component={AboutPage} />
-      <Route exact path='/About/Registered' component={RegisteredPage} />
-      <Route exact path='/About/Expertise' component={ExpertisePage} />
-      <Route exact path='/About/WE' component={WEPage} /> 
+      <Route exact path='u5a1/Training/Timing' component={Timings}/>
+      <Route exact path='u5a1/About' component={AboutPage} />
+      <Route exact path='u5a1/About/Registered' component={RegisteredPage} />
+      <Route exact path='u5a1/About/Expertise' component={ExpertisePage} />
+      <Route exact path='u5a1/About/WE' component={WEPage} /> 
 
 
-      <Route path='/Pay' component={PayPage}/>
+      <Route path='u5a1/Pay' component={PayPage}/>
+      </Switch>
       </Router>
       </div>
       <div class="f">

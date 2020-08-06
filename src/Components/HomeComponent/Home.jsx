@@ -11,7 +11,7 @@ import Pay from "../../Images/pay.svg";
 import Download from "../../Images/download.svg";
 import About from "../../Images/SL about us.svg";
 import Gallery from "../../Images/SL gallery.svg";
-import uploadedFileLink from "../../Images/U5A.zip";
+import uploadedFileLink from "../../Images/u5a.zip";
 import "./Home.css";
 import Advertisement from "../Advertisement/Advertisement";
 

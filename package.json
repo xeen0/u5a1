@@ -1,6 +1,5 @@
 {
   "homepage": "http://www.u5a.in/",
-
   "name": "uf51",
   "version": "0.1.0",
   "private": true,
@@ -29,6 +28,7 @@
     "react-responsive": "^8.1.0",
     "react-responsive-carousel": "^3.2.8",
     "react-responsive-embed": "^2.1.0",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-slick": "^0.26.1",
@@ -39,7 +39,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "reac`t-scripts eject",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "BROWSER='chromium' react-scripts start"
