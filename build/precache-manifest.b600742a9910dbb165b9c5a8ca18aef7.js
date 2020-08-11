@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4b766eb12487b97e3f929321d8d3271",
+    "revision": "f231cf32c4dd19b2218ab1a2659c4109",
     "url": "/index.html"
   },
   {
-    "revision": "e69c00a22aababae7ea7",
+    "revision": "d67caecce8d7fb24134a",
     "url": "/static/css/2.fe48f953.chunk.css"
   },
   {
-    "revision": "7f9f55c79c9f12587cbc",
+    "revision": "4960e7033085c8f3b14e",
     "url": "/static/css/main.bee95f87.chunk.css"
   },
   {
-    "revision": "e69c00a22aababae7ea7",
-    "url": "/static/js/2.4cedbcc9.chunk.js"
+    "revision": "d67caecce8d7fb24134a",
+    "url": "/static/js/2.a013f9a4.chunk.js"
   },
   {
     "revision": "3e2359b7d39f4084b1a7f8f4938682a2",
-    "url": "/static/js/2.4cedbcc9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a013f9a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f9f55c79c9f12587cbc",
-    "url": "/static/js/main.a29345f3.chunk.js"
+    "revision": "4960e7033085c8f3b14e",
+    "url": "/static/js/main.1e2ca63f.chunk.js"
   },
   {
     "revision": "04361e694e83de953e68",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ca025c66d833f95891a7a61a38844e4",
     "url": "/static/media/SL 1 content writing.2ca025c6.svg"
+  },
+  {
+    "revision": "70f2c1774fc52159c656216075a4e960",
+    "url": "/static/media/SL 1 creative visualisation.70f2c177.svg"
   },
   {
     "revision": "fab4bc114b58986973aac6eb366d1ca3",
@@ -122,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e035bfebdd7340fcf141fddcf4ea4661",
     "url": "/static/media/SL 1.e035bfeb.svg"
+  },
+  {
+    "revision": "3ab5ae61536bab533296b97b21b01c91",
+    "url": "/static/media/SL 10 makeover.3ab5ae61.svg"
   },
   {
     "revision": "5e15cf9140a7fd1ec7cc7307eede317e",
@@ -236,6 +244,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SL 2 visual merchandise.21cedea7.svg"
   },
   {
+    "revision": "7b30473792d8f4cf14ee08bee4ce7fbd",
+    "url": "/static/media/SL 2 visual merchandise.7b304737.svg"
+  },
+  {
     "revision": "9fb664c0a1897849689809bc80014cae",
     "url": "/static/media/SL 2 walk through.9fb664c0.svg"
   },
@@ -340,6 +352,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SL 4 video album.0ba1ae24.svg"
   },
   {
+    "revision": "0181766a2fac4aadc9684aa79ba97617",
+    "url": "/static/media/SL 4 web design.0181766a.svg"
+  },
+  {
     "revision": "c612cbbb0d66abd88ba6927588951638",
     "url": "/static/media/SL 4 web design.c612cbbb.svg"
   },
@@ -378,6 +394,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "333c7c9d47c432d45976fe2ab90ff425",
     "url": "/static/media/SL 5 animation 3d.333c7c9d.svg"
+  },
+  {
+    "revision": "8b620a05afcbbe52556b4a88a3130843",
+    "url": "/static/media/SL 5 app design.8b620a05.svg"
   },
   {
     "revision": "4939ad4a7f9cd688ed33c6250ef52e52",
@@ -422,6 +442,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e2fdcb0437c412377d02677ca3c14d71",
     "url": "/static/media/SL 5.e2fdcb04.svg"
+  },
+  {
+    "revision": "0e9e0988f74a9c9e0bdfe63c7f434a14",
+    "url": "/static/media/SL 6 ads.0e9e0988.svg"
   },
   {
     "revision": "1eeeee868b6e76897281d225a8ed291b",
@@ -548,6 +572,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SL 8 set design.e9d898f0.svg"
   },
   {
+    "revision": "5b6b297e6712cc4148ac1760fd6026d1",
+    "url": "/static/media/SL 8 videography.5b6b297e.svg"
+  },
+  {
     "revision": "b21672ef5b0f1d8fdae145521e9425d3",
     "url": "/static/media/SL 8 visual effects.b21672ef.svg"
   },
@@ -578,6 +606,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d6dd4dc1a05b0f082f2e5bc65c195bb1",
     "url": "/static/media/SL 9 makeover.d6dd4dc1.svg"
+  },
+  {
+    "revision": "85f9760027183e92f2444a67e63a3558",
+    "url": "/static/media/SL 9 portfolio.85f97600.svg"
   },
   {
     "revision": "edbbf0db2f5b0d99cab9b8b06149b80b",
