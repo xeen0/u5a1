@@ -45,7 +45,7 @@ const Training = (props) => {
             <img
               src={timings}
               onClick={() => {
-                props.history.push("/Training/Timing");
+                props.history.push("/Timing");
               }}
             />
           </FrontSide>

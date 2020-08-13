@@ -1,13 +1,16 @@
 import React from "react";
 import CardS from "../../Components/CardComponent/CardS";
 import Card from "react-bootstrap/Card";
+import Modal from "react-bootstrap/Modal";
+
+import CM from "../../Images/SL CLIENTS.svg"
 
 import Registered from "../../Images/SL 1.svg";
 import WE from "../../Images/SL 2.png";
 import Testimonicals from "../../Images/SL testimonials.svg";
 import Facebook from "../../Images/SL 3 facebook.svg";
 import Work from "../../Images/SL 4 works.svg";
-import clients from "../../Images/SL 6 clients.svg";
+import clients from "../../Images/sl clients1.svg";
 import Collabaration from "../../Images/SL 7 collaborations.svg";
 import Expert from "../../Images/SL expertise.svg";
 import Care from "../../Images/SL care.svg";
@@ -16,9 +19,28 @@ import { useMediaQuery } from "react-responsive";
 
 const AboutPage = (props) => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 605px)" });
-
+  const [modalShow, setModalShow] = React.useState(false);
+  const [headTitle, setHeadTitle] = React.useState("");
+  const [headSize, setHeadSize] = React.useState(".8rem");
+  const [Img, setImg] = React.useState();
   return (
     <>
+    <Modal
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+        >
+          <Modal.Header closeButton  >
+            <Modal.Title
+              id="contained-modal-title-vcenter"
+              style={{ fontSize: headSize }}
+            >
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
+            </Modal.Title>
+          </Modal.Header>
+          <img style={{ width: "100%" }} src={Img} />
+        </Modal>
       {!isTabletOrMobile ? (
         <>
           <div className="HomeContainerT">
@@ -62,7 +84,14 @@ const AboutPage = (props) => {
             </Card>
           </div>
           <div className="HomeContainerT">
-            <Card>
+            <Card
+            onClick={async () => {
+              await setHeadTitle("CLIENTS");
+              await setImg(CM);
+              await setHeadSize("1.4rem");
+              await setModalShow(true);
+            }}
+            >
               <Card.Img src={clients} />
             </Card>
             <Card>
@@ -128,7 +157,14 @@ const AboutPage = (props) => {
             
           </div>
           <div className="HomeContainer">
-          <Card>
+          <Card
+          onClick={async () => {
+            await setHeadTitle("CLIENTS");
+            await setImg(CM);
+            await setHeadSize("1.4rem");
+            await setModalShow(true);
+          }}
+          >
               <Card.Img src={clients} />
             </Card>
             <Card>

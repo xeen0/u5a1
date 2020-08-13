@@ -35,6 +35,9 @@ function Gallery() {
                 <SecondSlide/>
               </div>
               <div>
+                <SixthSlide/>
+              </div>
+              <div>
                 <ThirdSlide/>
               </div>
               <div>
@@ -43,9 +46,7 @@ function Gallery() {
               <div>
                 <FifthSlide/>
               </div>
-              <div>
-                <SixthSlide/>
-              </div>
+              
             </Slider>
          </div>
     );

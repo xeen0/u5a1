@@ -2,19 +2,18 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { useMediaQuery } from "react-responsive";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 import "./modal.css";
 // import gdp from "../../Images/PopUps/SL graphic design.svg";
-import GD from "../../Images/PopUps/SL graphic design.svg";
-import PG from "../../Images/PopUps/SL photography.svg"
-import CV from "../../Images/PopUps/SL 1 creative visualisation.svg"
-import VM from "../../Images/PopUps/SL 2 visual merchandise.svg"
-import WD from "../../Images/PopUps/SL 4 web design.svg"
-import AD from "../../Images/PopUps/SL 5 app design.svg"
-import ads from "../../Images/PopUps/SL 6 ads.svg"
-import VG from "../../Images/PopUps/SL 8 videography.svg"
-import PF from "../../Images/PopUps/SL 9 portfolio.svg"
-import MO from "../../Images/PopUps/SL 10 makeover.svg"
+import GD from "../../Images/PopUps/Page1/SL graphic design.svg";
+import PG from "../../Images/PopUps/Page1/SL photography.svg";
+import CV from "../../Images/PopUps/Page1/SL 1 creative visualisation.svg";
+import VM from "../../Images/PopUps/Page1/SL 2 visual merchandise.svg";
+import WD from "../../Images/PopUps/Page1/SL 4 web design.svg";
+import AD from "../../Images/PopUps/Page1/SL 5 app design.svg";
+import ads from "../../Images/PopUps/Page1/SL 6 ads.svg";
+import VG from "../../Images/PopUps/Page1/SL 8 videography.svg";
+import PF from "../../Images/PopUps/Page1/SL 9 portfolio.svg";
+import MO from "../../Images/PopUps/Page1/SL 10 makeover.svg";
 
 import CreativeVisulization from "../../Images/SL 1 creative visualisation.svg";
 import VisualMerchandise from "../../Images/SL 2 visual merchandise.svg";
@@ -35,7 +34,6 @@ const FirstSlide = (props) => {
 
   return (
     <div className="container">
-     
       <Modal
         show={modalShow}
         onHide={() => setModalShow(false)}
@@ -44,7 +42,7 @@ const FirstSlide = (props) => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            {headTitle}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{headTitle}
           </Modal.Title>
         </Modal.Header>
         <img style={{ width: "100%" }} src={Img} />
@@ -54,28 +52,28 @@ const FirstSlide = (props) => {
         <>
           <div className="HomeContainer">
             <Card
-            onClick={async () => {
-              await setHeadTitle("Creative Visualisation");
-              await setImg(CV);
-              await setModalShow(true);
-             }}
+              onClick={async () => {
+                await setHeadTitle("Creative Visualisation");
+                await setImg(CV);
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={CreativeVisulization} />
             </Card>
             <Card
-            onClick={async () => {
-              await setHeadTitle("Visual Merchandise");
-              await setImg(VM);
-              await setModalShow(true);
-             }}
+              onClick={async () => {
+                await setHeadTitle("Visual Merchandise");
+                await setImg(VM);
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={VisualMerchandise} />
             </Card>
             <Card
               onClick={async () => {
-               await setHeadTitle("Graphic Design");
-               await setImg(GD);
-               await setModalShow(true);
+                await setHeadTitle("Graphic Design");
+                await setImg(GD);
+                await setModalShow(true);
               }}
             >
               <Card.Img src={GraphicDesign} />
@@ -83,74 +81,75 @@ const FirstSlide = (props) => {
           </div>
 
           <div className="HomeContainer">
-            <Card 
-            onClick={async () => {
-              await setHeadTitle("Web Design");
-              await setImg(WD);
-              await setModalShow(true);
-             }}
+            <Card
+              onClick={async () => {
+                await setHeadTitle("Web Design");
+                await setImg(WD);
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={webDesign} />
             </Card>
             <Card
-            onClick={async () => {
-              await setHeadTitle("App Design");
-              await setImg(AD);
-              await setModalShow(true);
-             }}
+              onClick={async () => {
+                await setHeadTitle("App Design");
+                await setImg(AD);
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={AppDesign} />
             </Card>
             <Card
-            onClick={async () => {
-              await setHeadTitle("Advertisement");
-              await setImg(ads);
-              await setModalShow(true);
-             }}
+              onClick={async () => {
+                await setHeadTitle("Advertisements");
+                await setImg(ads);
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={Advertisement} />
             </Card>
           </div>
 
           <div className="HomeContainer">
-            <Card onClick={async () => {
-               await setHeadTitle("Photography");
-               await setImg(PG);
-               await setModalShow(true);
+            <Card
+              onClick={async () => {
+                await setHeadTitle("Photography");
+                await setImg(PG);
+                await setModalShow(true);
               }}
             >
               <Card.Img src={Photoshop} />
             </Card>
             <Card
-            onClick={async () => {
-              await setHeadTitle("videoShot");
-              await setImg(VG);
-              await setModalShow(true);
-             }}
+              onClick={async () => {
+                await setHeadTitle("Videography");
+                await setImg(VG);
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={videoShot} />
             </Card>
             <Card
-            onClick={async () => {
-              await setHeadTitle("Portfolio");
-              await setImg(PF);
-              await setModalShow(true);
-             }}
+              onClick={async () => {
+                await setHeadTitle("Portfolio");
+                await setImg(PF);
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={Portfolio} />
             </Card>
           </div>
           <div className="HomeContainer">
             <Card
-            onClick={async () => {
-              await setHeadTitle("Makeovers");
-              await setImg(MO);
-              await setModalShow(true);
-             }}
+              onClick={async () => {
+                await setHeadTitle("Makeovers");
+                await setImg(MO);
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={Makeovers} />
             </Card>
-            <Card >
+            <Card>
               <Card.Img src={videoShot} style={{ opacity: 0 }} />
             </Card>
             <Card>
@@ -163,39 +162,41 @@ const FirstSlide = (props) => {
           <>
             <div className="HomeContainer">
               <Card
-              onClick={async () => {
-                await setHeadTitle("Graphic Design");
-                await setImg(GD);
-                await setModalShow(true);
-               }} 
+                onClick={async () => {
+                  await setHeadTitle("Creative Visulization");
+                  await setImg(CV);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={CreativeVisulization} />
               </Card>
               <Card
-              onClick={async () => {
-                await setHeadTitle("Graphic Design");
-                await setImg(GD);
-                await setModalShow(true);
-               }}
+                onClick={async () => {
+                  await setHeadTitle("Visual Merchandise");
+                  await setImg(VM);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={VisualMerchandise} />
               </Card>
             </div>
             <div className="HomeContainer">
-              <Card onClick={async () => {
-               await setHeadTitle("Graphic Design");
-               await setImg(GD);
-               await setModalShow(true);
-              }}>
+              <Card
+                onClick={async () => {
+                  await setHeadTitle("Graphic Design");
+                  await setImg(GD);
+                  await setModalShow(true);
+                }}
+              >
                 <Card.Img src={GraphicDesign} />
               </Card>
 
               <Card
-              onClick={async () => {
-                await setHeadTitle("Web Design");
-                await setImg(WD);
-                await setModalShow(true);
-               }}
+                onClick={async () => {
+                  await setHeadTitle("Web Design");
+                  await setImg(WD);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={webDesign} />
               </Card>
@@ -203,61 +204,61 @@ const FirstSlide = (props) => {
 
             <div className="HomeContainer">
               <Card
-              onClick={async () => {
-                await setHeadTitle("App Design");
-                await setImg(AD);
-                await setModalShow(true);
-               }}
+                onClick={async () => {
+                  await setHeadTitle("App Design");
+                  await setImg(AD);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={AppDesign} />
               </Card>
               <Card
-              onClick={async () => {
-                await setHeadTitle("Advertisement");
-                await setImg(ads);
-                await setModalShow(true);
-               }}
+                onClick={async () => {
+                  await setHeadTitle("Advertisements");
+                  await setImg(ads);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={Advertisement} />
               </Card>
             </div>
 
             <div className="HomeContainer">
-              <Card 
-              onClick={async () => {
-                await setHeadTitle("Photography");
-                await setImg(PG);
-                await setModalShow(true);
-               }}
+              <Card
+                onClick={async () => {
+                  await setHeadTitle("Photography");
+                  await setImg(PG);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={Photoshop} />
               </Card>
               <Card
-              onClick={async () => {
-                await setHeadTitle("Videography");
-                await setImg(VG);
-                await setModalShow(true);
-               }}
+                onClick={async () => {
+                  await setHeadTitle("Videography");
+                  await setImg(VG);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={videoShot} />
               </Card>
             </div>
             <div className="HomeContainer">
               <Card
-              onClick={async () => {
-                await setHeadTitle("Portfolio");
-                await setImg(PF);
-                await setModalShow(true);
-               }}
+                onClick={async () => {
+                  await setHeadTitle("Portfolio");
+                  await setImg(PF);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={Portfolio} />
               </Card>
               <Card
-              onClick={async () => {
-                await setHeadTitle("Makeovers");
-                await setImg(MO);
-                await setModalShow(true);
-               }}
+                onClick={async () => {
+                  await setHeadTitle("Makeovers");
+                  await setImg(MO);
+                  await setModalShow(true);
+                }}
               >
                 <Card.Img src={Makeovers} />
               </Card>

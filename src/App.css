@@ -30,3 +30,6 @@ body{
     transform: rotate(360deg);
   }
 }
+.modal-header{
+  background-color: #f5f5f7 !important;
+}
