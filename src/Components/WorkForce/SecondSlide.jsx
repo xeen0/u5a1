@@ -62,7 +62,7 @@ const SecondSlide = (props) => {
               
               <div style={{ marginRight: "5px" }}>
                 {
-                  allowZoom?<RiZoomOutLine size="2em"/>:<RiZoomInLine size="1.8em"/>
+                  allowZoom?<RiZoomOutLine size="1.8em"/>:<RiZoomInLine size="1.8em"/>
                 }
               </div>
             </div> :<></>}

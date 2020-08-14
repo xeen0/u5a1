@@ -65,7 +65,7 @@ const FirstSlide = (props) => {
               
               <div style={{ marginRight: "5px" }}>
                 {
-                  allowZoom?<RiZoomOutLine size="2em"/>:<RiZoomInLine size="1.8em"/>
+                  allowZoom?<RiZoomOutLine size="1.8em"/>:<RiZoomInLine size="1.8em"/>
                 }
               </div>
             </div>:<></>}
@@ -159,7 +159,7 @@ const FirstSlide = (props) => {
               <Card
                 onClick={async () => {
                   await setHeadTitle("Search Engine Optimization");
-                  await setImg(seo);
+                  await setImg(seo); 
                   await setHeadSize("1.4rem");
                   await setModalShow(true);
                 }}
@@ -264,7 +264,7 @@ const FirstSlide = (props) => {
                 <Card
                   onClick={async () => {
                     await setHeadTitle("Search Engine Optimization");
-                    await setHeadSize("1.4rem");
+                    await setHeadSize("1.2rem");
                     await setImg(seo);
                     await setModalShow(true);
                   }}

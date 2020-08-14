@@ -79,7 +79,7 @@ const WEPage = (props) => {
               <Card.Img src={Quote} />
             </Card>
           </div>
-          <div className="HomeContainer">
+          <div className="HomeContainerT">
             <Card>
               <Card.Img src={Analysis} />
             </Card>

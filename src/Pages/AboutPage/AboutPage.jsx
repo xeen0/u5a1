@@ -147,7 +147,7 @@ const AboutPage = (props) => {
             </Card>
             <FlipCard FImg={Care} BImg={PUC} />
           </div>
-          <div className="HomeContainer">
+          <div className="HomeContainerT">
             <Card
               onClick={async () => {
                 await setHeadTitle("CLIENTS");
@@ -161,7 +161,7 @@ const AboutPage = (props) => {
             <FlipCard FImg={Work} BImg={PUC} />
           </div>
 
-          <div className="HomeContainer">
+          <div className="HomeContainerT">
             <FlipCard FImg={Collabaration} BImg={PUC} />
             <div className="test">
               <FlipCard FImg={Testimonicals} BImg={PUC} />

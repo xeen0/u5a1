@@ -32,6 +32,8 @@ const ThirdSlide = (props) => {
   const [headTitle, setHeadTitle] = React.useState("");
   const [Img, setImg] = React.useState();
   const [allowZoom, setAllowZoom] = React.useState(false);
+  const [headSize, setHeadSize] = React.useState("1.2rem");
+
   React.useEffect(() => {
     const effect = () => {
       setAllowZoom(false);
@@ -49,8 +51,8 @@ const ThirdSlide = (props) => {
       >
         <Modal.Header closeButton>
           <div className="ModalH">
-            <Modal.Title id="contained-modal-title-vcenter">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
+            <Modal.Title id="contained-modal-title-vcenter" style={{fontSize:headSize}}>
+              &nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
             </Modal.Title>
             {!isTabletOrMobile?<div
               style={{ display: "flex", cursor: "pointer" }}
@@ -61,7 +63,7 @@ const ThirdSlide = (props) => {
               
               <div style={{ marginRight: "5px" }}>
                 {
-                  allowZoom?<RiZoomOutLine size="2em"/>:<RiZoomInLine size="1.8em"/>
+                  allowZoom?<RiZoomOutLine size="1.8em"/>:<RiZoomInLine size="1.8em"/>
                 }
               </div>
             </div>:<></>}

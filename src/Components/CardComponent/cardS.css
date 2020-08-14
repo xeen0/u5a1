@@ -80,8 +80,8 @@ img {
     height: 7.7rem;
   }
   .about img {
-    width: 8rem;
-    height: 7.7rem;
+    width: 8rem !important;
+    height: 7.7rem !important;
   }
   .flippy-container {
     padding: 0px 0px 10px 10px !important;
