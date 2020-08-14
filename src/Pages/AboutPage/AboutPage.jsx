@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import CardS from "../../Components/CardComponent/CardS";
 import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
 
-import CM from "../../Images/SL CLIENTS.svg"
-import './About.css'
+import CM from "../../Images/SL CLIENTS.svg";
+import "./About.css";
 
 import Registered from "../../Images/SL 1.svg";
 import WE from "../../Images/SL 2.png";
@@ -17,7 +17,7 @@ import Expert from "../../Images/SL expertise.svg";
 import Care from "../../Images/SL care.svg";
 import Team from "../../Images/SL team.svg";
 import { useMediaQuery } from "react-responsive";
-import PUC from "../../Images/SL page under construction ICON.svg"
+import PUC from "../../Images/SL page under construction ICON.svg";
 import FlipCard from "../../Components/CardComponent/FlipCard";
 
 const AboutPage = (props) => {
@@ -28,28 +28,27 @@ const AboutPage = (props) => {
   const [Img, setImg] = React.useState();
   return (
     <div className="about">
-    <Modal
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-          aria-labelledby="contained-modal-title-vcenter"
-          centered
-        >
-          <Modal.Header closeButton  >
-            <Modal.Title
-              id="contained-modal-title-vcenter"
-              style={{ fontSize: headSize }}
-            >
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
-            </Modal.Title>
-          </Modal.Header>
-          <img style={{ width: "100%" }} src={Img} />
-        </Modal>
+      <Modal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title
+            id="contained-modal-title-vcenter"
+            style={{ fontSize: headSize }}
+          >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
+          </Modal.Title>
+        </Modal.Header>
+        <img style={{ width: "100%" }} src={Img} />
+      </Modal>
       {!isTabletOrMobile ? (
         <>
           <div className="HomeContainerT">
             <Card
               onClick={() => {
-                // props.history.push("//About/WE");
                 props.history.push("/WE");
               }}
             >
@@ -57,7 +56,6 @@ const AboutPage = (props) => {
             </Card>
             <Card
               onClick={() => {
-                // props.history.push("/About/Registered");
                 props.history.push("/Registered");
               }}
             >
@@ -75,7 +73,7 @@ const AboutPage = (props) => {
             {/* <Card>
               <Card.Img src={Team} />
             </Card> */}
-            <FlipCard FImg={Team} BImg={PUC}/>
+            <FlipCard FImg={Team} BImg={PUC} />
             <Card
               onClick={() => {
                 window.open("https://www.facebook.com/ch.s.srinivas", "_blank");
@@ -83,27 +81,25 @@ const AboutPage = (props) => {
             >
               <Card.Img src={Facebook} />
             </Card>
-            <FlipCard FImg={Care} BImg={PUC}/>
-
+            <FlipCard FImg={Care} BImg={PUC} />
           </div>
           <div className="HomeContainerT">
             <Card
-            onClick={async () => {
-              await setHeadTitle("CLIENTS");
-              await setImg(CM);
-              await setHeadSize("1.4rem");
-              await setModalShow(true);
-            }}
+              onClick={async () => {
+                await setHeadTitle("CLIENTS");
+                await setImg(CM);
+                await setHeadSize("1.4rem");
+                await setModalShow(true);
+              }}
             >
               <Card.Img src={clients} />
             </Card>
-            <FlipCard FImg={Work} BImg={PUC}/>
+            <FlipCard FImg={Work} BImg={PUC} />
 
-            <FlipCard FImg={Collabaration} BImg={PUC}/>
-
+            <FlipCard FImg={Collabaration} BImg={PUC} />
           </div>
-          <div className="HomeContainerT">
-          <FlipCard FImg={Testimonicals} BImg={PUC}/>
+          <div className="HomeContainerT ">
+            <FlipCard FImg={Testimonicals} BImg={PUC} />
 
             <Card>
               <Card.Img style={{ opacity: 0 }} src={Work} />
@@ -132,49 +128,44 @@ const AboutPage = (props) => {
             </Card>
           </div>
           <div className="HomeContainerT">
-          <Card
+            <Card
               onClick={() => {
                 props.history.push("/Expertise");
               }}
             >
               <Card.Img src={Expert} />
             </Card>
-            <FlipCard FImg={Team} BImg={PUC}/>
-
+            <FlipCard FImg={Team} BImg={PUC} />
           </div>
           <div className="HomeContainerT">
-          <Card
+            <Card
               onClick={() => {
                 window.open("https://www.facebook.com/ch.s.srinivas", "_blank");
               }}
             >
               <Card.Img src={Facebook} />
             </Card>
-            <FlipCard FImg={Care} BImg={PUC}/>
-
-            
+            <FlipCard FImg={Care} BImg={PUC} />
           </div>
           <div className="HomeContainer">
-          <Card
-          onClick={async () => {
-            await setHeadTitle("CLIENTS");
-            await setImg(CM);
-            await setHeadSize("1.4rem");
-            await setModalShow(true);
-          }}
-          >
+            <Card
+              onClick={async () => {
+                await setHeadTitle("CLIENTS");
+                await setImg(CM);
+                await setHeadSize("1.4rem");
+                await setModalShow(true);
+              }}
+            >
               <Card.Img src={clients} />
             </Card>
-            <FlipCard FImg={Work} BImg={PUC}/>
-
-            
+            <FlipCard FImg={Work} BImg={PUC} />
           </div>
-         
+
           <div className="HomeContainer">
-          <FlipCard FImg={Collabaration} BImg={PUC}/>
-
-            <FlipCard FImg={Testimonicals} BImg={PUC}/>
-
+            <FlipCard FImg={Collabaration} BImg={PUC} />
+            <div className="test">
+              <FlipCard FImg={Testimonicals} BImg={PUC} />
+            </div>
           </div>
         </>
       )}

@@ -1,9 +1,8 @@
+/* 
 @media screen and (max-width:513px){
-    
-      
       .about img{
-          width: 10.5rem;
-          height: 10rem;
+          width: 10.5rem !important;
+          height: 10.5rem !important;
         }
         
     }
@@ -14,4 +13,4 @@
           height: 7.7rem;
         }
        
-    }
+    } */

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
-.back{
-    background-color:#f5f5f7;
-    /* font-family: 'Signika', sans-serif; */
-    font-size: 1.4rem;
-    padding-top: 3vw;
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap");
+.back {
+  background-color: #f5f5f7;
+  /* font-family: 'Signika', sans-serif; */
+  font-size: 1.4rem;
+  padding-top: 3vw;
 }
 /* .flippy-front, .flippy-back:nth-child(1) {
   box-shadow: none;
@@ -12,59 +12,78 @@
   width: 11.5rem;
   height: auto;
 }
-.flippy-front, .flippy-back{
+.flippy-front,
+.flippy-back {
   box-shadow: none !important;
 }
-img{
-  width :12rem;
+img {
+  width: 12rem;
   height: auto;
 }
 .flippy-container {
   padding: 0px 10px 10px 11px !important;
-  
-    }
-@media screen and (max-width: 770px){
+}
+.about img {
+  width: 12rem;
+  height: 11.8rem;
+}
+.about .flippy-container {
+  padding: 0px 10px 10px 10px !important;
+}
+@media screen and (max-width: 770px) {
   .flippy-container {
-padding: 0px 10px 10px 10px !important;
-
+    padding: 0px 10px 10px 10px !important;
   }
-  img{
+  img {
     width: 12rem;
     height: 11.8rem;
   }
-  
 }
-@media screen and (max-width:513px){
-  .back{
-      font-size: 13px;
+@media screen and (max-width: 513px) {
+  .back {
+    font-size: 13px;
     padding-top: 6vw;
+  }
+  .flippy-cardContainer {
+    width: 10rem;
+    height: auto;
+  }
+  img {
+    width: 10rem;
+    height: 9.5rem;
+  }
+  .about .flippy-container {
+    padding: 7px 0px 10px 7px !important;
+  }
+  .about img {
+    width: 10rem;
+    height: 10.5rem;
+  }
+  .test img {
+    width: 10.5rem !important;
+    height: 10.5rem !important;
+  }
+  .about .flippy-container {
+    padding: 0px 0px 10px 10px !important;
+  }
+  .flippy-container {
+    padding: 0px 0px 10px 10px !important;
+  }
 }
-    .flippy-cardContainer {
-      width: 10rem;
-      height: auto;
-
-    }
-    img{
-        width: 10rem;
-        height: 9.5rem;
-      }
-      .flippy-container {
-        padding: 0px 0px 10px 10px !important;
-        
-          }
+@media screen and (max-width: 375px) {
+  .flippy-cardContainer {
+    width: 8rem;
+    height: auto;
   }
-  @media screen and (max-width:375px){
-    .flippy-cardContainer {
-      width:8rem;
-      height: auto;
-    }
-    img{
-        width: 8rem;
-        height: 7.7rem;
-      }
-      .flippy-container {
-        padding: 0px 0px 10px 10px !important;
-        
-          }
+  img {
+    width: 8rem;
+    height: 7.7rem;
   }
-  
+  .about img {
+    width: 8rem;
+    height: 7.7rem;
+  }
+  .flippy-container {
+    padding: 0px 0px 10px 10px !important;
+  }
+}
