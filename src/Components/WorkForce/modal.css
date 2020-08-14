@@ -1,0 +1,14 @@
+.ModalH{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.zm{
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+}
+.modal-content img{
+    width: auto !important;
+    height: auto !important;
+}

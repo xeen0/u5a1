@@ -98,7 +98,7 @@ const FourthSlide = (props) => {
                 <Card.Img src={FashionDesign} />
               </Card>
               <Card>
-                <Card.Img style={{ backgroundColor: "white" }} />
+                <Card.Img style={{ opacity:0 }} />
               </Card>
             </div>
           </>

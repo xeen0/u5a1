@@ -8,8 +8,12 @@ import HomeTution from "../../Images/SL home tuition.svg";
 import OnlineClass from "../../Images/SL online classes.svg";
 import Alumni from "../../Images/SL alumni.svg";
 import Card from "react-bootstrap/Card";
+import FlipCard from "../../Components/CardComponent/FlipCard";
+import CardF from "../../Components/CardComponent/CardF"
+import PUC from "../../Images/SL page under construction ICON.svg"
 
 import "./Training.css";
+import CardS from "../../Components/CardComponent/CardS";
 
 function Training(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
@@ -45,15 +49,20 @@ function Training(props) {
             </Card>
           </div>
           <div className="HomeContainerT">
-            <Card>
+            {/* <Card>
               <Card.Img src={HomeTution} />
             </Card>
             <Card>
               <Card.Img src={OnlineClass} />
-            </Card>
-            <Card>
+            </Card> */}
+            {/* <Card>
               <Card.Img src={Alumni} />
-            </Card>
+            </Card> */}
+            <FlipCard FImg={HomeTution} BImg={PUC}/>
+            <FlipCard FImg={OnlineClass} BImg={PUC}/>
+
+            <FlipCard FImg={Alumni} BImg={PUC}/>
+
           </div>
         </>
       ) : (
@@ -86,18 +95,27 @@ function Training(props) {
                 }}
               />
             </Card>
-            <Card>
+
+            {/* <Card>
               <Card.Img src={HomeTution} />
-            </Card>
+            </Card> */}
+            <FlipCard FImg={HomeTution} BImg={PUC}/>
+
           </div>
           <div className="HomeContainerT">
 
-            <Card>
+            {/* <Card>
               <Card.Img src={OnlineClass} />
-            </Card>
-            <Card>
+            </Card> */}
+            {/* <Card>
               <Card.Img src={Alumni} />
-            </Card>
+            </Card> */}
+            <FlipCard FImg={OnlineClass} BImg={PUC}/>
+
+            <FlipCard FImg={Alumni} BImg={PUC}/>
+            
+      {/* <FlipCard FImg={Alumni} Bimg={PUC}  /> */}
+
           </div>
         </>
       )}

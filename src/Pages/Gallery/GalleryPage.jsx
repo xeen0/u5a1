@@ -10,6 +10,9 @@ import Infotainment from "../../Images/infotainment.svg";
 import Greeting from "../../Images/SL 4 greetings.svg"
 import Infographic from "../../Images/SL 5 infographics.svg"
 import Achivements from "../../Images/SL 5 achievements.svg"
+import FlipCard from '../../Components/CardComponent/FlipCard';
+import PUC from "../../Images/SL page under construction ICON.svg"
+
 function GalleryPage(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 605px)" });
 
@@ -21,12 +24,15 @@ function GalleryPage(props) {
                 }}>
                 <Card.Img src={Images} />
               </Card>
-              <Card>
+              <Card 
+              onClick={() => {
+                props.history.push("/Video");
+              }}
+              >
                 <Card.Img src={videos} />
               </Card>
-              <Card >
-                <Card.Img src={Achivements} />
-              </Card>
+             
+              <FlipCard FImg={Achivements} BImg={PUC}/>
 
               { isTabletOrMobile?<Card
               onClick={(e) => {
@@ -50,12 +56,15 @@ function GalleryPage(props) {
             >
               <Card.Img  src={Infotainment} />
             </Card>:<></>}
-            <Card >
+            {/* <Card >
                 <Card.Img src={Greeting} />
               </Card>
               <Card >
                 <Card.Img src={Infographic} />
-              </Card>
+              </Card> */}
+              <FlipCard FImg={Greeting} BImg={PUC}/>
+              <FlipCard FImg={Infographic} BImg={PUC}/>
+
             </div>
         </div>
     );

@@ -16,6 +16,8 @@ import Expert from "../../Images/SL expertise.svg";
 import Care from "../../Images/SL care.svg";
 import Team from "../../Images/SL team.svg";
 import { useMediaQuery } from "react-responsive";
+import PUC from "../../Images/SL page under construction ICON.svg"
+import FlipCard from "../../Components/CardComponent/FlipCard";
 
 const AboutPage = (props) => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 605px)" });
@@ -69,9 +71,10 @@ const AboutPage = (props) => {
             </Card>
           </div>
           <div className="HomeContainerT">
-            <Card>
+            {/* <Card>
               <Card.Img src={Team} />
-            </Card>
+            </Card> */}
+            <FlipCard FImg={Team} BImg={PUC}/>
             <Card
               onClick={() => {
                 window.open("https://www.facebook.com/ch.s.srinivas", "_blank");
@@ -79,9 +82,8 @@ const AboutPage = (props) => {
             >
               <Card.Img src={Facebook} />
             </Card>
-            <Card>
-              <Card.Img src={Care} />
-            </Card>
+            <FlipCard FImg={Care} BImg={PUC}/>
+
           </div>
           <div className="HomeContainerT">
             <Card
@@ -94,17 +96,14 @@ const AboutPage = (props) => {
             >
               <Card.Img src={clients} />
             </Card>
-            <Card>
-              <Card.Img src={Work} />
-            </Card>
-            <Card>
-              <Card.Img src={Collabaration} />
-            </Card>
+            <FlipCard FImg={Work} BImg={PUC}/>
+
+            <FlipCard FImg={Collabaration} BImg={PUC}/>
+
           </div>
           <div className="HomeContainerT">
-            <Card>
-              <Card.Img src={Testimonicals} />
-            </Card>
+          <FlipCard FImg={Testimonicals} BImg={PUC}/>
+
             <Card>
               <Card.Img style={{ opacity: 0 }} src={Work} />
             </Card>
@@ -139,9 +138,8 @@ const AboutPage = (props) => {
             >
               <Card.Img src={Expert} />
             </Card>
-            <Card>
-              <Card.Img src={Team} />
-            </Card>
+            <FlipCard FImg={Team} BImg={PUC}/>
+
           </div>
           <div className="HomeContainerT">
           <Card
@@ -151,9 +149,8 @@ const AboutPage = (props) => {
             >
               <Card.Img src={Facebook} />
             </Card>
-            <Card>
-              <Card.Img src={Care} />
-            </Card>
+            <FlipCard FImg={Care} BImg={PUC}/>
+
             
           </div>
           <div className="HomeContainer">
@@ -167,19 +164,16 @@ const AboutPage = (props) => {
           >
               <Card.Img src={clients} />
             </Card>
-            <Card>
-              <Card.Img src={Work} />
-            </Card>
+            <FlipCard FImg={Work} BImg={PUC}/>
+
             
           </div>
          
           <div className="HomeContainer">
-            <Card>
-              <Card.Img src={Collabaration} />
-            </Card>
-            <Card >
-              <Card.Img src={Testimonicals} />
-            </Card>
+          <FlipCard FImg={Collabaration} BImg={PUC}/>
+
+            <FlipCard FImg={Testimonicals} BImg={PUC}/>
+
           </div>
         </>
       )}

@@ -19,7 +19,6 @@ const CardS = (
         if (  click != "falsea" && click!="true") {
           e.preventDefault();
           window.open(click, "_blank")
-
         }
       }}
     >

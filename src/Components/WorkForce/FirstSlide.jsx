@@ -1,7 +1,11 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 import { useMediaQuery } from "react-responsive";
 import Modal from "react-bootstrap/Modal";
+import Zoom from "react-img-zoom";
+
+import { RiZoomInLine ,RiZoomOutLine } from "react-icons/ri";
 import "./modal.css";
 // import gdp from "../../Images/PopUps/SL graphic design.svg";
 import GD from "../../Images/PopUps/Page1/SL graphic design.svg";
@@ -31,6 +35,13 @@ const FirstSlide = (props) => {
   const [modalShow, setModalShow] = React.useState(false);
   const [headTitle, setHeadTitle] = React.useState("");
   const [Img, setImg] = React.useState();
+  const [allowZoom, setAllowZoom] = React.useState(false);
+  React.useEffect(() => {
+    const effect = () => {
+      setAllowZoom(false);
+    };
+    effect();
+  }, [modalShow]);
 
   return (
     <div className="container">
@@ -41,11 +52,30 @@ const FirstSlide = (props) => {
         centered
       >
         <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{headTitle}
-          </Modal.Title>
+          <div className="ModalH">
+            <Modal.Title id="contained-modal-title-vcenter">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
+            </Modal.Title>
+            { !isTabletOrMobile?<div
+              style={{ display: "flex", cursor: "pointer" }}
+              onClick={() => {
+                setAllowZoom(!allowZoom);
+              }}
+            >
+              
+              <div style={{ marginRight: "5px" }}>
+                {
+                  allowZoom?<RiZoomOutLine size="2em"/>:<RiZoomInLine size="2em"/>
+                }
+              </div>
+            </div>:<></>}
+          </div>
         </Modal.Header>
-        <img style={{ width: "100%" }} src={Img} />
+        {!allowZoom ? (
+          <img style={{width:"auto"}} src={Img} />
+        ) : (
+          <Zoom img={Img} zoomScale={2} width={498} height={550} />
+        )}
       </Modal>
 
       {!isTabletOrMobile ? (

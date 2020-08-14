@@ -18,6 +18,7 @@ import GalleryPage from "./Pages/Gallery/GalleryPage";
 import PhotosPage from "./Components/Photos/PhotosPage";
 import ExpertisePage from "./Pages/ExpertPage/Expertise";
 import WEPage from "./Pages/WEPage/WEPage";
+import VideoPlayer from "./Pages/Videos/VideoPlayer";
 
 function App() {
   return (
@@ -45,7 +46,7 @@ function App() {
             <Route path="/Registered" component={RegisteredPage} />
             <Route path="/Expertise" component={ExpertisePage} />
             <Route path="/WE" component={WEPage} />
-
+            <Route path="/Video" component={VideoPlayer}/>
             <Route path="/Pay" component={PayPage} />
           </Switch>
         </Router>

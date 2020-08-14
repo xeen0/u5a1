@@ -98,7 +98,7 @@ const FifthSlide = (props) => {
                 <Card.Img src={LiveStream} />
               </Card>
               <Card>
-                <Card.Img style={{ backgroundColor: "white" }} />
+                <Card.Img style={{ opacity:0 }} />
               </Card>
             </div>
           </>

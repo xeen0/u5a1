@@ -4,6 +4,9 @@ import { useMediaQuery } from "react-responsive";
 import Modal from "react-bootstrap/Modal";
 import Zoom from "react-img-zoom";
 
+import { RiZoomInLine ,RiZoomOutLine } from "react-icons/ri";
+
+import "./modal.css";
 import PV from "../../Images/PopUps/Page2/SL 1 pre visualisation.svg";
 import WT from "../../Images/PopUps/Page2/SL 2 walk through.svg";
 import CP from "../../Images/PopUps/Page2/SL 3 creative presentation.svg";
@@ -29,6 +32,14 @@ const SecondSlide = (props) => {
   const [modalShow, setModalShow] = React.useState(false);
   const [headTitle, setHeadTitle] = React.useState("");
   const [Img, setImg] = React.useState();
+  const [allowZoom, setAllowZoom] = React.useState(false);
+  React.useEffect(() => {
+    const effect = () => {
+      setAllowZoom(false);
+    };
+    effect();
+  }, [modalShow]);
+
   return (
     <>
       <Modal
@@ -38,12 +49,30 @@ const SecondSlide = (props) => {
         centered
       >
         <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
-          </Modal.Title>
+          <div className="ModalH">
+            <Modal.Title id="contained-modal-title-vcenter">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
+            </Modal.Title>
+           {!isTabletOrMobile? <div
+              style={{ display: "flex", cursor: "pointer" }}
+              onClick={() => {
+                setAllowZoom(!allowZoom);
+              }}
+            >
+              
+              <div style={{ marginRight: "5px" }}>
+                {
+                  allowZoom?<RiZoomOutLine size="2em"/>:<RiZoomInLine size="2em"/>
+                }
+              </div>
+            </div> :<></>}
+          </div>
         </Modal.Header>
-        {/* <img style={{ width: "100%" }} src={Img} /> */}
-        <Zoom img={Img} zoomScale={2} width={500} height={500} />
+        {!allowZoom ? (
+          <img style={{ width: "100%" }} src={Img} />
+        ) : (
+          <Zoom img={Img} zoomScale={2} width={498} height={550} />
+        )}
       </Modal>
       {!isTabletOrMobile ? (
         <>
@@ -234,7 +263,7 @@ const SecondSlide = (props) => {
                 <Card.Img src={SpecialEffect} />
               </Card>
               <Card>
-                <Card.Img style={{ backgroundColor: "white" }} />
+                <Card.Img style={{ opacity: 0 }} />
               </Card>
             </div>
           </>

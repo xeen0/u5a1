@@ -21,6 +21,7 @@ const PayPage = () => {
       <FlipCard FImg={PhonePay} BImg={PhonePayCode} />
       <FlipCard FImg={Paytm} BImg={PaytmCode} />
       <FlipCard FImg={sbi} BImg={SbiInfo} />
+
     </div>
   );
 };

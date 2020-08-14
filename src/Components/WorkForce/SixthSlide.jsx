@@ -2,7 +2,12 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { useMediaQuery } from "react-responsive";
 import Modal from "react-bootstrap/Modal";
-import ReactImageZoom from 'react-image-zoom';
+import Zoom from "react-img-zoom";
+
+import { RiZoomInLine ,RiZoomOutLine } from "react-icons/ri";
+
+
+import "./modal.css";
 
 import MC from "../../Images/PopUps/Page 3/SL 1 multimedia consultants.svg";
 import BA from "../../Images/PopUps/Page 3/SL 2 business analysts.svg";
@@ -30,28 +35,48 @@ const FirstSlide = (props) => {
   const [headTitle, setHeadTitle] = React.useState("");
   const [headSize, setHeadSize] = React.useState(".8rem");
   const [Img, setImg] = React.useState();
-  const properties ={ };
-  
+  const [allowZoom, setAllowZoom] = React.useState(false);
+  React.useEffect(() => {
+    const effect = () => {
+      setAllowZoom(false);
+    };
+    effect();
+  }, [modalShow]);
+
   return (
     <>
-      <div className="container">
-        <Modal
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-          aria-labelledby="contained-modal-title-vcenter"
-          centered
-        >
-          <Modal.Header closeButton  >
-            <Modal.Title
-              id="contained-modal-title-vcenter"
-              style={{ fontSize: headSize }}
-            >
+      <Modal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <div className="ModalH">
+            <Modal.Title id="contained-modal-title-vcenter" style={{fontSize:headSize}}>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {headTitle}
             </Modal.Title>
-          </Modal.Header>
-          {/* <img style={{ width: "100%" }} src={Img} /> */}
-          <ReactImageZoom {...properties}/>
-        </Modal>
+            {!isTabletOrMobile?<div
+              style={{ display: "flex", cursor: "pointer" }}
+              onClick={() => {
+                setAllowZoom(!allowZoom);
+              }}
+            >
+              
+              <div style={{ marginRight: "5px" }}>
+                {
+                  allowZoom?<RiZoomOutLine size="2em"/>:<RiZoomInLine size="2em"/>
+                }
+              </div>
+            </div>:<></>}
+          </div>
+        </Modal.Header>
+        {!allowZoom ? (
+          <img style={{ width: "100%" }} src={Img} />
+        ) : (
+          <Zoom img={Img} zoomScale={2} width={498} height={550} />
+        )}
+      </Modal>
         {!isTabletOrMobile ? (
           <>
             <div className="HomeContainer">
@@ -77,9 +102,9 @@ const FirstSlide = (props) => {
               </Card>
               <Card
                 onClick={async () => {
-                  await setHeadTitle("Quality Assurance  and Quality Control");
+                  await setHeadTitle("Quality Assurance and Quality Control");
                   await setImg(QA);
-                  await setHeadSize("1.4rem");
+                  await setHeadSize("1.2rem");
                   await setModalShow(true);
                 }}
               >
@@ -259,13 +284,12 @@ const FirstSlide = (props) => {
                   <Card.Img src={Branding} />
                 </Card>
                 <Card>
-                  <Card.Img style={{ backgroundColor: "white" }} />
+                  <Card.Img style={{ opacity:0}} />
                 </Card>
               </div>
             </>
           </>
         )}
-      </div>
     </>
   );
 };
