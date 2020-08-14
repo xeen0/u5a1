@@ -6,6 +6,9 @@ import { useMediaQuery } from "react-responsive";
 import videos from "../../Images/SL 2 videos.svg";
 import Images from "../../Images/SL 1 images.svg";
 import Infotainment from "../../Images/infotainment.svg";
+import Infotainment1 from "../../Images/infotainment1.svg";
+
+
 import Greeting from "../../Images/SL 4 greetings.svg";
 import Infographic from "../../Images/SL 5 infographics.svg";
 import Achivements from "../../Images/SL 5 achievements.svg";
@@ -66,7 +69,7 @@ function GalleryPage(props) {
               );
             }}
           >
-            <Card.Img src={Infotainment} />
+            <Card.Img src={Infotainment1} />
           </Card>
           </div>
         ) : (
