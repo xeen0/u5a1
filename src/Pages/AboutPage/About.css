@@ -1,0 +1,17 @@
+@media screen and (max-width:513px){
+    
+      
+      .about img{
+          width: 10.5rem;
+          height: 10rem;
+        }
+        
+    }
+    @media screen and (max-width:375px){
+      
+      .about img{
+          width: 8rem;
+          height: 7.7rem;
+        }
+       
+    }

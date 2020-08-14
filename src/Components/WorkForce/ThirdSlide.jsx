@@ -61,7 +61,7 @@ const ThirdSlide = (props) => {
               
               <div style={{ marginRight: "5px" }}>
                 {
-                  allowZoom?<RiZoomOutLine size="2em"/>:<RiZoomInLine size="2em"/>
+                  allowZoom?<RiZoomOutLine size="2em"/>:<RiZoomInLine size="1.8em"/>
                 }
               </div>
             </div>:<></>}

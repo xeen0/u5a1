@@ -19,7 +19,7 @@ function Training(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 814px)" });
 
   return (
-    <>
+    <div className="t">
       {!isTabletOrMobile ? (
         <>
           <div className="HomeContainerT">
@@ -119,7 +119,7 @@ function Training(props) {
           </div>
         </>
       )}
-    </>
+    </div>
   );
 }
 

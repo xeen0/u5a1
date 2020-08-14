@@ -53,7 +53,7 @@ padding: 0px 10px 10px 10px !important;
         
           }
   }
-  @media screen and (max-width:372px){
+  @media screen and (max-width:375px){
     .flippy-cardContainer {
       width:8rem;
       height: auto;

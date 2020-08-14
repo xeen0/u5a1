@@ -9,6 +9,6 @@
     font-family: 'Roboto Slab', serif;
 }
 .modal-content img{
-    width: auto !important;
+    width: 100% !important;
     height: auto !important;
 }

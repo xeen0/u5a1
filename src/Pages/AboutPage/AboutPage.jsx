@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
 
 import CM from "../../Images/SL CLIENTS.svg"
+import './About.css'
 
 import Registered from "../../Images/SL 1.svg";
 import WE from "../../Images/SL 2.png";
@@ -26,7 +27,7 @@ const AboutPage = (props) => {
   const [headSize, setHeadSize] = React.useState(".8rem");
   const [Img, setImg] = React.useState();
   return (
-    <>
+    <div className="about">
     <Modal
           show={modalShow}
           onHide={() => setModalShow(false)}
@@ -177,7 +178,7 @@ const AboutPage = (props) => {
           </div>
         </>
       )}
-    </>
+    </div>
   );
 };
 
