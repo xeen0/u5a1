@@ -15,70 +15,90 @@ import Achivements from "../../Images/SL 5 achievements.svg";
 import FlipCard from "../../Components/CardComponent/FlipCard";
 import PUC from "../../Images/SL page under construction ICON.svg";
 import "./Gallery.css"
+import FlipCard1 from "../../Components/CardComponent/FlipCard1";
 function GalleryPage(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 605px)" });
 
   return (
-    <div className="G">
-      <div className="HomeContainer">
-        <Card
-          onClick={() => {
-            props.history.push("/Photos");
-          }}
-        >
-          <Card.Img src={Images} />
-        </Card>
-        <Card
-          onClick={() => {
-            props.history.push("/Video");
-          }}
-        >
-          <Card.Img src={videos} />
-        </Card>
-
-        <FlipCard FImg={Achivements} BImg={PUC} />
-
-        {isTabletOrMobile ? (
-          <div className="infotainment">
-
-          <Card
-            onClick={(e) => {
+    <div >
+      {!isTabletOrMobile ? (
+        <>
+          <div className="HomeContainerT">
+            <div
+              onClick={() => {
+                props.history.push("/Photos");
+              }}
+            >
+              <FlipCard1 FImg={Images}  flip={false} />
+            </div>
+            <div
+              onClick={() => {
+                props.history.push("/Video");
+              }}
+            >
+              <FlipCard1 FImg={videos}  flip={false} />
+            </div>
+           
+              <FlipCard1 FImg={Achivements} BImg={PUC}  flip={true} />
+          </div>
+          <div className="HomeContainerT">
+            <div 
+             onClick={(e) => {
               e.preventDefault();
               window.open(
                 "https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg",
                 "_blank"
               );
-            }}
-          >
-            <Card.Img src={Infotainment} />
-          </Card>
+             }}
+            >
+            <FlipCard1 FImg={Infotainment} flip={false} />
+            </div>
+            <FlipCard1 FImg={Greeting} BImg={PUC} flip={true} />
+
+            <FlipCard1 FImg={Infographic} BImg={PUC}  flip={true}  />
           </div>
-        ) : (
-          <></>
-        )}
-      </div>
-      <div className="HomeContainer">
-        {!isTabletOrMobile ? (
-          <div className="infotainment">
-          <Card 
-            onClick={(e) => {
+        </>
+      ) : (
+        <>
+          <div className="HomeContainerT">
+            <div
+              onClick={() => {
+                props.history.push("/Photos");
+              }}
+            >
+              <FlipCard1 FImg={Images}  flip={false} />
+            </div>
+            <div
+              onClick={() => {
+                props.history.push("/Video");
+              }}
+            >
+              <FlipCard1 FImg={videos}  flip={false} />
+            </div>
+            </div>
+          <div className="HomeContainerT">
+           
+              <FlipCard1 FImg={Achivements} BImg={PUC}  flip={true} />
+            <div 
+             onClick={(e) => {
               e.preventDefault();
               window.open(
                 "https://www.youtube.com/channel/UCHqtgHSqcSw9YP-ACr_Glwg",
                 "_blank"
               );
-            }}
-          >
-            <Card.Img src={Infotainment} />
-          </Card>
+             }}
+            >
+            <FlipCard1 FImg={Infotainment} flip={false} />
+            </div>
           </div>
-        ) : (
-          <></>
-        )}
-       
-        <FlipCard FImg={Greeting} BImg={PUC} />
-        <FlipCard FImg={Infographic} BImg={PUC} />
-      </div>
+          <div className="HomeContainerT">
+
+            <FlipCard1 FImg={Greeting} BImg={PUC} flip={true} />
+
+            <FlipCard1 FImg={Infographic} BImg={PUC}  flip={true}  />
+          </div>
+        </>
+      )}
     </div>
   );
 }

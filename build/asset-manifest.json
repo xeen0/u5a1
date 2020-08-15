@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7829afe.chunk.css",
-    "main.js": "/static/js/main.e3a85b45.chunk.js",
-    "main.js.map": "/static/js/main.e3a85b45.chunk.js.map",
+    "main.css": "/static/css/main.49d819e0.chunk.css",
+    "main.js": "/static/js/main.e932c964.chunk.js",
+    "main.js.map": "/static/js/main.e932c964.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b4e8c1d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b4e8c1d6.js.map",
     "static/css/2.fe48f953.chunk.css": "/static/css/2.fe48f953.chunk.css",
-    "static/js/2.677f1b63.chunk.js": "/static/js/2.677f1b63.chunk.js",
-    "static/js/2.677f1b63.chunk.js.map": "/static/js/2.677f1b63.chunk.js.map",
+    "static/js/2.fac14052.chunk.js": "/static/js/2.fac14052.chunk.js",
+    "static/js/2.fac14052.chunk.js.map": "/static/js/2.fac14052.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.83e91bff79cd0c6f0f2c257e4b44e75e.js": "/precache-manifest.83e91bff79cd0c6f0f2c257e4b44e75e.js",
+    "precache-manifest.31b830d1a30960c594862909018390c0.js": "/precache-manifest.31b830d1a30960c594862909018390c0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fe48f953.chunk.css.map": "/static/css/2.fe48f953.chunk.css.map",
-    "static/css/main.f7829afe.chunk.css.map": "/static/css/main.f7829afe.chunk.css.map",
-    "static/js/2.677f1b63.chunk.js.LICENSE.txt": "/static/js/2.677f1b63.chunk.js.LICENSE.txt",
+    "static/css/main.49d819e0.chunk.css.map": "/static/css/main.49d819e0.chunk.css.map",
+    "static/js/2.fac14052.chunk.js.LICENSE.txt": "/static/js/2.fac14052.chunk.js.LICENSE.txt",
     "static/media/1 SL call.svg": "/static/media/1 SL call.f016dcb4.svg",
     "static/media/2 SL SMS.svg": "/static/media/2 SL SMS.910a495e.svg",
     "static/media/3 SL whatsapp.svg": "/static/media/3 SL whatsapp.014e5fae.svg",
@@ -90,7 +90,7 @@
     "static/media/SL 4.svg": "/static/media/SL 4.7391d2a3.svg",
     "static/media/SL 5 3d animation.svg": "/static/media/SL 5 3d animation.e39716d6.svg",
     "static/media/SL 5 APFCC.svg": "/static/media/SL 5 APFCC.acabf83d.svg",
-    "static/media/SL 5 achievements.svg": "/static/media/SL 5 achievements.0bbc5238.svg",
+    "static/media/SL 5 achievements.svg": "/static/media/SL 5 achievements.790bb57a.svg",
     "static/media/SL 5 acknowledge.svg": "/static/media/SL 5 acknowledge.a63e2c69.svg",
     "static/media/SL 5 advertisements.svg": "/static/media/SL 5 advertisements.7782bb21.svg",
     "static/media/SL 5 animation 3d.svg": "/static/media/SL 5 animation 3d.333c7c9d.svg",
@@ -162,7 +162,7 @@
     "static/media/SL MOD 5.svg": "/static/media/SL MOD 5.d0f573aa.svg",
     "static/media/SL a.svg": "/static/media/SL a.d7226ba2.svg",
     "static/media/SL about us.svg": "/static/media/SL about us.a009f7da.svg",
-    "static/media/SL alumni.svg": "/static/media/SL alumni.a3eb0b7f.svg",
+    "static/media/SL alumni.svg": "/static/media/SL alumni.20ebebf7.svg",
     "static/media/SL app design.svg": "/static/media/SL app design.da93c222.svg",
     "static/media/SL b.svg": "/static/media/SL b.b8e351cd.svg",
     "static/media/SL c.svg": "/static/media/SL c.880527d7.svg",
@@ -210,8 +210,8 @@
   "entrypoints": [
     "static/js/runtime-main.b4e8c1d6.js",
     "static/css/2.fe48f953.chunk.css",
-    "static/js/2.677f1b63.chunk.js",
-    "static/css/main.f7829afe.chunk.css",
-    "static/js/main.e3a85b45.chunk.js"
+    "static/js/2.fac14052.chunk.js",
+    "static/css/main.49d819e0.chunk.css",
+    "static/js/main.e932c964.chunk.js"
   ]
 }

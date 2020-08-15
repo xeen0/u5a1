@@ -1,7 +1,7 @@
 import React from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 
-const FlipCard1 = ({ FImg, BImg, flip, click, redrct }, props) => {
+const FlipCard1 = ({ FImg, BImg, flip,  }) => {
   return (
     <div>
       <Flippy flipOnClick={flip} flipDirection="horizontal">

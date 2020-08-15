@@ -19,6 +19,7 @@ import Team from "../../Images/SL team.svg";
 import { useMediaQuery } from "react-responsive";
 import PUC from "../../Images/SL page under construction ICON.svg";
 import FlipCard from "../../Components/CardComponent/FlipCard";
+import FlipCard1 from "../../Components/CardComponent/FlipCard1";
 
 const AboutPage = (props) => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 605px)" });
@@ -47,44 +48,41 @@ const AboutPage = (props) => {
       {!isTabletOrMobile ? (
         <>
           <div className="HomeContainerT">
-            <Card
+            <div
               onClick={() => {
                 props.history.push("/WE");
               }}
             >
-              <Card.Img src={WE} />
-            </Card>
-            <Card
+              <FlipCard1 FImg={WE} flip={false} />
+            </div>
+            <div
               onClick={() => {
                 props.history.push("/Registered");
               }}
             >
-              <Card.Img src={Registered} />
-            </Card>
-            <Card
+              <FlipCard1 FImg={Registered} flip={false} />
+            </div>
+            <div
               onClick={() => {
                 props.history.push("/Expertise");
               }}
             >
-              <Card.Img src={Expert} />
-            </Card>
+              <FlipCard1 FImg={Expert} flip={false} />
+            </div>
           </div>
           <div className="HomeContainerT">
-            {/* <Card>
-              <Card.Img src={Team} />
-            </Card> */}
-            <FlipCard FImg={Team} BImg={PUC} />
-            <Card
+            <FlipCard1 FImg={Team} BImg={PUC} flip={true} />
+            <div
               onClick={() => {
                 window.open("https://www.facebook.com/ch.s.srinivas", "_blank");
               }}
             >
-              <Card.Img src={Facebook} />
-            </Card>
-            <FlipCard FImg={Care} BImg={PUC} />
+              <FlipCard1 FImg={Facebook} flip={false} />
+            </div>
+            <FlipCard1 FImg={Care} BImg={PUC} flip={true} />
           </div>
           <div className="HomeContainerT">
-            <Card
+            <div
               onClick={async () => {
                 await setHeadTitle("CLIENTS");
                 await setImg(CM);
@@ -92,63 +90,62 @@ const AboutPage = (props) => {
                 await setModalShow(true);
               }}
             >
-              <Card.Img src={clients} />
-            </Card>
-            <FlipCard FImg={Work} BImg={PUC} />
+              <FlipCard1 FImg={clients} BImg={PUC} flip={false} />
+            </div>
+            <FlipCard1 FImg={Work} BImg={PUC} flip={true} />
 
-            <FlipCard FImg={Collabaration} BImg={PUC} />
+            <FlipCard1 FImg={Collabaration} BImg={PUC} flip={true} />
           </div>
           <div className="HomeContainerT ">
-            <FlipCard FImg={Testimonicals} BImg={PUC} />
-
-            <Card>
-              <Card.Img style={{ opacity: 0 }} src={Work} />
-            </Card>
-            <Card>
-              <Card.Img style={{ opacity: 0 }} src={Collabaration} />
-            </Card>
+            <FlipCard1 FImg={Testimonicals} BImg={PUC} flip={true} />
+            <div style={{ opacity: 0 }}>
+              <FlipCard1 FImg={Testimonicals} BImg={PUC} flip={true} />
+            </div>
+            <div style={{ opacity: 0 }}>
+              <FlipCard1 FImg={Testimonicals} BImg={PUC} flip={true} />
+            </div>
           </div>
         </>
       ) : (
         <>
           <div className="HomeContainerT">
-            <Card
+            <div
               onClick={() => {
                 props.history.push("/WE");
               }}
             >
-              <Card.Img src={WE} />
-            </Card>
-            <Card
+              <FlipCard1 FImg={WE} flip={false} />
+            </div>
+            <div
               onClick={() => {
                 props.history.push("/Registered");
               }}
             >
-              <Card.Img src={Registered} />
-            </Card>
+              <FlipCard1 FImg={Registered} flip={false} />
+            </div>
           </div>
           <div className="HomeContainerT">
-            <Card
+            <div
               onClick={() => {
                 props.history.push("/Expertise");
               }}
             >
-              <Card.Img src={Expert} />
-            </Card>
-            <FlipCard FImg={Team} BImg={PUC} />
+              <FlipCard1 FImg={Expert} flip={false} />
+            </div>
+            <FlipCard1 FImg={Team} BImg={PUC} flip={true} />
           </div>
           <div className="HomeContainerT">
-            <Card
+            <div
               onClick={() => {
                 window.open("https://www.facebook.com/ch.s.srinivas", "_blank");
               }}
             >
-              <Card.Img src={Facebook} />
-            </Card>
-            <FlipCard FImg={Care} BImg={PUC} />
+              <FlipCard1 FImg={Facebook} flip={false} />
+            </div>
+            <FlipCard1 FImg={Care} BImg={PUC} flip={true} />
           </div>
           <div className="HomeContainerT">
-            <Card
+            <div
               onClick={async () => {
                 await setHeadTitle("CLIENTS");
                 await setImg(CM);
@@ -156,16 +153,17 @@ const AboutPage = (props) => {
                 await setModalShow(true);
               }}
             >
-              <Card.Img src={clients} />
-            </Card>
-            <FlipCard FImg={Work} BImg={PUC} />
+            <FlipCard1 FImg={clients} flip={false} />
+
+            </div>
+            <FlipCard1 FImg={Work} BImg={PUC} flip={true} />
+
           </div>
 
           <div className="HomeContainerT">
-            <FlipCard FImg={Collabaration} BImg={PUC} />
-            <div className="test">
-              <FlipCard FImg={Testimonicals} BImg={PUC} />
-            </div>
+          <FlipCard1 FImg={Collabaration} BImg={PUC} flip={true} />
+          <FlipCard1 FImg={Testimonicals} BImg={PUC} flip={true} />
+
           </div>
         </>
       )}

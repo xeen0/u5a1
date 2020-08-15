@@ -25,28 +25,27 @@ const Training1 = (props) => {
                 props.history.push("/FineArts");
               }}
             >
-              <FlipCard1 FImg={FineArts} click={true} flip={false} />
+              <FlipCard1 FImg={FineArts}  flip={false} />
             </div>
             <div
               onClick={() => {
                 props.history.push("/Workshop");
               }}
             >
-              <FlipCard1 FImg={WorkShop} click={true} flip={false} />
+              <FlipCard1 FImg={WorkShop}  flip={false} />
             </div>
             <div
               onClick={() => {
                 props.history.push("/IT");
               }}
             >
-              <FlipCard1 FImg={IT} click={true} flip={false} />
+              <FlipCard1 FImg={IT}  flip={false} />
             </div>
           </div>
           <div className="HomeContainerT">
-            <FlipCard FImg={HomeTution} BImg={PUC} />
-            <FlipCard FImg={OnlineClass} BImg={PUC} />
-
-            <FlipCard FImg={Alumni} BImg={PUC} />
+            <FlipCard1 FImg={HomeTution} BImg={PUC} />
+            <FlipCard1 FImg={OnlineClass} BImg={PUC} />
+            <FlipCard1 FImg={Alumni} BImg={PUC} />
           </div>
         </>
       ) : (
@@ -57,14 +56,14 @@ const Training1 = (props) => {
                 props.history.push("/FineArts");
               }}
             >
-              <FlipCard1 FImg={FineArts} click={true} flip={false} />
+              <FlipCard1 FImg={FineArts} BImg={PUC}  flip={false} />
             </div>
             <div
               onClick={() => {
                 props.history.push("/Workshop");
               }}
             >
-              <FlipCard1 FImg={WorkShop} click={true} flip={false} />
+              <FlipCard1 FImg={WorkShop}  BImg={PUC} flip={false} />
             </div>
           </div>
           <div className="HomeContainerT">
@@ -73,14 +72,13 @@ const Training1 = (props) => {
                 props.history.push("/IT");
               }}
             >
-              <FlipCard1 FImg={IT} click={true} flip={false} />
+              <FlipCard1 FImg={IT}   BImg={PUC}  flip={false} />
             </div>
-            <FlipCard FImg={HomeTution} BImg={PUC} />
+            <FlipCard1 FImg={HomeTution} BImg={PUC} />
           </div>
           <div className="HomeContainerT">
-            <FlipCard FImg={OnlineClass} BImg={PUC} />
-
-            <FlipCard FImg={Alumni} BImg={PUC} />
+            <FlipCard1 FImg={OnlineClass} BImg={PUC} />
+            <FlipCard1 FImg={Alumni} BImg={PUC} />
           </div>
         </>
       )}
