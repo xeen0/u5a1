@@ -67,7 +67,7 @@ const ContactPage = () => {
               color={"#26A9DF"}
               matter={"creations.u5a@gmail.com"}
               click="true"
-              font=".7em"
+              font=".6em"
               icon={
                 <a
                 href="mailto:creations.u5a@gmail.com"
@@ -150,7 +150,7 @@ const ContactPage = () => {
               >
               {/* <img src={Mail} height={"10px"} width={"10px" }/> */}
 
-                <FaEnvelope size={"3.4em"} viewBox={"0 40 512 512"}   />
+                <FaEnvelope size={"3em"} viewBox={"0 40 512 512"}   />
               </a>
             }
           />

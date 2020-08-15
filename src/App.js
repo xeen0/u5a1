@@ -19,6 +19,7 @@ import PhotosPage from "./Components/Photos/PhotosPage";
 import ExpertisePage from "./Pages/ExpertPage/Expertise";
 import WEPage from "./Pages/WEPage/WEPage";
 import VideoPlayer from "./Pages/Videos/VideoPlayer";
+import Training1 from "./Pages/TrainingPage/Training1";
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
 
             <Route path="/Contact" component={ContactPage} />
 
-            <Route path="/Training" component={Training} />
+            <Route path="/Training" component={Training1} />
             <Route path="/FineArts" component={FineArts} />
             <Route path="/Workshop" component={WorkShop} />
             <Route path="/IT" component={IT} />

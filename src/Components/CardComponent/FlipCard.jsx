@@ -1,7 +1,7 @@
 import React from 'react'
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 
-const FlipCard = ({FImg , BImg}) => {
+const FlipCard = ({FImg , BImg }) => {
     return (
         <div>
              <Flippy >

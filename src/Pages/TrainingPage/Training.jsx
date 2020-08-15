@@ -9,7 +9,6 @@ import OnlineClass from "../../Images/SL online classes.svg";
 import Alumni from "../../Images/SL alumni.svg";
 import Card from "react-bootstrap/Card";
 import FlipCard from "../../Components/CardComponent/FlipCard";
-import CardF from "../../Components/CardComponent/CardF"
 import PUC from "../../Images/SL page under construction ICON.svg"
 
 import "./Training.css";
@@ -49,15 +48,7 @@ function Training(props) {
             </Card>
           </div>
           <div className="HomeContainerT">
-            {/* <Card>
-              <Card.Img src={HomeTution} />
-            </Card>
-            <Card>
-              <Card.Img src={OnlineClass} />
-            </Card> */}
-            {/* <Card>
-              <Card.Img src={Alumni} />
-            </Card> */}
+           
             <FlipCard FImg={HomeTution} BImg={PUC}/>
             <FlipCard FImg={OnlineClass} BImg={PUC}/>
 

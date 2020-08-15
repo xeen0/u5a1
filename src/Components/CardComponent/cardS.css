@@ -5,9 +5,7 @@
   font-size: 1.4rem;
   padding-top: 3vw;
 }
-/* .flippy-front, .flippy-back:nth-child(1) {
-  box-shadow: none;
-} */
+
 .flippy-cardContainer {
   width: 11.5rem;
   height: auto;
@@ -49,11 +47,13 @@ img {
     height: auto;
   }
    img {
-    width: 10rem;
+    width: 10.2rem;
     height: 9.5rem;
   }
+
+
   .G img {
-    width: 10.2rem;
+    width: 10rem;
     height: 10rem;
   }
   .about .flippy-container {
@@ -74,7 +74,10 @@ img {
     padding: 0px 0px 10px 10px !important;
   }
   .G  .flippy-container {
-    padding: 0px 0px 10px 10px !important;
+    padding: 0px 0px 10px 8px !important;
+  }
+  .t .flippy-container {
+    padding: 0px 0px 10px 6px !important;
   }
   .G  .card {
     padding: 0px 0px 10px 8px !important;
@@ -91,7 +94,7 @@ img {
   }
   .G img {
     width: 8rem;
-    height: 7.9rem;
+    height: 8rem;
   }
   .about img {
     width: 8rem !important;
@@ -101,6 +104,7 @@ img {
     padding: 0px 0px 10px 10px !important;
   }
   .G  .flippy-container {
-    padding: 0px 0px 10px 10px !important;
+    padding: 0px 0px 10px 8px !important;
   }
+  
 }
