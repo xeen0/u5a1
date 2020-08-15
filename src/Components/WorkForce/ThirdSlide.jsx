@@ -169,7 +169,13 @@ const ThirdSlide = (props) => {
               </Card>
             </div>
             <div className="HomeContainer">
-              <Card>
+              <Card 
+              onClick={async () => {
+                await setHeadTitle("Story Boarding");
+                await setImg(SB);
+                await setModalShow(true);
+              }} 
+              >
                 <Card.Img src={StoryWriting} />
               </Card>
 

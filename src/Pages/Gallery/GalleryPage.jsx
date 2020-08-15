@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 
 import videos from "../../Images/SL 2 videos.svg";
 import Images from "../../Images/SL 1 images.svg";
-import Infotainment from "../../Images/infotainment.svg";
+import Infotainment from "../../Images/SL infotainment.svg";
 import Infotainment1 from "../../Images/infotainment1.svg";
 
 
@@ -19,7 +19,7 @@ function GalleryPage(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 605px)" });
 
   return (
-    <div>
+    <div className="G">
       <div className="HomeContainer">
         <Card
           onClick={() => {
@@ -69,18 +69,13 @@ function GalleryPage(props) {
               );
             }}
           >
-            <Card.Img src={Infotainment1} />
+            <Card.Img src={Infotainment} />
           </Card>
           </div>
         ) : (
           <></>
         )}
-        {/* <Card >
-                <Card.Img src={Greeting} />
-              </Card>
-              <Card >
-                <Card.Img src={Infographic} />
-              </Card> */}
+       
         <FlipCard FImg={Greeting} BImg={PUC} />
         <FlipCard FImg={Infographic} BImg={PUC} />
       </div>
